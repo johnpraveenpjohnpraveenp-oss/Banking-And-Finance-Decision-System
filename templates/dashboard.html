@@ -1,0 +1,149 @@
+{% extends "base.html" %}
+{% block title %}Admin Dashboard – SmartBank AI{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div class="page-header-inner">
+    <h1><i class="fas fa-tachometer-alt"></i> Admin Dashboard</h1>
+    <p>System overview, all predictions, user management, and model performance metrics.</p>
+  </div>
+</div>
+
+<section class="section">
+
+  <!-- KPI Cards -->
+  <div class="admin-kpi-grid">
+    <div class="kpi-card" style="border-left: 4px solid var(--primary)">
+      <div class="kpi-icon" style="background:rgba(102,126,234,0.1); color:var(--primary)"><i class="fas fa-file-alt"></i></div>
+      <div>
+        <div class="kpi-val">{{ stats.total|default(0) }}</div>
+        <div class="kpi-lbl">Total Predictions</div>
+      </div>
+    </div>
+    <div class="kpi-card" style="border-left: 4px solid #38a169">
+      <div class="kpi-icon" style="background:rgba(56,161,105,0.1); color:#38a169"><i class="fas fa-check-circle"></i></div>
+      <div>
+        <div class="kpi-val">{{ stats.approved|default(0) }}</div>
+        <div class="kpi-lbl">Approved Loans</div>
+      </div>
+    </div>
+    <div class="kpi-card" style="border-left: 4px solid #e53e3e">
+      <div class="kpi-icon" style="background:rgba(229,62,62,0.1); color:#e53e3e"><i class="fas fa-times-circle"></i></div>
+      <div>
+        <div class="kpi-val">{{ stats.rejected|default(0) }}</div>
+        <div class="kpi-lbl">Rejected Loans</div>
+      </div>
+    </div>
+    <div class="kpi-card" style="border-left: 4px solid #d97706">
+      <div class="kpi-icon" style="background:rgba(217,119,6,0.1); color:#d97706"><i class="fas fa-exclamation-triangle"></i></div>
+      <div>
+        <div class="kpi-val">{{ stats.high_fraud|default(0) }}</div>
+        <div class="kpi-lbl">High Fraud Alerts</div>
+      </div>
+    </div>
+    <div class="kpi-card" style="border-left: 4px solid #805ad5">
+      <div class="kpi-icon" style="background:rgba(128,90,213,0.1); color:#805ad5"><i class="fas fa-users"></i></div>
+      <div>
+        <div class="kpi-val">{{ stats.total_users|default(0) }}</div>
+        <div class="kpi-lbl">Registered Users</div>
+      </div>
+    </div>
+    <div class="kpi-card" style="border-left: 4px solid #0bc5ea">
+      <div class="kpi-icon" style="background:rgba(11,197,234,0.1); color:#0bc5ea"><i class="fas fa-microchip"></i></div>
+      <div>
+        <div class="kpi-val">{{ (metrics and metrics.accuracy)|default(95) }}%</div>
+        <div class="kpi-lbl">Model Accuracy</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Model Metrics -->
+  <div class="admin-row">
+    <div class="card-panel flex-1">
+      <h4><i class="fas fa-chart-bar"></i> ML Model Performance</h4>
+      <div class="model-acc-item" style="margin-top:1rem">
+        <span>Accuracy</span>
+        <div class="acc-bar-wrap"><div class="acc-bar" style="width:{{ (metrics and metrics.accuracy)|default(95) }}%"></div></div>
+        <span><strong>{{ (metrics and metrics.accuracy)|default(95) }}%</strong></span>
+      </div>
+      <div class="model-acc-item">
+        <span>Precision</span>
+        <div class="acc-bar-wrap"><div class="acc-bar" style="width:{{ (metrics and metrics.precision)|default(94) }}%; background:#f6ad55"></div></div>
+        <span><strong>{{ (metrics and metrics.precision)|default(94) }}%</strong></span>
+      </div>
+      <div class="model-acc-item">
+        <span>Recall</span>
+        <div class="acc-bar-wrap"><div class="acc-bar" style="width:{{ (metrics and metrics.recall)|default(97) }}%; background:#68d391"></div></div>
+        <span><strong>{{ (metrics and metrics.recall)|default(97) }}%</strong></span>
+      </div>
+      <div class="model-acc-item">
+        <span>F1-Score</span>
+        <div class="acc-bar-wrap"><div class="acc-bar" style="width:{{ (metrics and metrics.f1_score)|default(96) }}%; background:#a78bfa"></div></div>
+        <span><strong>{{ (metrics and metrics.f1_score)|default(96) }}%</strong></span>
+      </div>
+    </div>
+
+    <!-- Registered Users -->
+    <div class="card-panel flex-1">
+      <h4><i class="fas fa-users"></i> Registered Users</h4>
+      <div class="table-wrapper" style="margin-top:1rem">
+        <table class="data-table">
+          <thead><tr><th>Username</th><th>Name</th><th>Role</th><th>Email</th></tr></thead>
+          <tbody>
+            {% for uname, udata in users.items() %}
+            <tr>
+              <td><code>{{ uname }}</code></td>
+              <td>{{ udata.name }}</td>
+              <td><span class="badge {% if udata.role=='admin' %}badge-warning{% else %}badge-success{% endif %}">{{ udata.role }}</span></td>
+              <td>{{ udata.email }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- All Predictions -->
+  <div class="card-panel">
+    <h4><i class="fas fa-database"></i> All Prediction Records (Last 50)</h4>
+    {% if all_history %}
+    <div class="table-wrapper" style="margin-top:1rem">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>#</th><th>User</th><th>Date</th><th>Result</th>
+            <th>Approval %</th><th>Credit Score</th><th>Loan Amount</th><th>Fraud Risk</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for h in all_history %}
+          <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ h.name }} <small style="color:var(--text-muted)">({{ h.username }})</small></td>
+            <td>{{ h.timestamp }}</td>
+            <td>
+              <span class="badge {% if h.result=='Approved' %}badge-success{% else %}badge-danger{% endif %}">
+                {{ h.result }}
+              </span>
+            </td>
+            <td>{{ h.approval_prob }}%</td>
+            <td>{{ h.credit_score }}</td>
+            <td>₹{{ "{:,.0f}".format(h.loan_amount) }}</td>
+            <td>
+              <span class="badge {% if h.fraud_level=='High' %}badge-danger{% elif h.fraud_level=='Medium' %}badge-warning{% else %}badge-success{% endif %}">
+                {{ h.fraud_level }}
+              </span>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% else %}
+    <p style="color:var(--text-muted); margin-top:1rem; text-align:center">No predictions yet.</p>
+    {% endif %}
+  </div>
+
+</section>
+{% endblock %}

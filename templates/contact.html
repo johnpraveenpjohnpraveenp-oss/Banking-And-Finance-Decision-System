@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block title %}Contact – SmartBank AI{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div class="page-header-inner">
+    <h1><i class="fas fa-envelope"></i> Contact Us</h1>
+    <p>Have questions or feedback? We'd love to hear from you.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="contact-layout">
+
+    <!-- Contact Form -->
+    <div class="contact-form-wrap">
+      <div class="card-panel">
+        <h3><i class="fas fa-paper-plane"></i> Send a Message</h3>
+        <form method="POST" action="{{ url_for('contact') }}" style="margin-top:1.5rem">
+          <div class="form-row-2">
+            <div class="form-group">
+              <label>Your Name <span class="req">*</span></label>
+              <input type="text" name="name" class="form-control" placeholder="Full name" required>
+            </div>
+            <div class="form-group">
+              <label>Email Address <span class="req">*</span></label>
+              <input type="email" name="email" class="form-control" placeholder="your@email.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <select name="subject" class="form-control">
+              <option>General Inquiry</option>
+              <option>Technical Support</option>
+              <option>Feature Request</option>
+              <option>Bug Report</option>
+              <option>Partnership</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Message <span class="req">*</span></label>
+            <textarea name="message" class="form-control" rows="6" placeholder="Write your message here…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Info Column -->
+    <div class="contact-info-wrap">
+      <div class="card-panel">
+        <h4><i class="fas fa-map-marker-alt text-primary"></i> Contact Information</h4>
+        <div class="contact-info-items">
+          <div class="ci-item"><i class="fas fa-envelope text-primary"></i><div><strong>Email</strong><p>support@smartbank.ai</p></div></div>
+          <div class="ci-item"><i class="fas fa-phone text-success"></i><div><strong>Phone</strong><p>+91 98765 43210</p></div></div>
+          <div class="ci-item"><i class="fas fa-map-marker-alt text-danger"></i><div><strong>Location</strong><p>Bengaluru, Karnataka, India</p></div></div>
+          <div class="ci-item"><i class="fas fa-clock text-warning"></i><div><strong>Support Hours</strong><p>Mon–Fri, 9:00 AM – 6:00 PM IST</p></div></div>
+        </div>
+      </div>
+      <div class="card-panel">
+        <h4><i class="fas fa-question-circle"></i> Quick FAQs</h4>
+        <div class="faq-list">
+          <div class="faq-item">
+            <div class="faq-q"><i class="fas fa-chevron-right"></i> How accurate is the loan prediction?</div>
+            <div class="faq-a">Our Random Forest model achieves 95%+ accuracy on the test dataset.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q"><i class="fas fa-chevron-right"></i> Is my data secure?</div>
+            <div class="faq-a">Yes, all data is stored locally and passwords are hashed with PBKDF2-SHA256.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q"><i class="fas fa-chevron-right"></i> Can I use this for real banking?</div>
+            <div class="faq-a">This is an academic/demo project. For production, consult a certified fintech partner.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+{% endblock %}

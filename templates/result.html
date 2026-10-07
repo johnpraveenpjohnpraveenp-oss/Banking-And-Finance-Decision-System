@@ -1,0 +1,153 @@
+{% extends "base.html" %}
+{% block title %}Prediction Result – SmartBank AI{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div class="page-header-inner">
+    <h1><i class="fas fa-poll-h"></i> Loan Prediction Result</h1>
+    <p>AI analysis complete. Here is your detailed loan assessment report.</p>
+  </div>
+</div>
+
+<div class="result-layout">
+
+  <!-- ── Main Result Card ── -->
+  <div class="result-main">
+
+    <!-- Decision Banner -->
+    <div class="decision-banner {% if is_approved %}decision-approved{% else %}decision-rejected{% endif %}">
+      <div class="decision-icon">
+        <i class="fas fa-{% if is_approved %}check-circle{% else %}times-circle{% endif %}"></i>
+      </div>
+      <div class="decision-text">
+        <h2>Loan {% if is_approved %}APPROVED{% else %}REJECTED{% endif %}</h2>
+        <p>{% if is_approved %}The applicant meets the credit eligibility criteria.{% else %}The applicant does not meet the required credit criteria.{% endif %}</p>
+      </div>
+      <div class="prob-wrap">
+        <div class="prob-circle {% if is_approved %}prob-approved{% else %}prob-rejected{% endif %}">
+          {{ approval_prob }}%
+        </div>
+        <div class="prob-lbl">Approval Probability</div>
+      </div>
+    </div>
+
+    <!-- Confidence Bars -->
+    <div class="result-section">
+      <h3 class="rs-title"><i class="fas fa-chart-bar"></i> Decision Confidence</h3>
+      <div class="prob-bar-item">
+        <div class="prob-bar-label">
+          <span><i class="fas fa-check-circle text-success"></i> Approved</span>
+          <strong style="color:#38a169">{{ approval_prob }}%</strong>
+        </div>
+        <div class="prob-bar-track">
+          <div class="prob-bar-fill fill-green" style="width:{{ approval_prob }}%"></div>
+        </div>
+      </div>
+      <div class="prob-bar-item" style="margin-top:0.75rem">
+        <div class="prob-bar-label">
+          <span><i class="fas fa-times-circle text-danger"></i> Rejected</span>
+          <strong style="color:#e53e3e">{{ rejection_prob }}%</strong>
+        </div>
+        <div class="prob-bar-track">
+          <div class="prob-bar-fill fill-red" style="width:{{ rejection_prob }}%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- AI Explanations -->
+    <div class="result-section">
+      <h3 class="rs-title"><i class="fas fa-robot"></i> AI Decision Explanations</h3>
+      {% for exp in explanations %}
+      <div class="explanation-item {% if is_approved %}exp-approved{% else %}exp-rejected{% endif %}">
+        <i class="fas fa-{% if is_approved %}check{% else %}exclamation{% endif %}-triangle"></i>
+        {{ exp }}
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- Fraud Risk -->
+    <div class="result-section">
+      <h3 class="rs-title"><i class="fas fa-shield-alt"></i> Fraud Risk Assessment</h3>
+      <div class="fraud-card fraud-{{ fraud.level | lower }}">
+        <div class="fraud-level-badge">
+          <i class="fas fa-{% if fraud.level=='High' %}exclamation-circle{% elif fraud.level=='Medium' %}exclamation-triangle{% else %}check-circle{% endif %}"></i>
+          {{ fraud.level }} Risk — Score: {{ fraud.score }}/100
+        </div>
+        {% if fraud.flags %}
+        <div style="margin-top:0.75rem">
+          <strong>Flagged Issues:</strong>
+          {% for flag in fraud.flags %}
+          <div class="fraud-flag-item"><i class="fas fa-flag"></i> {{ flag }}</div>
+          {% endfor %}
+        </div>
+        {% else %}
+        <p class="fraud-clear" style="margin-top:0.5rem"><i class="fas fa-check-circle"></i> No suspicious patterns detected.</p>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- EMI Breakdown -->
+    <div class="result-section">
+      <h3 class="rs-title"><i class="fas fa-calculator"></i> EMI &amp; Payment Breakdown</h3>
+      <div class="emi-grid">
+        <div class="emi-box">
+          <div class="emi-val">{{ user_data.emi }}</div>
+          <div class="emi-lbl">Monthly EMI</div>
+        </div>
+        <div class="emi-box">
+          <div class="emi-val">{{ user_data.total_payment }}</div>
+          <div class="emi-lbl">Total Payment</div>
+        </div>
+        <div class="emi-box">
+          <div class="emi-val" style="color:var(--danger)">{{ user_data.total_interest }}</div>
+          <div class="emi-lbl">Total Interest</div>
+        </div>
+        <div class="emi-box">
+          <div class="emi-val">{{ user_data.interest_rate }}</div>
+          <div class="emi-lbl">Annual Rate</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="result-actions">
+      <a href="{{ url_for('predict') }}" class="btn btn-primary"><i class="fas fa-redo"></i> New Prediction</a>
+      <a href="{{ url_for('history') }}" class="btn btn-outline"><i class="fas fa-history"></i> View History</a>
+      <button onclick="window.print()" class="btn btn-outline"><i class="fas fa-print"></i> Print Report</button>
+    </div>
+  </div>
+
+  <!-- ── Sidebar ── -->
+  <div class="result-sidebar">
+    <div class="sidebar-card">
+      <h4><i class="fas fa-user-circle"></i> Applicant Summary</h4>
+      <div class="summary-grid">
+        <div class="summary-item"><span>Age</span><strong>{{ user_data.age }} yrs</strong></div>
+        <div class="summary-item"><span>Income</span><strong>{{ user_data.income }}/yr</strong></div>
+        <div class="summary-item"><span>Credit Score</span>
+          <strong style="color:{% if user_data.credit_rating=='Excellent' %}#38a169{% elif user_data.credit_rating=='Very Good' %}#68d391{% elif user_data.credit_rating=='Fair' %}#d97706{% else %}#e53e3e{% endif %}">
+            {{ user_data.credit_score }} ({{ user_data.credit_rating }})
+          </strong>
+        </div>
+        <div class="summary-item"><span>Loan Amount</span><strong>{{ user_data.loan_amount }}</strong></div>
+        <div class="summary-item"><span>Loan Term</span><strong>{{ user_data.loan_term }}</strong></div>
+        <div class="summary-item"><span>Employment</span><strong>{{ user_data.employment_status }}</strong></div>
+        <div class="summary-item"><span>Education</span><strong>{{ user_data.education }}</strong></div>
+        <div class="summary-item"><span>Existing Loans</span><strong>{{ user_data.existing_loans }}</strong></div>
+        <div class="summary-item"><span>Dependents</span><strong>{{ user_data.dependents }}</strong></div>
+        <div class="summary-item"><span>DTI Ratio</span><strong>{{ user_data.dti_ratio }}</strong></div>
+      </div>
+    </div>
+
+    <div class="sidebar-card">
+      <h4><i class="fas fa-microchip"></i> Model Performance</h4>
+      <div class="summary-grid">
+        <div class="summary-item"><span>Accuracy</span><strong style="color:var(--primary)">{{ metrics.accuracy | default('—') }}%</strong></div>
+        <div class="summary-item"><span>F1-Score</span><strong style="color:#38a169">{{ metrics.f1_score | default('—') }}%</strong></div>
+        <div class="summary-item"><span>Precision</span><strong style="color:#d97706">{{ metrics.precision | default('—') }}%</strong></div>
+        <div class="summary-item"><span>Recall</span><strong style="color:#3182ce">{{ metrics.recall | default('—') }}%</strong></div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

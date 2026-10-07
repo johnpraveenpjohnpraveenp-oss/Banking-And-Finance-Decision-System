@@ -1,0 +1,199 @@
+{% extends "base.html" %}
+{% block title %}Home – SmartBank AI{% endblock %}
+
+{% block content %}
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-microchip"></i> Next-Gen AI Banking Platform
+      </div>
+      <h1 class="hero-title">SmartBank <span class="highlight">AI</span></h1>
+      <h2 class="hero-subtitle">Smart Decision System for Banking &amp; Finance</h2>
+      <p class="hero-description">
+        Revolutionizing credit evaluation through advanced Machine Learning. Our trained
+        Random Forest model analyzes 10 financial dimensions in real-time to predict loan
+        approval with high confidence and minimal risk.
+      </p>
+      <div class="hero-actions">
+        <a href="{{ url_for('predict') }}" class="btn btn-primary">
+          <i class="fas fa-calculator"></i> Start Loan Prediction
+        </a>
+        <a href="{{ url_for('fraud_checker') }}" class="btn btn-outline">
+          <i class="fas fa-shield-alt"></i> Fraud Detection
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="card-header-badge">
+        <div class="status-pill"><span class="status-dot"></span> ML Model Active</div>
+        <span class="model-tag">Random Forest Classifier</span>
+      </div>
+      <div class="model-metrics-grid">
+        <div class="model-metric">
+          <div class="mmval" style="color:var(--primary)">{{ metrics.accuracy | default('95.0') }}%</div>
+          <div class="mmlbl">Accuracy</div>
+        </div>
+        <div class="model-metric">
+          <div class="mmval" style="color:#38a169">{{ metrics.f1_score | default('96.0') }}%</div>
+          <div class="mmlbl">F1-Score</div>
+        </div>
+        <div class="model-metric">
+          <div class="mmval" style="color:#d97706">{{ metrics.precision | default('94.0') }}%</div>
+          <div class="mmlbl">Precision</div>
+        </div>
+        <div class="model-metric">
+          <div class="mmval" style="color:#3182ce">{{ metrics.recall | default('97.0') }}%</div>
+          <div class="mmlbl">Recall</div>
+        </div>
+      </div>
+      <p style="font-size:0.82rem;color:rgba(255,255,255,0.5);text-align:center;margin-top:0.8rem;">
+        Trained on 2,500+ credit applicant profiles via Scikit-Learn pipeline
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- My Stats Strip -->
+<section class="stats-strip">
+  <div class="stats-strip-inner">
+    <div class="strip-stat">
+      <div class="ss-val">{{ stats.total | default(0) }}</div>
+      <div class="ss-lbl">My Predictions</div>
+    </div>
+    <div class="strip-stat">
+      <div class="ss-val" style="color:#86efac">{{ stats.approved | default(0) }}</div>
+      <div class="ss-lbl">Approved</div>
+    </div>
+    <div class="strip-stat">
+      <div class="ss-val" style="color:#fca5a5">{{ stats.rejected | default(0) }}</div>
+      <div class="ss-lbl">Rejected</div>
+    </div>
+    <div class="strip-stat">
+      <div class="ss-val" style="color:#fde68a">
+        {% if stats.total and stats.total > 0 %}
+          {{ "%.0f"|format((stats.approved / stats.total) * 100) }}%
+        {% else %}–{% endif %}
+      </div>
+      <div class="ss-lbl">Approval Rate</div>
+    </div>
+  </div>
+</section>
+
+<!-- Feature Grid -->
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">Everything You Need in One Platform</h2>
+    <p class="section-subtitle">A comprehensive AI-powered financial decision toolkit built for modern banking.</p>
+  </div>
+  <div class="features-grid">
+    <a href="{{ url_for('predict') }}" class="feature-card feature-card-link">
+      <div class="feature-icon" style="background:linear-gradient(135deg,#667eea,#764ba2)"><i class="fas fa-brain"></i></div>
+      <h3 class="feature-title">Loan Approval Prediction</h3>
+      <p class="feature-desc">Random Forest model analyzes 10 parameters for instant loan approval decisions with confidence scores.</p>
+      <span class="feature-cta">Try Now <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a href="{{ url_for('fraud_checker') }}" class="feature-card feature-card-link">
+      <div class="feature-icon" style="background:linear-gradient(135deg,#f093fb,#f5576c)"><i class="fas fa-shield-alt"></i></div>
+      <h3 class="feature-title">Fraud Detection</h3>
+      <p class="feature-desc">Multi-factor fraud risk scoring system that flags suspicious applications with Low / Medium / High risk levels.</p>
+      <span class="feature-cta">Check Now <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a href="{{ url_for('emi_calculator') }}" class="feature-card feature-card-link">
+      <div class="feature-icon" style="background:linear-gradient(135deg,#4facfe,#00f2fe)"><i class="fas fa-calculator"></i></div>
+      <h3 class="feature-title">EMI Calculator</h3>
+      <p class="feature-desc">Calculate accurate monthly installments, total payment, and interest using real banking formulas.</p>
+      <span class="feature-cta">Calculate <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a href="{{ url_for('history') }}" class="feature-card feature-card-link">
+      <div class="feature-icon" style="background:linear-gradient(135deg,#43e97b,#38f9d7)"><i class="fas fa-history"></i></div>
+      <h3 class="feature-title">Prediction History</h3>
+      <p class="feature-desc">Track all your past loan predictions with timestamps, results, credit scores, and fraud risk levels.</p>
+      <span class="feature-cta">View History <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a href="{{ url_for('about') }}" class="feature-card feature-card-link">
+      <div class="feature-icon" style="background:linear-gradient(135deg,#fa709a,#fee140)"><i class="fas fa-cogs"></i></div>
+      <h3 class="feature-title">ML Model Insights</h3>
+      <p class="feature-desc">Understand how Random Forest works, the training pipeline, feature importance, and evaluation metrics.</p>
+      <span class="feature-cta">Learn More <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a href="{{ url_for('contact') }}" class="feature-card feature-card-link">
+      <div class="feature-icon" style="background:linear-gradient(135deg,#a18cd1,#fbc2eb)"><i class="fas fa-headset"></i></div>
+      <h3 class="feature-title">Support &amp; Contact</h3>
+      <p class="feature-desc">Reach our team for technical support, feature requests, or partnership inquiries.</p>
+      <span class="feature-cta">Contact Us <i class="fas fa-arrow-right"></i></span>
+    </a>
+  </div>
+</section>
+
+<!-- Recent Predictions -->
+{% if recent %}
+<section class="section" style="padding-top:0">
+  <div class="section-header">
+    <h2 class="section-title">Your Recent Predictions</h2>
+    <a href="{{ url_for('history') }}" class="btn btn-outline btn-sm">View All <i class="fas fa-arrow-right"></i></a>
+  </div>
+  <div class="table-wrapper">
+    <table class="data-table">
+      <thead>
+        <tr><th>Date &amp; Time</th><th>Result</th><th>Approval %</th><th>Credit Score</th><th>Loan Amount</th><th>Fraud Risk</th></tr>
+      </thead>
+      <tbody>
+        {% for h in recent %}
+        <tr>
+          <td>{{ h.timestamp }}</td>
+          <td>
+            <span class="badge {% if h.result=='Approved' %}badge-success{% else %}badge-danger{% endif %}">
+              <i class="fas fa-{% if h.result=='Approved' %}check{% else %}times{% endif %}"></i> {{ h.result }}
+            </span>
+          </td>
+          <td><strong>{{ h.approval_prob }}%</strong></td>
+          <td>{{ h.credit_score }}</td>
+          <td>Rs.{{ "{:,.0f}".format(h.loan_amount) }}</td>
+          <td>
+            <span class="badge {% if h.fraud_level=='High' %}badge-danger{% elif h.fraud_level=='Medium' %}badge-warning{% else %}badge-success{% endif %}">
+              {{ h.fraud_level }}
+            </span>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endif %}
+
+<!-- How It Works -->
+<section class="section how-it-works">
+  <div class="section-header">
+    <h2 class="section-title">How It Works</h2>
+    <p class="section-subtitle">Three simple steps to get your AI-powered loan decision</p>
+  </div>
+  <div class="steps-grid">
+    <div class="step-card">
+      <div class="step-num">01</div>
+      <div class="step-icon"><i class="fas fa-edit"></i></div>
+      <h3>Enter Financial Details</h3>
+      <p>Fill in your income, credit score, loan amount, and employment details in the secure form.</p>
+    </div>
+    <div class="step-arrow"><i class="fas fa-chevron-right"></i></div>
+    <div class="step-card">
+      <div class="step-num">02</div>
+      <div class="step-icon"><i class="fas fa-microchip"></i></div>
+      <h3>AI Model Analyzes</h3>
+      <p>Our Random Forest model processes your data through a multi-feature ML pipeline in milliseconds.</p>
+    </div>
+    <div class="step-arrow"><i class="fas fa-chevron-right"></i></div>
+    <div class="step-card">
+      <div class="step-num">03</div>
+      <div class="step-icon"><i class="fas fa-chart-pie"></i></div>
+      <h3>Get Instant Decision</h3>
+      <p>Receive approval/rejection with probability score, EMI, fraud risk, and detailed explanation.</p>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

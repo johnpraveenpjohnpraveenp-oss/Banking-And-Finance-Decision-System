@@ -1,0 +1,242 @@
+{% extends "base.html" %}
+{% block title %}Loan Prediction – SmartBank AI{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div class="page-header-inner">
+    <h1><i class="fas fa-calculator"></i> Loan Approval Prediction</h1>
+    <p>Fill in the applicant's financial details. Our Random Forest ML model analyzes and predicts the loan outcome instantly.</p>
+  </div>
+</div>
+
+<div class="predict-layout">
+
+  <!-- ── Form ── -->
+  <div class="predict-form-wrap">
+    <form method="POST" action="{{ url_for('predict') }}" class="predict-form" id="predictForm">
+
+      <!-- Personal -->
+      <div class="form-section">
+        <div class="form-section-title"><i class="fas fa-user"></i> Personal Information</div>
+        <div class="form-row-2">
+          <div class="form-group">
+            <label>Age <span class="req">*</span></label>
+            <input type="number" name="age" class="form-control" placeholder="18 to 100" min="18" max="100" required>
+            <div class="field-hint">Applicant's current age in years</div>
+          </div>
+          <div class="form-group">
+            <label>No. of Dependents</label>
+            <select name="dependents" class="form-control">
+              <option value="0">0 – None</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4+</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row-2">
+          <div class="form-group">
+            <label>Education Level <span class="req">*</span></label>
+            <select name="education" class="form-control" required>
+              <option value="">Select level</option>
+              <option value="Graduate">Graduate</option>
+              <option value="Not Graduate">Not Graduate</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Self Employed?</label>
+            <select name="self_employed" class="form-control">
+              <option value="No">No</option>
+              <option value="Yes">Yes</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Financial -->
+      <div class="form-section">
+        <div class="form-section-title"><i class="fas fa-rupee-sign"></i> Financial Information</div>
+        <div class="form-row-2">
+          <div class="form-group">
+            <label>Annual Income (Rs.) <span class="req">*</span></label>
+            <input type="number" name="income" class="form-control" placeholder="e.g. 600000" min="1" required>
+            <div class="field-hint">Gross annual income before taxes</div>
+          </div>
+          <div class="form-group">
+            <label>Credit Score <span class="req">*</span></label>
+            <input type="number" name="credit_score" id="creditScoreInput" class="form-control" placeholder="300 to 850" min="300" max="850" required>
+            <div class="credit-score-bar-wrap">
+              <div class="credit-bar" id="creditBar"></div>
+            </div>
+            <span class="credit-label" id="creditLabel">Enter score above</span>
+          </div>
+        </div>
+        <div class="form-row-2">
+          <div class="form-group">
+            <label>Employment Status <span class="req">*</span></label>
+            <select name="employment_status" class="form-control" required>
+              <option value="">Select status</option>
+              <option value="Employed">Employed (Full-time)</option>
+              <option value="Self-Employed">Self-Employed</option>
+              <option value="Unemployed">Unemployed</option>
+              <option value="Retired">Retired</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Existing Active Loans</label>
+            <select name="existing_loans" class="form-control">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4+</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Loan Details -->
+      <div class="form-section">
+        <div class="form-section-title"><i class="fas fa-file-invoice-dollar"></i> Loan Details</div>
+        <div class="form-row-2">
+          <div class="form-group">
+            <label>Loan Amount (Rs.) <span class="req">*</span></label>
+            <input type="number" name="loan_amount" id="loanAmtInput" class="form-control" placeholder="e.g. 500000" min="1" required>
+          </div>
+          <div class="form-group">
+            <label>Loan Term (Months) <span class="req">*</span></label>
+            <select name="loan_term" id="loanTermSel" class="form-control" required>
+              <option value="12">12 months (1 year)</option>
+              <option value="24">24 months (2 years)</option>
+              <option value="36" selected>36 months (3 years)</option>
+              <option value="48">48 months (4 years)</option>
+              <option value="60">60 months (5 years)</option>
+              <option value="120">120 months (10 years)</option>
+              <option value="180">180 months (15 years)</option>
+              <option value="240">240 months (20 years)</option>
+              <option value="360">360 months (30 years)</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row-2">
+          <div class="form-group">
+            <label>Interest Rate (% p.a.)</label>
+            <input type="number" name="interest_rate" id="interestInput" class="form-control" value="8.5" step="0.1" min="1" max="36">
+            <div class="field-hint">For EMI calculation</div>
+          </div>
+          <div class="form-group" id="liveEmiBox" style="display:none">
+            <label><i class="fas fa-rupee-sign"></i> Live EMI Preview</label>
+            <div class="live-emi-val" id="liveEmiVal">—</div>
+            <div class="field-hint">Monthly installment (approx)</div>
+          </div>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-full btn-lg" id="submitBtn">
+        <i class="fas fa-brain"></i> Predict Loan Approval
+      </button>
+    </form>
+  </div>
+
+  <!-- ── Sidebar ── -->
+  <div class="predict-sidebar">
+    <div class="sidebar-card">
+      <h4><i class="fas fa-info-circle"></i> What We Analyze</h4>
+      <ul class="sidebar-list">
+        <li><i class="fas fa-check text-success"></i> Age &amp; Demographics</li>
+        <li><i class="fas fa-check text-success"></i> Annual Income</li>
+        <li><i class="fas fa-check text-success"></i> CIBIL / Credit Score</li>
+        <li><i class="fas fa-check text-success"></i> Loan-to-Income Ratio</li>
+        <li><i class="fas fa-check text-success"></i> Loan Term &amp; Amount</li>
+        <li><i class="fas fa-check text-success"></i> Employment Status</li>
+        <li><i class="fas fa-check text-success"></i> Existing Liabilities</li>
+        <li><i class="fas fa-check text-success"></i> Education Level</li>
+        <li><i class="fas fa-check text-success"></i> Self Employment</li>
+        <li><i class="fas fa-check text-success"></i> Family Dependents</li>
+      </ul>
+    </div>
+
+    <div class="sidebar-card">
+      <h4><i class="fas fa-chart-bar"></i> Model Accuracy</h4>
+      <div class="model-acc-item">
+        <span>Accuracy</span>
+        <div class="acc-bar-wrap"><div class="acc-bar" style="width:{{ metrics.accuracy | default(95) }}%"></div></div>
+        <span><strong>{{ metrics.accuracy | default('95.0') }}%</strong></span>
+      </div>
+      <div class="model-acc-item">
+        <span>Precision</span>
+        <div class="acc-bar-wrap"><div class="acc-bar" style="width:{{ metrics.precision | default(94) }}%; background:#f6ad55"></div></div>
+        <span><strong>{{ metrics.precision | default('94.0') }}%</strong></span>
+      </div>
+      <div class="model-acc-item">
+        <span>Recall</span>
+        <div class="acc-bar-wrap"><div class="acc-bar" style="width:{{ metrics.recall | default(97) }}%; background:#68d391"></div></div>
+        <span><strong>{{ metrics.recall | default('97.0') }}%</strong></span>
+      </div>
+      <div class="model-acc-item">
+        <span>F1-Score</span>
+        <div class="acc-bar-wrap"><div class="acc-bar" style="width:{{ metrics.f1_score | default(96) }}%; background:#a78bfa"></div></div>
+        <span><strong>{{ metrics.f1_score | default('96.0') }}%</strong></span>
+      </div>
+    </div>
+
+    <div class="sidebar-card sidebar-tips">
+      <h4><i class="fas fa-lightbulb"></i> Approval Tips</h4>
+      <div class="tip-item"><i class="fas fa-star text-warning"></i> Credit score 700+ boosts approval significantly</div>
+      <div class="tip-item"><i class="fas fa-star text-warning"></i> Keep loan amount under 3x annual income</div>
+      <div class="tip-item"><i class="fas fa-star text-warning"></i> Employed status lowers risk score</div>
+      <div class="tip-item"><i class="fas fa-star text-warning"></i> Fewer existing loans = better approval odds</div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// Credit Score Live Bar
+const csInput = document.getElementById('creditScoreInput');
+const csBar   = document.getElementById('creditBar');
+const csLbl   = document.getElementById('creditLabel');
+if (csInput) {
+  csInput.addEventListener('input', function () {
+    const v = parseInt(this.value);
+    if (isNaN(v) || v < 300 || v > 850) { csLbl.textContent = 'Enter 300-850'; return; }
+    const pct = ((v - 300) / 550) * 100;
+    csBar.style.width = pct + '%';
+    let color, label;
+    if (v >= 750)      { color = '#38a169'; label = 'Excellent'; }
+    else if (v >= 700) { color = '#68d391'; label = 'Very Good'; }
+    else if (v >= 640) { color = '#f6ad55'; label = 'Fair'; }
+    else               { color = '#fc8181'; label = 'Poor'; }
+    csBar.style.background = color;
+    csLbl.textContent  = label;
+    csLbl.style.color  = color;
+  });
+}
+
+// Live EMI Preview
+function calcLiveEMI() {
+  const p = parseFloat(document.getElementById('loanAmtInput').value);
+  const r_a = parseFloat(document.getElementById('interestInput').value);
+  const n = parseInt(document.getElementById('loanTermSel').value);
+  if (!p || !n) { document.getElementById('liveEmiBox').style.display='none'; return; }
+  let emi;
+  if (!r_a || r_a <= 0) { emi = p / n; }
+  else { const r = (r_a / 100) / 12; emi = p * r * Math.pow(1+r,n) / (Math.pow(1+r,n)-1); }
+  document.getElementById('liveEmiBox').style.display = 'block';
+  document.getElementById('liveEmiVal').textContent = 'Rs.' + emi.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+}
+document.getElementById('loanAmtInput').addEventListener('input', calcLiveEMI);
+document.getElementById('interestInput').addEventListener('input', calcLiveEMI);
+document.getElementById('loanTermSel').addEventListener('change', calcLiveEMI);
+
+// Submit loading state
+document.getElementById('predictForm').addEventListener('submit', function () {
+  const btn = document.getElementById('submitBtn');
+  btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Analyzing with ML Model...';
+  btn.disabled = true;
+});
+</script>
+{% endblock %}

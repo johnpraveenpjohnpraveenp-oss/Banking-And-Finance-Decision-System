@@ -1,0 +1,2501 @@
+Age,AnnualIncome,CreditScore,LoanAmount,LoanTerm,EmploymentStatus,ExistingLoans,Education,SelfEmployed,Dependents,LoanStatus
+59,56084,697,82668,24,Employed,2,Not Graduate,No,0,1
+49,130236,554,150000,36,Retired,0,Graduate,No,0,1
+35,103532,530,102392,36,Unemployed,2,Graduate,No,0,0
+63,33015,690,56322,36,Unemployed,1,Graduate,No,2,0
+28,96272,590,125495,60,Self-Employed,0,Graduate,Yes,1,1
+41,20013,598,57244,60,Employed,1,Graduate,No,3,0
+59,20713,728,59279,48,Employed,1,Graduate,No,2,1
+39,56907,771,125572,60,Self-Employed,0,Graduate,Yes,0,1
+43,38152,614,122109,48,Employed,0,Graduate,No,0,1
+31,39540,671,135575,360,Employed,0,Graduate,No,1,1
+31,53245,669,132428,24,Employed,3,Graduate,No,3,0
+44,28516,661,74944,60,Employed,1,Not Graduate,No,0,1
+56,29517,678,41866,36,Employed,0,Graduate,No,2,1
+60,46512,735,150000,36,Self-Employed,2,Not Graduate,Yes,0,0
+44,76138,621,37089,24,Unemployed,0,Graduate,No,0,0
+23,58650,552,97063,48,Self-Employed,0,Graduate,Yes,3,1
+42,34116,810,102296,24,Employed,0,Graduate,No,0,1
+22,42508,762,29259,24,Retired,1,Graduate,No,1,1
+44,27485,586,29117,360,Employed,0,Graduate,No,0,1
+64,23102,685,58250,60,Self-Employed,1,Graduate,Yes,2,0
+50,81058,755,150000,60,Employed,2,Graduate,No,2,1
+58,32336,734,98952,60,Employed,0,Graduate,No,3,1
+22,27829,711,92542,360,Employed,0,Graduate,No,0,1
+41,67056,661,57861,48,Self-Employed,0,Graduate,Yes,0,1
+53,58498,813,27270,24,Employed,1,Graduate,No,1,1
+32,60116,692,150000,120,Employed,3,Graduate,No,0,1
+42,30397,633,45139,60,Employed,0,Graduate,No,1,1
+64,30592,744,81177,36,Employed,0,Not Graduate,No,1,1
+45,29979,682,28239,36,Employed,0,Graduate,No,0,1
+47,27634,702,57714,36,Employed,0,Graduate,No,2,1
+62,62652,691,138832,180,Employed,1,Graduate,No,2,1
+48,95359,714,150000,36,Employed,0,Graduate,No,4,1
+36,71540,596,150000,360,Employed,0,Graduate,No,0,1
+35,82826,558,150000,180,Employed,1,Graduate,No,0,1
+67,40754,789,65118,48,Self-Employed,0,Not Graduate,Yes,0,1
+64,62461,694,40989,48,Employed,1,Graduate,No,0,1
+23,37492,736,27079,36,Employed,0,Graduate,No,0,1
+57,49820,534,97727,12,Employed,3,Graduate,No,4,0
+27,46283,760,77795,24,Employed,0,Graduate,No,0,1
+41,27786,633,62743,60,Employed,3,Graduate,No,0,1
+29,39580,610,59267,36,Employed,0,Graduate,No,0,1
+59,152772,669,150000,24,Employed,2,Graduate,No,0,1
+38,31431,596,110330,36,Employed,0,Graduate,No,0,0
+24,25745,674,37997,180,Unemployed,1,Graduate,No,1,0
+45,41691,664,45640,36,Self-Employed,0,Not Graduate,Yes,0,1
+34,82490,759,67497,180,Self-Employed,1,Graduate,Yes,0,1
+29,54905,796,143769,36,Employed,1,Graduate,No,0,1
+46,65699,793,131258,36,Self-Employed,1,Graduate,Yes,1,1
+22,28413,493,30596,12,Retired,1,Graduate,No,0,1
+40,58592,600,150000,36,Self-Employed,0,Not Graduate,Yes,0,0
+48,35632,493,33299,48,Employed,0,Graduate,No,3,1
+67,91903,579,150000,24,Employed,1,Graduate,No,0,1
+27,59694,623,137160,48,Employed,0,Graduate,No,1,1
+64,28868,707,87851,48,Employed,0,Graduate,No,3,1
+28,22671,633,13566,48,Employed,0,Graduate,No,0,1
+67,21742,635,78191,60,Unemployed,0,Graduate,No,2,0
+55,38570,689,113039,36,Self-Employed,1,Not Graduate,Yes,3,0
+34,32361,538,38122,48,Employed,1,Graduate,No,0,1
+37,61548,607,65256,360,Employed,3,Graduate,No,3,1
+56,47672,634,93149,120,Employed,0,Not Graduate,No,0,1
+60,32370,658,108220,360,Employed,3,Not Graduate,No,0,0
+24,26464,681,90893,36,Employed,1,Graduate,No,2,0
+22,25441,795,57843,60,Employed,3,Not Graduate,No,3,1
+26,99998,747,150000,48,Employed,2,Not Graduate,No,1,1
+62,31160,613,13074,12,Retired,1,Graduate,No,0,1
+24,62188,654,32749,60,Employed,0,Not Graduate,No,1,1
+49,86573,648,150000,48,Employed,0,Graduate,No,1,1
+38,58085,633,150000,24,Employed,0,Graduate,No,0,1
+46,98520,696,150000,12,Employed,3,Not Graduate,No,4,1
+64,39929,526,124298,60,Employed,3,Graduate,No,0,0
+54,145145,745,150000,12,Employed,1,Graduate,No,0,1
+30,25715,810,81761,12,Employed,2,Graduate,No,0,1
+56,24310,653,83444,36,Employed,3,Not Graduate,No,0,0
+34,62998,651,150000,24,Self-Employed,1,Graduate,Yes,1,0
+51,134469,687,135216,180,Employed,1,Graduate,No,0,1
+35,86194,756,150000,36,Employed,1,Graduate,No,2,1
+28,23179,649,25552,48,Employed,1,Graduate,No,0,1
+34,33105,749,119621,180,Self-Employed,0,Graduate,Yes,0,1
+43,126553,714,150000,36,Employed,1,Graduate,No,2,1
+60,31670,850,89851,36,Employed,1,Graduate,No,0,1
+41,80778,648,150000,60,Self-Employed,1,Not Graduate,Yes,1,1
+36,89748,516,66266,36,Employed,2,Graduate,No,2,1
+65,47363,560,68515,36,Employed,0,Not Graduate,No,1,1
+38,39533,675,150000,60,Employed,0,Graduate,No,1,0
+67,43922,757,150000,60,Self-Employed,2,Not Graduate,Yes,2,0
+44,30297,622,47074,60,Unemployed,1,Graduate,No,4,0
+46,108070,656,150000,360,Retired,0,Graduate,No,0,1
+45,43958,729,150000,60,Unemployed,1,Graduate,No,1,0
+65,105638,597,150000,60,Self-Employed,1,Graduate,Yes,0,1
+61,24468,626,13321,120,Employed,3,Graduate,No,0,1
+49,197842,581,150000,12,Self-Employed,1,Graduate,Yes,0,1
+35,43427,769,104517,36,Employed,0,Graduate,No,4,1
+65,21960,798,77442,60,Employed,1,Graduate,No,1,1
+21,21550,548,73355,48,Employed,2,Not Graduate,No,0,0
+45,74849,663,150000,24,Employed,1,Graduate,No,0,1
+27,63039,787,150000,36,Self-Employed,2,Not Graduate,Yes,3,1
+29,84805,706,122890,36,Employed,0,Graduate,No,0,1
+44,24453,635,39373,48,Employed,2,Graduate,No,0,1
+21,21448,551,32396,60,Employed,2,Graduate,No,2,1
+64,48418,767,22861,180,Unemployed,1,Not Graduate,No,1,1
+28,39614,703,98925,60,Self-Employed,0,Graduate,Yes,0,1
+44,44791,557,130601,60,Employed,2,Graduate,No,0,0
+31,211125,770,150000,36,Employed,1,Graduate,No,3,1
+37,161274,546,145887,36,Employed,2,Graduate,No,3,1
+28,134110,657,150000,36,Employed,0,Graduate,No,0,1
+55,81269,653,34850,48,Employed,0,Graduate,No,0,1
+55,37530,804,27859,24,Self-Employed,0,Graduate,Yes,0,1
+53,41250,654,24550,48,Employed,1,Graduate,No,1,1
+25,51906,653,150000,48,Employed,1,Not Graduate,No,2,0
+62,91004,565,62957,36,Employed,1,Graduate,No,0,1
+59,22847,623,68066,360,Employed,1,Graduate,No,2,0
+61,42086,609,54654,48,Employed,2,Not Graduate,No,1,1
+48,23449,613,83472,24,Employed,0,Graduate,No,2,0
+27,48916,675,150000,36,Employed,0,Graduate,No,3,0
+29,111666,480,150000,48,Self-Employed,2,Not Graduate,Yes,0,0
+28,81019,554,150000,36,Employed,1,Graduate,No,0,1
+32,30342,666,114085,12,Employed,1,Graduate,No,1,0
+54,169172,684,150000,48,Employed,1,Graduate,No,2,1
+53,64026,656,150000,180,Self-Employed,1,Graduate,Yes,0,1
+43,20419,671,20683,36,Employed,0,Graduate,No,2,1
+44,31797,642,43820,180,Employed,1,Graduate,No,0,1
+57,32082,673,37401,60,Unemployed,4,Graduate,No,0,0
+55,22870,709,58842,24,Employed,1,Not Graduate,No,0,1
+64,148581,709,150000,60,Employed,0,Graduate,No,4,1
+60,46023,619,150000,36,Self-Employed,2,Graduate,Yes,1,0
+42,110463,748,150000,36,Employed,0,Graduate,No,0,1
+47,35557,687,66046,48,Self-Employed,0,Not Graduate,Yes,4,1
+55,25351,773,56351,60,Employed,2,Not Graduate,No,2,1
+21,45723,789,150000,24,Employed,0,Not Graduate,No,2,1
+55,24839,559,34636,180,Self-Employed,3,Not Graduate,Yes,0,0
+57,46622,606,150000,60,Self-Employed,1,Graduate,Yes,0,0
+67,121178,740,146730,180,Retired,1,Graduate,No,1,1
+34,49422,541,141013,36,Employed,1,Graduate,No,2,0
+23,58336,788,76596,180,Employed,0,Graduate,No,1,1
+21,26814,647,96032,36,Employed,1,Graduate,No,1,0
+25,21788,721,52755,12,Employed,3,Graduate,No,2,1
+46,24697,665,26410,60,Employed,2,Graduate,No,0,1
+34,56505,563,68242,60,Employed,1,Not Graduate,No,1,1
+59,23993,759,52253,48,Employed,4,Graduate,No,0,1
+47,38863,850,150000,36,Employed,0,Graduate,No,0,1
+29,51948,633,150000,12,Employed,0,Graduate,No,0,1
+35,39683,649,85632,48,Retired,0,Graduate,No,2,1
+35,27149,463,43867,36,Self-Employed,1,Graduate,Yes,3,0
+46,32796,783,77968,48,Employed,2,Graduate,No,0,1
+62,125420,747,150000,36,Unemployed,1,Graduate,No,0,0
+33,65078,536,150000,360,Employed,3,Graduate,No,0,1
+52,47410,509,74366,48,Unemployed,1,Graduate,No,3,0
+59,20511,519,61454,60,Employed,0,Graduate,No,1,0
+52,215265,726,150000,180,Employed,0,Graduate,No,3,1
+24,64523,734,150000,48,Unemployed,3,Graduate,No,2,0
+50,35245,601,132236,12,Employed,0,Graduate,No,0,0
+57,104567,714,150000,12,Unemployed,1,Not Graduate,No,0,0
+43,31959,687,96011,60,Self-Employed,0,Graduate,Yes,1,1
+59,51411,645,71283,36,Retired,0,Graduate,No,0,1
+65,60431,752,150000,48,Employed,1,Not Graduate,No,0,1
+35,29993,578,58157,24,Employed,0,Not Graduate,No,0,1
+63,173397,766,150000,36,Employed,3,Not Graduate,No,1,1
+49,75163,616,134014,36,Retired,1,Graduate,No,1,1
+56,52640,817,150000,360,Employed,1,Graduate,No,0,1
+33,27967,594,26151,48,Employed,1,Graduate,No,1,1
+52,22214,646,45364,180,Employed,1,Graduate,No,0,1
+27,35430,679,76971,360,Employed,3,Graduate,No,2,1
+42,75965,679,40403,24,Employed,0,Graduate,No,2,1
+48,32551,714,35958,36,Employed,0,Graduate,No,0,1
+22,51022,572,150000,60,Self-Employed,0,Not Graduate,Yes,1,0
+62,72070,672,150000,120,Employed,2,Graduate,No,1,1
+65,24569,686,35691,36,Unemployed,4,Graduate,No,0,0
+26,66245,632,150000,360,Self-Employed,0,Graduate,Yes,0,1
+48,23854,707,75817,12,Employed,1,Graduate,No,4,0
+48,154244,567,150000,36,Employed,0,Graduate,No,0,1
+64,46808,648,144836,48,Employed,0,Graduate,No,1,1
+64,26532,614,102434,36,Employed,1,Graduate,No,2,0
+40,36765,649,75452,24,Self-Employed,0,Graduate,Yes,0,1
+50,41337,790,52015,36,Employed,1,Graduate,No,0,1
+31,76783,792,150000,12,Employed,1,Graduate,No,3,1
+48,74413,776,150000,48,Employed,2,Graduate,No,0,1
+45,57863,638,45072,120,Self-Employed,1,Graduate,Yes,1,1
+59,24478,747,60256,120,Employed,1,Graduate,No,2,1
+53,26574,683,58518,48,Employed,1,Graduate,No,2,1
+21,23937,678,83303,36,Employed,0,Graduate,No,4,0
+47,54431,668,125762,36,Retired,1,Graduate,No,2,1
+33,103867,815,136983,24,Employed,0,Graduate,No,1,1
+61,42752,784,121087,36,Employed,0,Not Graduate,No,3,1
+23,27014,734,63571,24,Employed,1,Graduate,No,3,1
+59,52661,661,65244,60,Self-Employed,2,Not Graduate,Yes,4,1
+26,86799,678,150000,180,Employed,0,Graduate,No,2,1
+28,74147,717,150000,36,Self-Employed,0,Graduate,Yes,0,1
+47,105297,633,52949,60,Employed,0,Graduate,No,2,1
+29,33023,750,88206,24,Employed,0,Not Graduate,No,0,1
+57,28624,601,47473,48,Self-Employed,1,Not Graduate,Yes,0,1
+53,104749,706,150000,60,Self-Employed,0,Graduate,Yes,0,1
+62,62866,491,113995,36,Self-Employed,2,Graduate,Yes,3,0
+64,34896,630,56925,24,Unemployed,2,Not Graduate,No,0,0
+44,74245,841,150000,120,Employed,1,Graduate,No,2,1
+35,87521,757,121590,60,Unemployed,1,Not Graduate,No,1,0
+52,58178,797,150000,120,Employed,0,Graduate,No,0,1
+52,66575,621,49173,60,Self-Employed,0,Not Graduate,Yes,1,1
+44,38816,683,148472,360,Employed,1,Not Graduate,No,1,0
+61,50947,777,134517,24,Employed,0,Graduate,No,3,1
+32,49706,725,146343,12,Employed,1,Graduate,No,0,1
+59,95367,715,140470,36,Employed,0,Graduate,No,0,1
+22,93294,805,150000,24,Employed,0,Graduate,No,1,1
+23,91513,591,110328,36,Employed,0,Graduate,No,0,1
+57,20443,660,76807,48,Employed,0,Graduate,No,0,1
+37,75379,534,150000,48,Employed,3,Graduate,No,0,1
+22,76864,587,150000,36,Employed,0,Not Graduate,No,1,1
+22,65375,760,150000,180,Employed,2,Graduate,No,0,1
+48,76466,601,132743,12,Employed,1,Graduate,No,1,1
+43,93798,733,150000,36,Employed,2,Not Graduate,No,4,1
+57,45419,807,128698,60,Self-Employed,1,Not Graduate,Yes,2,1
+52,47890,660,140814,60,Unemployed,3,Graduate,No,0,0
+53,25328,716,54739,36,Employed,0,Graduate,No,1,1
+21,39469,734,70198,12,Employed,1,Not Graduate,No,0,1
+39,61241,577,73458,48,Self-Employed,0,Graduate,Yes,0,1
+22,80637,625,150000,12,Employed,1,Not Graduate,No,0,1
+64,29795,594,77170,24,Self-Employed,1,Not Graduate,Yes,0,0
+46,25931,632,51853,48,Employed,1,Not Graduate,No,1,1
+52,63511,732,150000,36,Employed,0,Graduate,No,3,1
+26,20075,627,11487,36,Employed,0,Not Graduate,No,3,1
+52,27858,672,96405,36,Employed,1,Graduate,No,0,0
+24,21180,591,84535,360,Employed,1,Graduate,No,1,0
+31,27303,773,98099,360,Employed,0,Not Graduate,No,0,1
+37,28002,631,92898,36,Employed,3,Graduate,No,1,0
+58,39619,796,69234,36,Employed,3,Graduate,No,0,1
+44,40588,679,50034,36,Self-Employed,2,Not Graduate,Yes,3,1
+25,102942,562,150000,36,Self-Employed,2,Not Graduate,Yes,2,0
+54,48542,661,72641,36,Employed,0,Not Graduate,No,0,1
+26,71408,589,73817,48,Employed,4,Graduate,No,2,1
+42,24398,722,78841,36,Employed,1,Graduate,No,1,1
+31,30218,654,46087,36,Employed,0,Graduate,No,1,1
+36,68553,688,150000,24,Employed,2,Not Graduate,No,1,1
+53,22169,645,75957,36,Employed,0,Graduate,No,1,1
+29,46667,630,150000,36,Employed,1,Graduate,No,3,0
+26,56588,597,150000,36,Employed,0,Graduate,No,2,0
+36,56866,741,150000,48,Retired,1,Not Graduate,No,1,0
+49,20927,661,69073,48,Self-Employed,1,Graduate,Yes,2,0
+23,35550,649,91329,36,Employed,1,Graduate,No,4,0
+40,60478,659,88597,48,Employed,0,Graduate,No,0,1
+56,26453,620,95166,36,Employed,1,Graduate,No,0,0
+39,67552,650,150000,12,Self-Employed,1,Graduate,Yes,2,1
+46,74805,691,150000,48,Self-Employed,0,Graduate,Yes,4,1
+23,180626,592,97661,36,Retired,3,Graduate,No,0,1
+39,29420,603,79397,48,Employed,1,Not Graduate,No,0,0
+40,89748,785,52246,60,Self-Employed,2,Graduate,Yes,0,1
+52,49383,645,150000,180,Employed,0,Graduate,No,2,1
+27,38701,630,149458,360,Unemployed,0,Graduate,No,3,0
+61,25221,567,27293,12,Self-Employed,0,Not Graduate,Yes,1,1
+53,73197,743,150000,360,Employed,1,Graduate,No,0,1
+60,30760,590,22521,48,Employed,0,Not Graduate,No,3,1
+59,38571,673,116725,48,Self-Employed,1,Not Graduate,Yes,0,0
+38,22583,538,37267,12,Employed,0,Graduate,No,3,1
+60,84651,740,150000,120,Employed,0,Graduate,No,0,1
+21,78198,769,136248,24,Employed,1,Graduate,No,1,1
+31,72912,713,67373,60,Employed,3,Not Graduate,No,1,1
+48,34235,552,63745,12,Employed,0,Graduate,No,1,1
+45,27621,742,22252,48,Employed,1,Graduate,No,3,1
+43,60595,608,150000,36,Employed,1,Graduate,No,3,0
+51,47420,581,25958,24,Employed,1,Graduate,No,2,1
+50,27852,644,64013,24,Employed,2,Graduate,No,0,1
+62,66323,642,150000,36,Employed,3,Graduate,No,0,1
+55,208987,634,150000,24,Employed,0,Graduate,No,1,1
+27,75009,776,150000,36,Employed,1,Graduate,No,3,1
+36,73880,835,150000,48,Employed,1,Graduate,No,1,1
+46,140080,565,108744,60,Self-Employed,1,Graduate,Yes,4,1
+22,29072,619,25103,48,Employed,0,Graduate,No,4,1
+21,53346,686,128309,12,Self-Employed,3,Not Graduate,Yes,1,0
+32,175780,643,150000,36,Employed,2,Graduate,No,2,1
+25,27227,706,106393,36,Retired,0,Graduate,No,4,0
+57,68192,748,38633,180,Employed,0,Graduate,No,2,1
+52,55257,734,92875,120,Employed,3,Graduate,No,1,1
+29,55321,723,64527,36,Employed,0,Graduate,No,2,1
+61,67849,807,150000,12,Employed,1,Graduate,No,0,1
+55,126152,547,150000,120,Self-Employed,0,Graduate,Yes,1,1
+39,81037,793,67390,120,Employed,0,Not Graduate,No,0,1
+36,22310,641,47758,120,Employed,0,Graduate,No,0,1
+23,96618,737,150000,60,Unemployed,0,Graduate,No,3,0
+40,30223,592,96847,36,Employed,0,Not Graduate,No,1,0
+44,38922,602,18378,24,Employed,1,Graduate,No,0,1
+53,44776,727,150000,36,Employed,1,Graduate,No,0,1
+44,46226,520,113226,36,Employed,0,Graduate,No,4,0
+31,42849,754,142381,36,Retired,1,Graduate,No,2,0
+28,130809,775,150000,36,Self-Employed,1,Graduate,Yes,0,1
+56,68969,689,74725,36,Self-Employed,1,Not Graduate,Yes,4,1
+58,59896,686,47714,36,Unemployed,1,Graduate,No,0,1
+60,22045,608,66060,36,Employed,1,Graduate,No,1,0
+40,113700,728,109508,24,Employed,3,Graduate,No,2,1
+55,116047,702,150000,36,Employed,1,Graduate,No,3,1
+45,80603,601,150000,60,Self-Employed,0,Not Graduate,Yes,3,1
+55,20282,643,69578,60,Unemployed,1,Graduate,No,0,0
+45,22359,662,33011,36,Employed,0,Not Graduate,No,1,1
+49,30207,643,46511,36,Employed,0,Graduate,No,0,1
+38,25632,565,72189,12,Retired,1,Not Graduate,No,1,0
+66,40355,730,20710,48,Employed,2,Graduate,No,1,1
+38,122362,655,150000,36,Unemployed,0,Not Graduate,No,0,0
+22,45550,676,150000,36,Employed,2,Graduate,No,1,0
+55,20539,628,38912,120,Employed,0,Not Graduate,No,0,1
+36,33292,713,104988,36,Employed,0,Graduate,No,1,1
+61,21824,690,22448,12,Employed,4,Graduate,No,2,1
+56,21478,772,33508,24,Employed,1,Not Graduate,No,0,1
+53,32903,713,128568,36,Employed,2,Graduate,No,4,0
+24,32897,658,129968,36,Unemployed,2,Not Graduate,No,0,0
+53,81882,615,150000,120,Self-Employed,3,Graduate,Yes,1,0
+34,167291,744,150000,36,Self-Employed,0,Graduate,Yes,1,1
+41,38558,652,87982,48,Employed,0,Not Graduate,No,0,1
+40,42406,661,61476,36,Unemployed,2,Graduate,No,0,0
+28,94518,661,128623,36,Employed,1,Graduate,No,3,1
+27,32486,642,121699,36,Employed,1,Not Graduate,No,1,0
+23,26802,662,27359,36,Employed,0,Graduate,No,0,1
+37,96717,829,150000,36,Employed,0,Graduate,No,0,1
+53,21904,591,52567,36,Unemployed,1,Graduate,No,3,0
+32,58671,609,150000,120,Employed,0,Not Graduate,No,0,1
+42,53020,785,116499,36,Employed,0,Not Graduate,No,2,1
+42,36981,645,51042,24,Self-Employed,0,Not Graduate,Yes,0,1
+66,35144,638,35489,12,Employed,0,Graduate,No,1,1
+50,79111,757,150000,12,Self-Employed,2,Graduate,Yes,0,1
+58,23615,561,70570,36,Employed,1,Graduate,No,2,0
+58,30808,740,75488,24,Self-Employed,0,Graduate,Yes,2,1
+65,72737,678,150000,12,Employed,0,Graduate,No,1,1
+28,51791,712,47102,36,Retired,1,Graduate,No,0,1
+47,25478,710,91132,48,Employed,0,Not Graduate,No,1,0
+47,105528,624,150000,12,Self-Employed,2,Not Graduate,Yes,0,1
+54,39998,759,34263,36,Employed,2,Graduate,No,0,1
+41,90379,630,150000,60,Employed,2,Not Graduate,No,2,1
+50,81992,707,150000,360,Employed,1,Not Graduate,No,2,1
+53,59171,774,150000,48,Employed,0,Graduate,No,0,1
+48,47286,785,63965,24,Employed,1,Graduate,No,4,1
+67,175592,653,150000,60,Self-Employed,0,Graduate,Yes,3,1
+53,26264,712,19959,48,Employed,0,Graduate,No,1,1
+25,71662,646,37319,24,Self-Employed,0,Graduate,Yes,1,1
+39,28487,850,68865,120,Employed,1,Graduate,No,3,1
+24,36515,737,105943,36,Employed,0,Not Graduate,No,1,1
+55,34767,681,113508,360,Self-Employed,0,Graduate,Yes,1,0
+37,137525,700,150000,60,Self-Employed,1,Graduate,Yes,2,1
+64,156883,707,66438,48,Employed,4,Graduate,No,0,1
+48,28085,709,59716,60,Employed,0,Graduate,No,2,1
+50,20891,655,9548,36,Employed,1,Graduate,No,1,1
+49,70919,643,51852,36,Employed,0,Graduate,No,1,1
+66,41650,662,65643,120,Employed,3,Not Graduate,No,0,1
+26,23721,583,46820,48,Employed,0,Graduate,No,0,1
+55,66049,732,92870,120,Employed,2,Not Graduate,No,0,1
+61,51507,610,128495,120,Employed,0,Graduate,No,0,1
+57,177528,590,106385,360,Unemployed,2,Graduate,No,2,0
+44,30320,673,27909,60,Self-Employed,0,Graduate,Yes,0,1
+49,40699,664,118146,36,Employed,0,Not Graduate,No,0,1
+66,51283,694,46755,24,Employed,0,Not Graduate,No,1,1
+51,82751,629,150000,60,Employed,0,Graduate,No,1,1
+55,51837,643,30939,36,Self-Employed,2,Graduate,Yes,0,1
+53,57962,730,108190,36,Employed,1,Graduate,No,0,1
+41,30254,725,31424,24,Employed,1,Not Graduate,No,3,1
+52,95071,722,75552,120,Employed,4,Graduate,No,0,1
+43,42388,677,103482,120,Employed,1,Graduate,No,3,1
+53,26077,688,97580,48,Employed,3,Graduate,No,0,0
+23,63648,693,38012,36,Self-Employed,0,Graduate,Yes,1,1
+38,29738,622,57025,48,Employed,3,Not Graduate,No,0,1
+45,24106,792,71043,48,Employed,0,Graduate,No,2,1
+62,99216,781,150000,36,Employed,1,Graduate,No,0,1
+51,44659,738,147525,36,Employed,1,Graduate,No,0,1
+23,75337,640,78856,36,Employed,1,Graduate,No,0,1
+60,33732,718,130021,48,Employed,1,Graduate,No,2,1
+66,81852,753,146235,48,Self-Employed,0,Not Graduate,Yes,2,1
+44,24748,577,40330,36,Retired,4,Graduate,No,0,0
+52,37600,810,133426,360,Retired,4,Graduate,No,0,0
+67,172781,535,150000,12,Employed,3,Graduate,No,2,1
+42,83193,731,150000,36,Self-Employed,4,Graduate,Yes,2,1
+43,47506,791,143331,36,Retired,2,Graduate,No,1,1
+22,36607,665,91056,12,Employed,4,Not Graduate,No,3,0
+47,102271,662,100742,36,Employed,2,Graduate,No,0,1
+62,51484,728,145551,36,Employed,1,Not Graduate,No,0,1
+22,76823,823,67641,36,Employed,2,Graduate,No,0,1
+46,76114,652,150000,36,Self-Employed,3,Graduate,Yes,1,0
+37,20724,612,82130,60,Employed,1,Graduate,No,0,0
+60,25398,641,44664,36,Employed,1,Not Graduate,No,0,1
+53,63108,550,126286,24,Employed,0,Not Graduate,No,0,1
+29,27051,746,15342,60,Employed,2,Graduate,No,1,1
+63,31801,633,14292,12,Employed,3,Graduate,No,0,1
+59,137226,658,150000,60,Employed,0,Graduate,No,0,1
+49,52855,747,45616,180,Employed,0,Graduate,No,3,1
+62,75568,644,150000,36,Self-Employed,0,Not Graduate,Yes,0,1
+46,52656,735,150000,180,Self-Employed,1,Not Graduate,Yes,0,1
+55,52164,591,150000,60,Self-Employed,0,Graduate,Yes,1,0
+45,23955,751,54373,180,Self-Employed,1,Graduate,Yes,2,1
+44,36843,702,89680,48,Self-Employed,3,Graduate,Yes,1,0
+33,33275,667,93531,24,Self-Employed,1,Graduate,Yes,0,0
+27,39819,685,150000,120,Self-Employed,0,Graduate,Yes,2,0
+56,84047,572,150000,24,Self-Employed,3,Graduate,Yes,1,0
+65,38604,683,93194,24,Employed,1,Graduate,No,0,1
+40,44037,663,19918,36,Employed,0,Not Graduate,No,1,1
+21,40258,574,27835,36,Self-Employed,1,Graduate,Yes,2,1
+28,23922,621,59274,36,Employed,1,Not Graduate,No,1,0
+66,43269,664,150000,60,Employed,2,Not Graduate,No,3,0
+36,28706,626,101047,180,Employed,3,Graduate,No,1,0
+34,28267,482,111295,12,Employed,0,Not Graduate,No,2,0
+32,23950,761,55089,360,Retired,0,Graduate,No,1,1
+43,37643,663,121833,180,Employed,0,Not Graduate,No,0,0
+35,76667,493,150000,12,Employed,1,Graduate,No,1,1
+48,32942,845,90027,36,Employed,2,Not Graduate,No,0,1
+54,34978,774,56646,60,Self-Employed,1,Graduate,Yes,0,1
+22,61164,647,127950,48,Employed,0,Graduate,No,2,1
+52,28718,607,100182,60,Employed,3,Graduate,No,1,0
+43,110904,707,150000,60,Self-Employed,3,Graduate,Yes,0,1
+42,49374,691,150000,36,Employed,0,Graduate,No,0,1
+45,43739,718,53680,12,Employed,2,Graduate,No,0,1
+42,52641,607,150000,48,Employed,1,Not Graduate,No,2,0
+42,27262,762,72789,12,Self-Employed,0,Graduate,Yes,0,1
+62,58022,637,150000,48,Employed,0,Graduate,No,1,1
+26,38045,729,75117,60,Employed,0,Graduate,No,1,1
+35,110993,611,150000,48,Employed,0,Graduate,No,1,1
+63,27398,850,73341,360,Employed,1,Graduate,No,0,1
+57,48293,730,69438,36,Employed,0,Graduate,No,0,1
+53,56463,850,150000,60,Employed,0,Not Graduate,No,2,1
+28,21358,741,30596,48,Employed,1,Graduate,No,2,1
+64,38082,630,55488,360,Employed,0,Not Graduate,No,2,1
+64,72765,741,133782,60,Self-Employed,1,Graduate,Yes,2,1
+25,88675,747,150000,24,Self-Employed,1,Not Graduate,Yes,0,1
+59,35026,704,77094,360,Employed,1,Graduate,No,0,1
+24,84097,725,150000,48,Self-Employed,4,Graduate,Yes,2,1
+26,157376,735,150000,12,Employed,0,Graduate,No,2,1
+65,97761,595,131877,48,Retired,1,Not Graduate,No,1,1
+52,25006,589,95940,120,Employed,0,Graduate,No,1,0
+50,73841,611,150000,48,Employed,2,Not Graduate,No,0,1
+67,35406,685,133205,36,Employed,2,Graduate,No,0,0
+55,198325,657,150000,60,Employed,0,Graduate,No,1,1
+60,46571,596,43256,60,Self-Employed,1,Graduate,Yes,3,1
+36,25224,737,87803,36,Employed,0,Graduate,No,0,1
+33,71666,697,150000,24,Employed,3,Not Graduate,No,0,1
+62,35604,688,38156,36,Employed,0,Graduate,No,0,1
+50,250000,654,150000,60,Employed,2,Graduate,No,0,1
+39,176048,644,150000,60,Employed,0,Graduate,No,1,1
+37,62700,607,127527,36,Employed,1,Graduate,No,4,1
+39,25562,749,71930,36,Self-Employed,4,Graduate,Yes,2,0
+48,66444,618,102726,12,Self-Employed,2,Graduate,Yes,3,1
+46,23905,691,42369,60,Employed,0,Graduate,No,1,1
+57,21192,807,84059,12,Employed,1,Graduate,No,1,1
+46,89254,648,115264,12,Unemployed,0,Graduate,No,4,0
+43,29416,751,65398,12,Employed,1,Graduate,No,0,1
+29,39058,720,134353,48,Employed,0,Graduate,No,3,1
+32,165160,699,150000,36,Self-Employed,0,Not Graduate,Yes,2,1
+21,36429,709,69024,36,Employed,1,Not Graduate,No,0,1
+21,34066,667,89059,180,Employed,0,Not Graduate,No,1,1
+67,120143,677,150000,24,Employed,1,Not Graduate,No,0,1
+54,24695,631,50728,36,Employed,0,Graduate,No,0,1
+52,77015,678,131313,180,Retired,0,Graduate,No,0,1
+45,197133,628,150000,36,Employed,1,Graduate,No,3,1
+60,112625,755,150000,48,Retired,0,Graduate,No,2,1
+65,62183,539,150000,12,Employed,0,Graduate,No,0,1
+21,35078,713,22917,60,Employed,1,Not Graduate,No,0,1
+36,31738,701,84795,36,Employed,1,Graduate,No,1,1
+59,88426,694,150000,60,Employed,1,Graduate,No,0,1
+25,104751,756,150000,36,Employed,0,Graduate,No,1,1
+42,49814,652,148194,36,Employed,0,Graduate,No,1,1
+49,31206,695,75026,60,Unemployed,2,Graduate,No,1,0
+23,24793,537,86206,360,Retired,4,Not Graduate,No,0,0
+32,23648,641,88597,12,Employed,0,Graduate,No,1,0
+46,70787,743,75260,60,Employed,1,Not Graduate,No,0,1
+36,41797,567,82452,36,Self-Employed,0,Not Graduate,Yes,0,1
+57,114306,687,150000,48,Employed,0,Graduate,No,0,1
+42,73832,620,137237,36,Employed,0,Graduate,No,0,1
+49,28491,666,24271,48,Retired,1,Graduate,No,3,1
+34,58053,625,150000,36,Employed,0,Graduate,No,2,1
+48,42872,575,22668,36,Employed,3,Graduate,No,1,1
+25,54438,705,125295,12,Employed,1,Not Graduate,No,1,1
+67,73586,671,150000,24,Employed,0,Graduate,No,0,1
+50,85636,724,98215,180,Employed,2,Graduate,No,0,1
+66,94248,738,150000,360,Self-Employed,0,Graduate,Yes,2,1
+25,31719,773,108440,60,Retired,1,Graduate,No,0,1
+32,21264,685,44567,36,Employed,0,Graduate,No,1,1
+36,73774,776,138705,36,Employed,0,Graduate,No,0,1
+46,24497,596,30661,60,Employed,0,Graduate,No,3,1
+46,35128,747,106366,360,Unemployed,0,Graduate,No,3,0
+41,20152,711,17618,36,Retired,0,Not Graduate,No,0,1
+59,65786,693,150000,60,Self-Employed,0,Not Graduate,Yes,2,1
+56,27315,710,93768,360,Employed,4,Graduate,No,0,0
+53,62601,598,76529,120,Retired,0,Graduate,No,1,1
+50,211865,579,150000,24,Employed,0,Graduate,No,0,1
+57,23017,811,11968,12,Employed,4,Graduate,No,0,1
+43,23208,661,85545,36,Employed,1,Not Graduate,No,0,0
+30,36643,660,30270,36,Employed,1,Graduate,No,3,1
+25,100512,586,150000,24,Self-Employed,0,Graduate,Yes,2,1
+56,29709,556,38630,36,Self-Employed,1,Graduate,Yes,0,1
+54,37875,667,129213,60,Employed,0,Not Graduate,No,1,0
+51,22838,647,51254,36,Employed,1,Not Graduate,No,0,1
+30,77614,675,68833,36,Employed,4,Graduate,No,0,1
+39,40990,681,100653,48,Employed,1,Graduate,No,2,1
+52,76959,850,143788,48,Employed,0,Graduate,No,0,1
+21,113573,647,150000,60,Employed,1,Graduate,No,1,1
+25,30598,801,109383,24,Self-Employed,1,Graduate,Yes,0,1
+65,85884,806,150000,60,Unemployed,1,Not Graduate,No,0,0
+24,22436,735,32387,48,Retired,1,Graduate,No,1,1
+36,111644,656,50491,12,Retired,1,Not Graduate,No,3,1
+44,62080,566,150000,60,Self-Employed,1,Not Graduate,Yes,2,0
+36,102930,713,150000,36,Employed,4,Graduate,No,0,1
+22,20007,756,34986,36,Unemployed,2,Graduate,No,2,0
+48,27408,814,29013,36,Employed,0,Not Graduate,No,3,1
+52,39756,599,77452,36,Self-Employed,1,Graduate,Yes,0,1
+47,39089,655,150000,36,Employed,0,Graduate,No,0,0
+40,30285,599,44576,60,Self-Employed,2,Graduate,Yes,0,1
+44,39225,624,100374,24,Employed,0,Graduate,No,0,1
+32,25517,728,81535,360,Employed,1,Graduate,No,1,1
+55,41292,620,127880,48,Employed,2,Graduate,No,0,0
+53,84851,609,134368,24,Employed,0,Graduate,No,0,1
+53,46085,738,119779,24,Retired,2,Graduate,No,0,1
+63,20726,711,73298,48,Employed,1,Graduate,No,1,1
+57,41888,703,19084,48,Employed,0,Graduate,No,1,1
+32,21102,622,41542,12,Unemployed,1,Graduate,No,1,0
+23,155543,778,150000,24,Employed,3,Graduate,No,0,1
+21,25453,676,45791,60,Employed,0,Graduate,No,1,1
+53,69197,850,131305,12,Employed,1,Not Graduate,No,0,1
+60,164146,687,150000,120,Employed,1,Not Graduate,No,3,1
+30,89956,488,66365,48,Unemployed,3,Not Graduate,No,0,0
+63,68067,484,150000,36,Self-Employed,1,Not Graduate,Yes,0,0
+64,93168,724,150000,36,Retired,1,Graduate,No,0,1
+49,180250,779,150000,12,Employed,3,Graduate,No,0,1
+33,58845,612,150000,60,Employed,2,Graduate,No,0,1
+32,52765,843,94008,24,Employed,1,Not Graduate,No,1,1
+51,59580,808,150000,36,Self-Employed,0,Not Graduate,Yes,2,1
+66,50429,691,107640,48,Employed,0,Graduate,No,0,1
+22,60324,718,148178,24,Employed,1,Graduate,No,1,1
+55,43902,746,148033,36,Employed,1,Graduate,No,2,1
+43,29858,826,41527,60,Employed,0,Graduate,No,0,1
+37,25124,729,16851,36,Self-Employed,0,Graduate,Yes,0,1
+46,22831,690,67306,180,Employed,1,Not Graduate,No,0,1
+28,32223,728,68919,60,Employed,0,Graduate,No,3,1
+49,21888,717,79396,36,Employed,0,Not Graduate,No,2,0
+46,53496,748,150000,36,Unemployed,0,Graduate,No,0,0
+30,33353,549,61262,36,Employed,2,Graduate,No,0,1
+46,89612,700,150000,48,Employed,1,Not Graduate,No,2,1
+54,23085,711,43138,36,Employed,0,Graduate,No,1,1
+61,30265,669,47467,360,Employed,0,Graduate,No,2,1
+27,72409,737,150000,48,Unemployed,1,Graduate,No,0,0
+24,56532,828,150000,36,Employed,2,Not Graduate,No,3,1
+65,22666,686,48122,48,Unemployed,1,Graduate,No,2,0
+31,103900,730,58265,36,Employed,0,Graduate,No,0,1
+49,103908,803,150000,60,Unemployed,1,Graduate,No,1,1
+56,36043,687,52344,48,Self-Employed,2,Not Graduate,Yes,0,1
+45,36645,603,121658,12,Employed,0,Not Graduate,No,0,1
+41,200497,724,143409,24,Self-Employed,1,Graduate,Yes,1,1
+56,59358,498,150000,120,Employed,0,Graduate,No,0,1
+30,50313,491,141332,48,Employed,0,Not Graduate,No,1,0
+57,92843,701,150000,360,Employed,0,Graduate,No,0,1
+29,33435,487,65397,12,Employed,1,Graduate,No,2,0
+44,42427,569,120790,36,Self-Employed,0,Graduate,Yes,0,0
+55,32466,644,84168,24,Employed,0,Graduate,No,2,1
+55,82266,617,150000,48,Self-Employed,0,Graduate,Yes,0,1
+56,54071,663,108594,36,Employed,0,Graduate,No,0,1
+38,63014,764,132466,24,Employed,1,Graduate,No,1,1
+59,31630,694,85934,48,Retired,0,Not Graduate,No,0,0
+52,29950,607,23632,36,Self-Employed,0,Graduate,Yes,0,1
+44,46806,783,92230,36,Employed,2,Graduate,No,0,1
+43,73510,560,150000,36,Self-Employed,1,Not Graduate,Yes,4,0
+52,49797,692,26650,60,Unemployed,1,Not Graduate,No,0,0
+57,21327,551,32792,24,Employed,0,Graduate,No,2,1
+32,101165,695,150000,36,Employed,1,Graduate,No,1,1
+33,22674,649,60776,36,Employed,0,Graduate,No,0,1
+43,144783,761,113058,60,Employed,0,Graduate,No,1,1
+45,21018,732,55965,60,Employed,1,Graduate,No,2,1
+55,67425,628,50039,36,Employed,3,Graduate,No,1,1
+61,23431,612,17381,36,Employed,1,Graduate,No,2,1
+50,116619,649,150000,120,Unemployed,0,Not Graduate,No,0,0
+37,44977,825,70473,360,Self-Employed,2,Graduate,Yes,1,1
+40,25917,804,101561,48,Employed,0,Graduate,No,0,1
+45,36670,597,19599,360,Employed,2,Graduate,No,0,1
+42,27204,739,54472,48,Employed,0,Graduate,No,1,1
+33,27481,536,22185,60,Employed,0,Graduate,No,1,1
+39,138343,639,150000,36,Employed,1,Not Graduate,No,0,1
+56,43569,600,150000,36,Employed,3,Graduate,No,0,0
+32,82198,760,150000,24,Employed,2,Graduate,No,1,1
+61,60822,571,34909,60,Unemployed,1,Graduate,No,1,0
+39,65133,709,150000,180,Self-Employed,1,Graduate,Yes,0,1
+32,25648,675,70074,48,Self-Employed,1,Graduate,Yes,0,0
+29,30672,660,35405,36,Self-Employed,1,Graduate,Yes,2,1
+27,81811,808,75460,24,Employed,2,Not Graduate,No,2,1
+48,161297,815,150000,36,Employed,0,Not Graduate,No,0,1
+34,32189,663,125142,36,Self-Employed,0,Graduate,Yes,0,0
+51,32674,647,129742,48,Self-Employed,3,Not Graduate,Yes,0,0
+39,45614,554,147932,180,Employed,3,Not Graduate,No,3,0
+67,185009,674,150000,12,Employed,0,Graduate,No,2,1
+36,32531,831,53501,12,Employed,0,Not Graduate,No,0,1
+25,40900,664,41596,48,Employed,4,Graduate,No,2,1
+55,108832,733,74477,36,Employed,1,Not Graduate,No,0,1
+32,20117,563,58256,120,Employed,1,Graduate,No,0,0
+45,21623,640,69734,36,Employed,0,Graduate,No,3,0
+41,57060,711,150000,36,Employed,2,Graduate,No,2,1
+56,115170,683,150000,36,Employed,0,Graduate,No,2,1
+43,30917,740,110304,24,Self-Employed,0,Not Graduate,Yes,1,0
+36,45368,626,150000,48,Employed,0,Graduate,No,0,1
+59,43947,535,56191,24,Employed,3,Graduate,No,3,0
+65,45620,764,143607,36,Employed,1,Graduate,No,1,1
+62,58969,600,148086,36,Retired,2,Graduate,No,0,0
+59,45375,715,60824,12,Employed,0,Graduate,No,1,1
+34,43729,711,150000,12,Employed,3,Graduate,No,3,0
+51,45720,541,150000,36,Employed,2,Graduate,No,3,0
+25,55748,758,48091,48,Employed,2,Graduate,No,1,1
+55,50801,629,25104,180,Employed,4,Graduate,No,2,1
+43,97003,679,150000,24,Employed,0,Graduate,No,0,1
+49,22030,646,56724,24,Retired,1,Not Graduate,No,1,0
+63,91666,804,150000,12,Unemployed,3,Graduate,No,1,0
+31,94296,782,117155,36,Retired,2,Graduate,No,0,1
+38,33413,530,23515,48,Employed,1,Graduate,No,2,1
+67,44859,850,59804,60,Unemployed,0,Graduate,No,3,1
+32,43088,620,20171,48,Employed,1,Graduate,No,0,1
+29,29862,843,15803,24,Employed,1,Graduate,No,2,1
+30,40220,654,148552,36,Self-Employed,0,Graduate,Yes,1,0
+64,21816,647,36372,180,Employed,2,Graduate,No,1,1
+37,33019,655,62039,36,Employed,0,Graduate,No,2,1
+58,87861,642,40955,36,Employed,0,Not Graduate,No,0,1
+27,33394,850,45879,360,Employed,1,Graduate,No,2,1
+66,88195,668,150000,60,Unemployed,1,Graduate,No,0,0
+33,50337,650,131669,60,Employed,0,Graduate,No,2,1
+60,104764,681,150000,36,Employed,0,Graduate,No,1,1
+62,54205,597,108950,36,Employed,0,Graduate,No,0,1
+29,21204,802,32124,12,Unemployed,0,Graduate,No,0,1
+47,65008,557,138994,48,Employed,0,Graduate,No,0,1
+22,21835,625,34129,24,Employed,0,Graduate,No,0,1
+25,43956,749,150000,60,Unemployed,0,Graduate,No,0,0
+49,126044,678,150000,60,Employed,1,Graduate,No,2,1
+57,27222,718,75545,36,Employed,3,Graduate,No,3,1
+58,39763,797,35513,24,Self-Employed,1,Graduate,Yes,3,1
+39,72352,755,150000,12,Employed,1,Graduate,No,2,1
+28,105570,685,150000,60,Self-Employed,0,Graduate,Yes,2,1
+65,64460,842,150000,48,Employed,2,Graduate,No,0,1
+21,31945,624,77162,60,Unemployed,1,Graduate,No,2,0
+42,64908,666,150000,36,Retired,1,Graduate,No,2,0
+37,34080,672,90606,36,Employed,0,Not Graduate,No,0,1
+27,70694,666,94332,60,Employed,0,Graduate,No,1,1
+45,143193,589,150000,36,Retired,1,Graduate,No,1,1
+65,71118,548,150000,48,Employed,1,Graduate,No,3,0
+24,99476,708,150000,60,Employed,2,Graduate,No,1,1
+56,20084,624,29977,24,Employed,0,Graduate,No,3,1
+26,70573,827,115968,12,Self-Employed,0,Graduate,Yes,0,1
+51,90781,669,150000,36,Self-Employed,1,Graduate,Yes,0,1
+39,21656,654,16610,12,Employed,2,Not Graduate,No,4,1
+64,102103,762,150000,60,Employed,0,Graduate,No,0,1
+59,31865,707,19909,60,Unemployed,1,Not Graduate,No,0,0
+47,63779,660,150000,120,Self-Employed,0,Graduate,Yes,1,1
+30,84448,623,61853,48,Employed,1,Graduate,No,3,1
+46,63467,850,150000,12,Retired,2,Graduate,No,0,1
+39,23872,703,14402,36,Self-Employed,2,Graduate,Yes,0,1
+59,56285,761,150000,60,Employed,0,Graduate,No,1,1
+23,51903,593,150000,24,Self-Employed,0,Graduate,Yes,1,0
+65,112232,628,150000,48,Employed,1,Graduate,No,0,1
+33,40716,843,92818,60,Employed,0,Graduate,No,2,1
+48,35490,786,65498,36,Employed,1,Graduate,No,2,1
+40,75427,711,111764,36,Self-Employed,1,Graduate,Yes,2,1
+48,41287,644,135906,48,Retired,0,Not Graduate,No,0,0
+28,61549,656,84888,120,Employed,2,Graduate,No,1,1
+61,61589,620,150000,24,Employed,0,Not Graduate,No,4,0
+59,107584,582,122894,180,Employed,4,Graduate,No,1,1
+21,56521,748,73447,48,Self-Employed,2,Graduate,Yes,0,1
+23,47898,718,77176,360,Self-Employed,1,Graduate,Yes,4,1
+33,25980,733,65494,12,Employed,0,Graduate,No,1,1
+48,24920,648,50735,24,Employed,3,Not Graduate,No,2,1
+45,26704,695,82315,60,Employed,2,Graduate,No,0,1
+53,27542,640,32192,120,Employed,0,Not Graduate,No,1,1
+58,60630,616,26581,36,Employed,0,Not Graduate,No,3,1
+26,74034,808,150000,60,Unemployed,0,Graduate,No,1,0
+64,50200,684,150000,120,Employed,4,Graduate,No,0,0
+65,90647,715,55668,12,Self-Employed,2,Graduate,Yes,0,1
+52,209608,741,150000,48,Employed,3,Graduate,No,0,1
+65,88594,685,150000,120,Employed,2,Graduate,No,0,1
+67,67482,694,150000,36,Employed,1,Graduate,No,2,1
+41,50413,588,150000,36,Employed,0,Graduate,No,0,0
+36,43830,603,150000,60,Employed,0,Graduate,No,0,0
+41,23526,599,75234,36,Self-Employed,0,Graduate,Yes,0,0
+31,40390,723,55277,12,Employed,1,Not Graduate,No,1,1
+57,116377,680,150000,360,Self-Employed,3,Graduate,Yes,1,1
+56,86015,603,150000,48,Employed,4,Graduate,No,2,0
+55,29736,721,17541,60,Employed,0,Graduate,No,3,1
+39,45139,718,92308,60,Employed,1,Not Graduate,No,0,1
+40,87870,619,150000,12,Retired,1,Graduate,No,1,1
+38,22790,672,81959,24,Employed,1,Not Graduate,No,0,0
+67,39601,718,30419,36,Employed,1,Not Graduate,No,0,1
+61,96378,606,150000,36,Unemployed,0,Not Graduate,No,1,0
+34,40693,720,134321,48,Employed,3,Graduate,No,2,0
+35,23231,699,31989,48,Self-Employed,1,Graduate,Yes,0,1
+51,51282,595,107578,36,Employed,2,Not Graduate,No,0,0
+21,99145,692,150000,24,Self-Employed,0,Not Graduate,Yes,2,1
+23,55691,704,110298,36,Employed,0,Not Graduate,No,1,1
+36,30261,624,24392,36,Unemployed,0,Graduate,No,0,0
+43,39395,631,115867,36,Employed,2,Graduate,No,1,0
+31,43922,594,150000,24,Employed,3,Graduate,No,3,0
+32,54630,639,150000,48,Employed,1,Not Graduate,No,0,0
+30,76976,674,150000,12,Employed,2,Graduate,No,0,1
+52,24164,631,40839,36,Self-Employed,1,Graduate,Yes,0,1
+36,108164,556,114601,60,Employed,0,Graduate,No,2,1
+28,20495,619,55623,12,Employed,1,Graduate,No,0,1
+58,38484,641,60803,48,Employed,2,Graduate,No,4,1
+32,21112,740,73813,36,Employed,0,Graduate,No,2,1
+44,39967,722,33630,12,Employed,0,Graduate,No,0,1
+48,49846,741,97721,24,Employed,1,Graduate,No,0,1
+28,48671,615,88981,180,Self-Employed,0,Graduate,Yes,1,1
+48,27243,686,102896,36,Retired,3,Not Graduate,No,0,0
+56,61509,481,58512,360,Employed,1,Graduate,No,3,1
+46,21832,709,9506,36,Self-Employed,0,Graduate,Yes,0,1
+28,77403,723,97303,36,Employed,0,Not Graduate,No,0,1
+48,137231,646,150000,36,Employed,3,Graduate,No,1,1
+48,36606,698,42227,36,Employed,1,Not Graduate,No,0,1
+57,49129,553,62254,36,Employed,1,Not Graduate,No,1,1
+61,39051,610,33882,36,Employed,0,Graduate,No,0,1
+56,20269,736,60311,36,Unemployed,2,Graduate,No,1,0
+47,39502,715,25637,24,Retired,1,Graduate,No,1,1
+37,82754,642,131773,24,Employed,1,Not Graduate,No,1,1
+29,56252,739,79708,36,Employed,3,Graduate,No,1,1
+53,24270,686,58213,36,Retired,0,Graduate,No,0,1
+40,95129,634,150000,48,Employed,1,Not Graduate,No,1,1
+33,50293,660,116597,120,Self-Employed,0,Not Graduate,Yes,0,1
+48,93736,638,150000,36,Employed,1,Graduate,No,1,1
+49,54721,580,150000,24,Employed,0,Graduate,No,4,0
+33,52810,775,89844,36,Employed,3,Graduate,No,0,1
+66,24448,629,78225,120,Unemployed,0,Graduate,No,1,0
+55,27326,608,83608,12,Unemployed,1,Not Graduate,No,0,0
+26,163058,552,150000,48,Employed,2,Graduate,No,1,1
+38,30376,464,61134,36,Self-Employed,4,Graduate,Yes,2,0
+25,171684,731,150000,24,Employed,1,Not Graduate,No,0,1
+67,50364,738,95529,36,Employed,1,Graduate,No,2,1
+45,25837,770,89431,24,Self-Employed,0,Not Graduate,Yes,0,1
+22,24183,663,29670,120,Employed,0,Graduate,No,1,1
+30,29371,649,37094,36,Employed,1,Not Graduate,No,2,1
+50,123952,634,150000,48,Employed,0,Not Graduate,No,0,1
+65,41387,641,50874,48,Retired,0,Graduate,No,2,1
+25,40129,764,97097,48,Unemployed,0,Not Graduate,No,0,0
+53,35028,672,30970,36,Self-Employed,1,Not Graduate,Yes,2,1
+21,26362,705,40931,12,Employed,1,Not Graduate,No,1,1
+38,46765,639,150000,36,Self-Employed,0,Graduate,Yes,1,0
+52,25572,780,47901,24,Employed,0,Graduate,No,3,1
+67,92188,522,150000,48,Retired,1,Graduate,No,0,0
+31,38506,577,31130,12,Employed,1,Graduate,No,0,1
+41,38787,705,50083,48,Employed,1,Graduate,No,2,1
+46,45698,815,150000,24,Employed,2,Graduate,No,0,1
+45,43488,656,136846,180,Self-Employed,0,Graduate,Yes,1,1
+42,230812,607,150000,36,Self-Employed,0,Graduate,Yes,3,1
+47,51531,755,150000,36,Employed,0,Not Graduate,No,1,1
+33,23693,700,87150,180,Employed,1,Not Graduate,No,0,0
+53,57345,778,150000,36,Self-Employed,1,Graduate,Yes,0,1
+54,26575,571,51568,360,Employed,0,Graduate,No,0,1
+61,21257,771,23614,12,Self-Employed,1,Not Graduate,Yes,0,1
+55,161264,551,150000,36,Retired,1,Graduate,No,0,1
+21,79407,651,150000,48,Employed,4,Graduate,No,2,1
+41,176699,708,150000,120,Employed,1,Not Graduate,No,0,1
+26,45994,689,148622,36,Employed,1,Graduate,No,3,0
+48,50393,759,23433,180,Employed,1,Not Graduate,No,2,1
+37,27373,528,58518,48,Employed,4,Not Graduate,No,3,0
+25,31342,686,49885,60,Self-Employed,4,Graduate,Yes,0,1
+51,92942,770,150000,36,Employed,1,Not Graduate,No,1,1
+25,37613,679,57395,24,Employed,1,Graduate,No,0,1
+58,90135,583,150000,180,Self-Employed,1,Not Graduate,Yes,0,0
+23,69379,755,150000,180,Self-Employed,1,Not Graduate,Yes,1,1
+43,27800,623,90572,36,Retired,1,Graduate,No,2,0
+57,48326,609,150000,12,Employed,0,Graduate,No,0,1
+57,65252,598,150000,24,Self-Employed,3,Graduate,Yes,0,0
+30,30717,659,121203,48,Unemployed,1,Graduate,No,0,0
+30,91040,689,45866,12,Employed,2,Not Graduate,No,2,1
+39,51483,573,83263,36,Employed,1,Graduate,No,3,1
+37,27224,589,21459,36,Employed,1,Graduate,No,0,1
+41,54985,619,73916,60,Unemployed,0,Graduate,No,0,0
+34,250000,598,150000,12,Employed,1,Graduate,No,3,1
+29,26525,677,13696,36,Unemployed,1,Not Graduate,No,0,0
+66,87877,703,150000,48,Self-Employed,0,Graduate,Yes,2,1
+21,29292,692,71521,48,Employed,2,Not Graduate,No,0,1
+65,81001,693,150000,36,Employed,0,Graduate,No,0,1
+33,73057,808,150000,36,Employed,1,Graduate,No,1,1
+24,34294,708,111324,48,Employed,0,Graduate,No,2,1
+21,35770,737,31504,60,Self-Employed,2,Graduate,Yes,0,1
+60,82909,641,125862,48,Self-Employed,0,Graduate,Yes,0,1
+52,44754,750,117103,180,Employed,1,Graduate,No,0,1
+54,72494,638,150000,60,Self-Employed,0,Not Graduate,Yes,1,0
+48,26406,707,48981,60,Employed,1,Not Graduate,No,2,1
+51,96572,565,150000,24,Employed,2,Graduate,No,2,0
+28,69637,688,132016,36,Employed,0,Graduate,No,0,1
+59,114981,596,150000,36,Employed,1,Graduate,No,2,1
+46,25679,749,13618,36,Retired,0,Not Graduate,No,0,1
+54,55959,745,133412,36,Self-Employed,1,Graduate,Yes,0,1
+23,56563,637,150000,36,Employed,1,Graduate,No,2,1
+32,37444,838,30403,48,Employed,1,Graduate,No,0,1
+21,44534,652,66781,36,Employed,1,Graduate,No,0,1
+64,21548,546,69223,36,Employed,1,Graduate,No,0,0
+25,74794,612,128444,360,Self-Employed,0,Graduate,Yes,2,1
+50,51880,591,65875,36,Unemployed,1,Graduate,No,1,0
+50,22379,705,63107,36,Self-Employed,0,Graduate,Yes,0,1
+37,65671,576,72785,36,Employed,2,Not Graduate,No,2,1
+67,45153,631,150000,120,Employed,2,Graduate,No,2,0
+43,21402,700,16696,36,Employed,0,Graduate,No,2,1
+35,159742,686,150000,48,Employed,0,Not Graduate,No,1,1
+57,139125,673,150000,24,Employed,0,Graduate,No,0,1
+41,48771,685,150000,36,Employed,4,Graduate,No,0,0
+34,23934,645,20446,36,Employed,2,Not Graduate,No,2,1
+22,76198,546,150000,60,Employed,0,Graduate,No,2,1
+31,47085,643,115800,60,Self-Employed,1,Graduate,Yes,4,0
+59,34407,712,73229,60,Employed,0,Not Graduate,No,0,1
+58,47045,664,102043,60,Self-Employed,1,Graduate,Yes,0,1
+54,49562,706,148642,36,Employed,1,Graduate,No,0,1
+58,53086,628,150000,60,Employed,1,Graduate,No,0,0
+54,43280,754,31529,36,Self-Employed,2,Graduate,Yes,1,1
+38,57231,470,26910,48,Employed,1,Not Graduate,No,4,1
+50,120401,686,150000,36,Unemployed,0,Not Graduate,No,1,0
+35,37993,782,29992,12,Employed,1,Graduate,No,1,1
+47,71743,794,150000,36,Employed,1,Graduate,No,1,1
+54,109943,656,150000,36,Employed,3,Graduate,No,0,1
+58,44350,568,121657,36,Self-Employed,0,Graduate,Yes,2,0
+53,43440,784,48479,60,Self-Employed,1,Graduate,Yes,1,1
+44,56863,670,71938,12,Self-Employed,1,Graduate,Yes,0,1
+35,55801,662,150000,24,Self-Employed,1,Graduate,Yes,1,0
+50,85717,603,150000,60,Employed,0,Graduate,No,1,1
+62,45887,575,150000,36,Employed,4,Not Graduate,No,0,0
+37,242107,720,150000,60,Employed,0,Not Graduate,No,0,1
+25,22452,728,19821,48,Employed,0,Graduate,No,0,1
+49,20126,691,12136,360,Retired,2,Graduate,No,0,1
+24,60888,613,150000,48,Employed,0,Not Graduate,No,0,1
+30,34177,589,49931,12,Employed,0,Not Graduate,No,1,1
+37,30997,560,12601,36,Employed,1,Graduate,No,1,1
+30,34952,630,42143,24,Unemployed,0,Graduate,No,1,0
+37,31831,594,51744,180,Unemployed,4,Not Graduate,No,3,0
+40,21250,538,84310,24,Employed,1,Graduate,No,1,0
+44,162360,727,150000,36,Employed,1,Graduate,No,1,1
+25,29976,569,34081,24,Employed,0,Graduate,No,2,1
+54,72974,753,117148,60,Employed,0,Graduate,No,1,1
+26,77519,706,123186,36,Retired,1,Graduate,No,0,1
+22,125948,698,59323,360,Employed,1,Graduate,No,0,1
+33,21241,808,18833,12,Employed,2,Graduate,No,2,1
+63,102244,572,150000,24,Employed,0,Graduate,No,2,1
+63,49965,744,41616,24,Employed,1,Graduate,No,4,1
+31,60046,651,73895,60,Self-Employed,0,Not Graduate,Yes,1,1
+67,61365,850,102028,120,Employed,1,Graduate,No,3,1
+43,88547,644,150000,12,Employed,1,Graduate,No,0,1
+36,36223,631,90435,12,Retired,0,Graduate,No,1,1
+51,72827,709,150000,60,Employed,1,Graduate,No,3,1
+31,50080,658,122257,24,Self-Employed,0,Not Graduate,Yes,0,1
+36,83077,614,150000,24,Employed,1,Graduate,No,0,1
+28,206452,597,84693,12,Employed,1,Graduate,No,0,1
+24,28958,791,108628,12,Employed,0,Graduate,No,2,1
+60,229216,581,150000,36,Employed,3,Graduate,No,0,1
+24,23764,692,44260,12,Employed,1,Graduate,No,1,1
+45,20092,759,63806,36,Employed,3,Graduate,No,0,1
+23,21806,763,42888,60,Employed,0,Not Graduate,No,0,1
+52,36728,626,139883,36,Employed,3,Graduate,No,4,0
+23,60085,658,125176,60,Self-Employed,0,Graduate,Yes,0,1
+47,22861,642,81151,12,Unemployed,1,Graduate,No,0,0
+49,20227,552,67133,48,Employed,3,Graduate,No,0,0
+52,130642,718,150000,36,Employed,0,Graduate,No,1,1
+39,89022,678,150000,60,Self-Employed,0,Graduate,Yes,0,1
+41,86257,790,150000,24,Employed,2,Not Graduate,No,1,1
+25,106313,609,150000,120,Employed,1,Graduate,No,3,1
+38,68163,762,117321,24,Employed,1,Graduate,No,0,1
+48,24410,767,19089,36,Employed,0,Graduate,No,0,1
+62,40373,678,116238,360,Employed,1,Graduate,No,1,1
+42,71371,501,150000,48,Retired,0,Graduate,No,1,1
+41,33158,633,99997,36,Self-Employed,3,Graduate,Yes,0,0
+26,66514,817,150000,180,Self-Employed,1,Graduate,Yes,1,1
+21,20992,698,69179,36,Employed,1,Graduate,No,4,1
+25,34619,730,34176,12,Employed,0,Graduate,No,0,1
+61,51863,667,67273,360,Unemployed,2,Graduate,No,1,0
+32,59996,657,97836,36,Employed,1,Graduate,No,0,1
+46,54419,525,54731,120,Employed,2,Graduate,No,1,1
+66,67860,738,150000,24,Employed,0,Graduate,No,0,1
+54,20244,761,79186,60,Employed,2,Graduate,No,1,0
+34,24256,598,76194,36,Employed,1,Graduate,No,1,0
+46,101285,660,150000,360,Employed,0,Graduate,No,0,1
+65,65796,649,27385,48,Unemployed,1,Graduate,No,2,0
+47,24793,708,37878,12,Employed,0,Not Graduate,No,1,1
+29,93825,631,150000,48,Employed,0,Not Graduate,No,0,1
+46,31095,749,48735,24,Self-Employed,0,Graduate,Yes,3,1
+67,46023,680,36805,60,Employed,1,Graduate,No,0,1
+42,26275,471,52391,120,Employed,1,Graduate,No,2,0
+67,69530,710,91203,36,Employed,1,Graduate,No,0,1
+50,63967,754,150000,60,Employed,0,Graduate,No,1,1
+63,29485,582,22594,24,Employed,2,Not Graduate,No,0,1
+37,99628,707,57480,36,Self-Employed,3,Graduate,Yes,0,1
+46,40520,821,16983,36,Retired,0,Not Graduate,No,0,1
+56,33841,683,53504,48,Employed,0,Graduate,No,2,1
+21,26610,766,73906,12,Employed,1,Graduate,No,2,1
+28,32379,639,98091,60,Employed,1,Not Graduate,No,1,0
+55,20890,673,42443,12,Employed,1,Not Graduate,No,2,1
+35,55011,658,150000,48,Employed,1,Not Graduate,No,3,1
+67,93864,644,150000,12,Employed,0,Graduate,No,1,1
+42,51849,663,145389,60,Employed,2,Graduate,No,1,1
+34,29901,544,16330,24,Employed,1,Graduate,No,0,1
+46,21369,648,38607,36,Employed,0,Graduate,No,2,1
+48,29663,782,96317,36,Employed,0,Graduate,No,2,1
+43,41522,597,136641,60,Employed,1,Not Graduate,No,0,0
+34,77019,589,150000,36,Retired,1,Graduate,No,1,0
+44,28322,679,32152,60,Employed,1,Not Graduate,No,3,1
+22,70888,683,91441,36,Unemployed,3,Graduate,No,0,0
+65,100676,705,150000,60,Unemployed,0,Graduate,No,0,0
+46,44201,665,34130,12,Self-Employed,4,Not Graduate,Yes,0,1
+34,88911,680,93390,36,Employed,1,Graduate,No,0,1
+27,52356,646,45449,36,Retired,1,Graduate,No,0,1
+23,60544,572,95632,12,Employed,2,Graduate,No,0,1
+67,49885,669,57698,24,Employed,1,Graduate,No,0,1
+43,44883,732,98369,180,Employed,0,Not Graduate,No,2,1
+66,30697,716,64883,360,Employed,2,Graduate,No,0,1
+63,34449,535,125581,60,Employed,1,Graduate,No,0,0
+67,33697,695,17693,36,Employed,1,Graduate,No,0,1
+65,53139,603,82448,36,Employed,2,Graduate,No,0,1
+38,25111,786,63982,48,Self-Employed,1,Graduate,Yes,4,1
+58,119456,701,150000,24,Employed,1,Graduate,No,2,1
+55,71012,746,150000,180,Employed,1,Not Graduate,No,1,1
+35,40529,676,135220,24,Retired,1,Not Graduate,No,1,0
+45,26908,669,16839,360,Employed,0,Graduate,No,1,1
+57,105480,794,150000,36,Employed,2,Graduate,No,0,1
+48,89440,752,150000,60,Retired,0,Graduate,No,0,1
+30,71165,684,62734,12,Employed,1,Not Graduate,No,0,1
+59,32673,659,117247,120,Employed,3,Graduate,No,4,0
+37,40596,538,111120,36,Unemployed,0,Graduate,No,0,0
+59,24336,700,24062,48,Retired,0,Graduate,No,1,1
+42,28381,664,14790,60,Employed,0,Graduate,No,0,1
+46,81117,719,73653,24,Employed,1,Graduate,No,0,1
+64,70216,743,150000,36,Unemployed,3,Graduate,No,1,0
+45,56005,773,58551,36,Employed,1,Not Graduate,No,0,1
+37,110429,701,133922,36,Employed,0,Graduate,No,3,1
+33,55012,591,26983,36,Employed,1,Graduate,No,0,1
+40,45166,503,135613,36,Employed,1,Graduate,No,0,0
+45,36643,609,121556,36,Self-Employed,0,Graduate,Yes,1,0
+24,132836,781,150000,48,Self-Employed,1,Graduate,Yes,2,1
+30,23453,820,20151,48,Self-Employed,0,Graduate,Yes,0,1
+23,126880,655,150000,24,Employed,2,Not Graduate,No,1,1
+61,90112,558,150000,120,Employed,0,Graduate,No,2,1
+65,25567,623,92836,120,Self-Employed,0,Graduate,Yes,0,0
+38,53294,766,107109,36,Employed,2,Graduate,No,3,1
+67,100560,627,150000,36,Retired,1,Graduate,No,0,1
+56,53927,722,150000,36,Self-Employed,0,Graduate,Yes,0,1
+67,115092,688,84693,60,Employed,3,Graduate,No,1,1
+42,134576,731,150000,48,Employed,1,Graduate,No,0,1
+54,41953,820,143100,24,Self-Employed,0,Not Graduate,Yes,1,1
+67,38948,722,131982,48,Unemployed,1,Graduate,No,1,0
+28,130156,686,150000,36,Employed,2,Graduate,No,0,1
+60,64974,829,150000,12,Self-Employed,1,Graduate,Yes,3,1
+64,24932,702,28621,48,Employed,0,Graduate,No,1,1
+39,21728,611,10277,48,Employed,1,Graduate,No,1,1
+62,53262,729,113229,36,Employed,1,Not Graduate,No,0,1
+61,126468,710,150000,36,Self-Employed,2,Graduate,Yes,0,1
+57,94379,650,119384,180,Unemployed,0,Graduate,No,2,0
+26,65061,633,55230,48,Employed,1,Graduate,No,2,1
+46,25991,651,65246,48,Employed,0,Graduate,No,0,1
+54,31733,632,100000,12,Self-Employed,1,Graduate,Yes,1,0
+65,103341,653,150000,24,Employed,3,Not Graduate,No,1,1
+26,28075,607,87871,36,Employed,0,Graduate,No,0,1
+57,33053,705,107656,36,Employed,0,Graduate,No,2,1
+53,25552,699,66927,60,Employed,1,Graduate,No,0,1
+42,65093,702,150000,36,Self-Employed,1,Graduate,Yes,0,1
+41,135283,670,150000,36,Self-Employed,0,Graduate,Yes,0,1
+26,32531,660,113758,36,Employed,1,Graduate,No,0,0
+26,45805,790,150000,36,Employed,2,Graduate,No,0,1
+24,60242,680,150000,180,Employed,1,Not Graduate,No,2,0
+50,250000,776,150000,48,Employed,1,Graduate,No,2,1
+31,24428,595,16688,24,Employed,0,Graduate,No,0,1
+50,47611,722,48503,60,Employed,3,Not Graduate,No,2,1
+51,39453,616,24192,60,Self-Employed,0,Graduate,Yes,1,1
+44,100342,630,78209,48,Self-Employed,0,Not Graduate,Yes,0,1
+29,45848,642,48816,24,Employed,0,Graduate,No,0,1
+23,24705,637,40218,36,Self-Employed,1,Graduate,Yes,0,1
+51,60251,637,141996,24,Unemployed,2,Graduate,No,0,0
+60,78923,772,150000,60,Employed,0,Graduate,No,2,1
+57,20115,678,23320,48,Employed,2,Graduate,No,1,1
+56,98347,693,150000,36,Employed,2,Not Graduate,No,3,1
+44,28232,638,82870,36,Employed,1,Graduate,No,2,0
+51,52124,743,125673,24,Self-Employed,2,Graduate,Yes,0,1
+26,41500,703,150000,24,Self-Employed,0,Graduate,Yes,2,0
+22,70869,650,56665,360,Employed,0,Graduate,No,0,1
+40,38555,548,40006,24,Self-Employed,2,Graduate,Yes,0,1
+48,101536,692,150000,12,Self-Employed,1,Graduate,Yes,1,1
+31,72446,721,62025,360,Employed,0,Graduate,No,0,1
+24,61732,596,150000,36,Employed,1,Graduate,No,0,0
+35,83632,651,150000,60,Unemployed,2,Not Graduate,No,1,0
+26,76100,717,108407,12,Retired,1,Graduate,No,2,1
+50,21464,549,21720,48,Self-Employed,0,Not Graduate,Yes,0,1
+58,40083,623,64422,36,Unemployed,1,Graduate,No,0,0
+22,126834,705,150000,60,Employed,2,Graduate,No,1,1
+35,25374,763,62745,12,Employed,0,Not Graduate,No,1,1
+31,73438,849,72633,36,Employed,0,Graduate,No,0,1
+28,166907,831,141822,60,Employed,1,Not Graduate,No,3,1
+46,22144,686,10984,36,Self-Employed,1,Graduate,Yes,1,1
+65,65852,636,29286,48,Retired,0,Not Graduate,No,1,1
+64,45256,748,150000,12,Self-Employed,0,Graduate,Yes,3,0
+25,54621,631,30714,24,Employed,0,Graduate,No,3,1
+26,23568,614,71467,48,Employed,0,Graduate,No,0,1
+46,21758,650,77004,48,Employed,0,Not Graduate,No,0,0
+24,63968,640,48168,360,Employed,1,Graduate,No,2,1
+39,89334,708,150000,60,Self-Employed,1,Graduate,Yes,3,1
+40,80933,626,150000,36,Employed,1,Graduate,No,1,1
+53,51393,681,150000,120,Retired,1,Graduate,No,0,0
+40,24208,802,52360,24,Unemployed,0,Graduate,No,1,1
+32,66595,684,150000,36,Employed,1,Graduate,No,0,1
+67,31077,796,105666,36,Employed,0,Graduate,No,4,1
+21,116795,771,150000,24,Self-Employed,0,Graduate,Yes,0,1
+46,92871,722,150000,60,Employed,0,Not Graduate,No,3,1
+34,69429,646,145363,36,Self-Employed,4,Graduate,Yes,0,0
+58,138916,758,150000,48,Employed,0,Graduate,No,3,1
+57,21277,655,85085,36,Employed,3,Graduate,No,0,0
+31,73302,674,150000,36,Employed,0,Graduate,No,2,1
+56,36033,701,61341,24,Employed,1,Graduate,No,3,1
+33,114606,674,50110,48,Unemployed,2,Not Graduate,No,1,0
+63,32406,617,86012,36,Employed,0,Graduate,No,1,1
+23,71618,552,150000,60,Unemployed,0,Graduate,No,0,0
+53,104033,751,150000,24,Self-Employed,4,Graduate,Yes,1,1
+26,21701,720,84293,24,Self-Employed,1,Not Graduate,Yes,3,0
+30,40276,537,141235,48,Employed,0,Graduate,No,0,0
+25,77471,615,150000,60,Employed,0,Graduate,No,2,1
+43,44272,689,27726,36,Employed,3,Graduate,No,1,1
+30,32438,710,68567,60,Employed,2,Graduate,No,0,1
+64,29928,553,86230,360,Self-Employed,1,Graduate,Yes,0,1
+22,25640,667,66350,360,Employed,0,Graduate,No,0,1
+33,97832,718,150000,60,Unemployed,2,Graduate,No,0,0
+60,54260,646,113281,60,Employed,0,Graduate,No,3,1
+22,23178,695,33782,24,Self-Employed,1,Not Graduate,Yes,2,1
+40,39288,635,54942,60,Employed,1,Graduate,No,0,1
+21,38337,747,84373,36,Self-Employed,0,Graduate,Yes,0,1
+57,28022,611,27410,360,Retired,1,Graduate,No,1,1
+29,42873,583,69731,12,Employed,2,Graduate,No,0,1
+37,36144,677,56613,36,Employed,2,Graduate,No,0,1
+29,36730,560,92327,48,Self-Employed,0,Graduate,Yes,0,1
+31,73733,506,47193,36,Employed,0,Graduate,No,2,1
+35,30106,761,101963,24,Employed,0,Graduate,No,0,1
+44,61073,596,148075,48,Employed,0,Graduate,No,0,1
+58,53819,568,150000,60,Unemployed,1,Graduate,No,4,0
+55,53581,610,150000,48,Unemployed,1,Not Graduate,No,0,0
+50,63507,606,92043,24,Self-Employed,0,Graduate,Yes,3,1
+51,51796,663,108426,60,Self-Employed,0,Graduate,Yes,0,1
+25,104563,587,150000,36,Self-Employed,0,Graduate,Yes,0,1
+64,65028,714,150000,24,Employed,1,Not Graduate,No,0,1
+34,51671,726,150000,48,Employed,1,Graduate,No,0,1
+31,90822,573,150000,60,Employed,1,Graduate,No,0,1
+29,57271,625,59112,36,Retired,1,Graduate,No,0,1
+54,33764,633,21349,36,Self-Employed,1,Graduate,Yes,0,1
+32,29282,661,72607,36,Employed,1,Graduate,No,0,1
+55,26610,761,44921,36,Self-Employed,0,Graduate,Yes,1,1
+55,111886,766,150000,24,Employed,1,Graduate,No,2,1
+21,69533,850,150000,360,Self-Employed,0,Graduate,Yes,3,1
+60,130825,493,150000,60,Employed,0,Graduate,No,1,1
+42,56982,601,87820,48,Employed,4,Graduate,No,3,1
+49,45652,820,150000,36,Employed,0,Graduate,No,0,1
+28,22462,530,77418,60,Self-Employed,1,Graduate,Yes,0,0
+31,64546,818,108625,36,Employed,1,Not Graduate,No,0,1
+61,54910,686,150000,36,Employed,0,Graduate,No,2,1
+57,205051,689,150000,24,Self-Employed,0,Graduate,Yes,3,1
+34,30933,572,59581,48,Self-Employed,1,Graduate,Yes,1,0
+50,50263,638,32133,180,Unemployed,0,Graduate,No,0,1
+55,62102,814,25195,24,Employed,0,Graduate,No,1,1
+41,61379,671,140180,24,Retired,3,Not Graduate,No,0,0
+57,52956,639,86777,36,Employed,1,Graduate,No,1,1
+25,80010,707,150000,60,Self-Employed,0,Graduate,Yes,1,1
+39,29175,659,92796,36,Self-Employed,0,Not Graduate,Yes,0,0
+34,71730,702,150000,36,Employed,1,Graduate,No,0,1
+46,58675,607,150000,48,Employed,0,Not Graduate,No,2,1
+24,110563,668,150000,36,Self-Employed,0,Graduate,Yes,1,1
+45,95143,623,147041,12,Employed,1,Graduate,No,0,1
+65,35142,530,35056,12,Self-Employed,0,Graduate,Yes,0,1
+62,32931,713,101599,48,Employed,1,Graduate,No,3,1
+45,179932,576,150000,36,Employed,1,Not Graduate,No,0,1
+38,49968,661,105103,360,Employed,0,Graduate,No,0,1
+60,114757,749,150000,48,Self-Employed,0,Graduate,Yes,1,1
+28,27159,555,99628,12,Employed,1,Not Graduate,No,1,0
+59,61180,723,116775,36,Self-Employed,1,Graduate,Yes,0,1
+60,86399,651,150000,36,Employed,0,Not Graduate,No,0,1
+34,137797,597,150000,24,Self-Employed,0,Not Graduate,Yes,0,1
+52,36459,836,106194,180,Employed,4,Graduate,No,1,1
+58,71636,674,29061,60,Employed,0,Graduate,No,0,1
+53,50958,629,150000,24,Self-Employed,4,Graduate,Yes,1,0
+43,22501,612,11461,36,Employed,0,Graduate,No,3,1
+35,66847,745,150000,12,Employed,0,Not Graduate,No,3,1
+53,66859,626,37877,36,Unemployed,1,Graduate,No,1,0
+45,126718,735,150000,48,Employed,0,Graduate,No,1,1
+37,47511,674,104045,36,Employed,0,Graduate,No,2,1
+53,30467,764,58246,360,Employed,0,Graduate,No,2,1
+67,21823,591,23800,12,Employed,4,Graduate,No,2,1
+22,41489,602,66454,48,Employed,0,Graduate,No,0,1
+34,34376,652,103806,120,Employed,1,Graduate,No,0,1
+60,77266,659,150000,36,Self-Employed,1,Not Graduate,Yes,4,1
+60,37494,646,24691,12,Employed,1,Graduate,No,3,1
+59,139093,850,150000,24,Self-Employed,1,Not Graduate,Yes,1,1
+26,151134,840,89314,36,Employed,0,Graduate,No,4,1
+26,58799,698,138444,360,Employed,0,Graduate,No,2,1
+23,125612,708,150000,180,Employed,0,Not Graduate,No,1,1
+27,77227,656,150000,180,Self-Employed,0,Graduate,Yes,0,1
+28,51662,591,69267,60,Employed,0,Not Graduate,No,1,1
+62,27953,660,110298,36,Self-Employed,0,Graduate,Yes,1,0
+35,44543,736,67483,180,Employed,3,Graduate,No,4,1
+67,52918,779,67261,360,Self-Employed,3,Not Graduate,Yes,1,1
+49,99792,754,139955,36,Employed,0,Graduate,No,2,1
+53,46259,554,150000,36,Employed,0,Graduate,No,2,0
+50,111183,651,150000,36,Employed,0,Graduate,No,0,1
+59,64877,557,150000,24,Employed,0,Not Graduate,No,0,1
+47,25893,768,95929,12,Employed,0,Not Graduate,No,1,0
+56,231783,642,150000,180,Employed,3,Graduate,No,0,1
+49,49966,671,150000,180,Self-Employed,0,Not Graduate,Yes,1,0
+58,39893,713,44367,24,Employed,0,Graduate,No,0,1
+53,63048,850,150000,36,Employed,0,Not Graduate,No,0,1
+57,24611,696,27898,60,Employed,4,Graduate,No,0,1
+47,60483,655,150000,48,Employed,3,Graduate,No,0,1
+53,47585,575,136481,36,Employed,1,Not Graduate,No,0,0
+24,40880,791,128036,60,Employed,1,Graduate,No,4,1
+42,142321,660,150000,120,Self-Employed,0,Not Graduate,Yes,0,1
+22,49570,807,133809,180,Employed,0,Graduate,No,3,1
+30,29893,763,114548,36,Employed,1,Graduate,No,4,0
+25,44570,637,34047,24,Employed,2,Not Graduate,No,3,1
+30,120724,563,150000,180,Employed,0,Not Graduate,No,1,1
+53,27748,696,72169,12,Employed,0,Graduate,No,2,1
+58,29629,625,114681,60,Employed,1,Graduate,No,0,0
+33,20524,678,15271,24,Employed,0,Not Graduate,No,0,1
+51,20571,758,9898,36,Employed,1,Not Graduate,No,2,1
+67,90735,542,54504,36,Retired,0,Graduate,No,0,1
+56,72689,696,42789,24,Employed,0,Graduate,No,4,1
+65,37542,735,137709,180,Employed,1,Not Graduate,No,1,1
+44,67934,739,150000,12,Employed,3,Graduate,No,0,1
+35,40114,565,113826,120,Employed,0,Not Graduate,No,0,0
+49,142216,708,150000,120,Unemployed,0,Graduate,No,2,0
+28,156513,771,150000,36,Employed,0,Graduate,No,1,1
+25,39955,702,38370,60,Employed,1,Graduate,No,2,1
+49,97026,665,150000,36,Self-Employed,2,Graduate,Yes,0,1
+67,79327,766,150000,60,Employed,0,Graduate,No,0,1
+24,34842,619,27785,48,Retired,0,Not Graduate,No,0,1
+32,30560,552,58377,36,Unemployed,3,Graduate,No,0,0
+65,44516,658,68528,36,Employed,1,Not Graduate,No,0,1
+22,80811,717,42675,48,Employed,1,Graduate,No,0,1
+47,148923,758,132876,180,Employed,0,Not Graduate,No,0,1
+51,77685,717,150000,24,Employed,0,Graduate,No,2,1
+56,97298,741,45237,48,Employed,1,Graduate,No,1,1
+56,56959,758,150000,36,Employed,1,Graduate,No,0,1
+46,92171,647,65545,60,Retired,1,Graduate,No,1,1
+63,81377,663,150000,12,Employed,0,Not Graduate,No,1,1
+47,38927,777,141500,48,Self-Employed,1,Graduate,Yes,1,0
+25,52117,578,150000,24,Self-Employed,2,Graduate,Yes,1,0
+40,85339,709,150000,48,Unemployed,3,Graduate,No,0,0
+31,21886,617,31410,60,Employed,0,Graduate,No,0,1
+30,86026,763,137565,60,Employed,1,Graduate,No,0,1
+60,27835,673,53876,60,Self-Employed,1,Graduate,Yes,0,1
+58,48918,675,44098,36,Self-Employed,2,Graduate,Yes,1,1
+26,86067,813,41327,120,Unemployed,2,Not Graduate,No,2,1
+28,31711,588,111902,48,Self-Employed,3,Graduate,Yes,0,0
+43,31284,692,74920,180,Employed,3,Graduate,No,2,1
+67,40617,660,105254,36,Employed,0,Not Graduate,No,2,1
+46,110015,717,150000,36,Employed,1,Graduate,No,0,1
+66,20017,829,55936,24,Employed,1,Not Graduate,No,3,1
+63,112660,626,150000,36,Employed,0,Graduate,No,0,1
+32,26680,579,86258,24,Self-Employed,0,Graduate,Yes,3,0
+46,204553,610,150000,120,Retired,0,Not Graduate,No,0,1
+33,143907,656,150000,48,Self-Employed,2,Graduate,Yes,0,1
+60,47302,680,150000,360,Employed,0,Graduate,No,1,0
+38,48756,684,150000,12,Employed,2,Graduate,No,3,0
+45,46276,819,150000,24,Unemployed,1,Graduate,No,0,0
+53,60362,804,122385,120,Employed,1,Not Graduate,No,2,1
+67,23804,779,82978,36,Employed,0,Graduate,No,2,1
+60,21326,850,12245,36,Employed,1,Not Graduate,No,0,1
+63,22377,740,20914,120,Employed,1,Graduate,No,1,1
+32,43505,763,82236,36,Employed,0,Not Graduate,No,1,1
+64,32893,739,70397,24,Retired,2,Graduate,No,0,1
+56,58918,726,79458,120,Retired,1,Graduate,No,2,1
+24,215407,706,150000,12,Retired,0,Graduate,No,3,1
+25,39531,643,38977,120,Employed,2,Graduate,No,2,1
+57,54117,575,116940,12,Retired,0,Not Graduate,No,4,0
+28,41487,664,135157,48,Retired,1,Graduate,No,0,1
+62,95163,720,150000,12,Retired,1,Graduate,No,0,1
+48,113008,680,89056,60,Self-Employed,0,Not Graduate,Yes,3,1
+51,103938,589,150000,12,Self-Employed,1,Not Graduate,Yes,3,1
+29,166563,661,150000,60,Employed,1,Graduate,No,0,1
+49,21116,657,48727,36,Unemployed,1,Not Graduate,No,0,0
+34,93257,670,150000,12,Employed,0,Graduate,No,2,1
+60,75736,714,150000,60,Employed,0,Graduate,No,0,1
+61,30386,731,118113,36,Retired,0,Graduate,No,0,0
+42,145234,634,107715,24,Employed,3,Not Graduate,No,1,1
+31,26415,753,47654,12,Employed,0,Graduate,No,4,1
+43,65521,765,122116,36,Retired,1,Graduate,No,2,1
+21,30190,700,74783,12,Retired,2,Not Graduate,No,2,0
+66,42581,728,40359,12,Employed,2,Graduate,No,0,1
+57,70798,753,73340,36,Unemployed,2,Not Graduate,No,1,0
+41,53142,587,75849,48,Employed,4,Not Graduate,No,0,0
+46,42309,759,150000,36,Employed,0,Not Graduate,No,4,0
+66,35801,611,108934,12,Employed,0,Graduate,No,1,1
+56,93218,619,150000,360,Employed,0,Graduate,No,1,1
+43,26210,690,87568,120,Employed,0,Not Graduate,No,2,0
+21,42491,503,36511,36,Employed,1,Graduate,No,0,1
+60,113635,689,150000,24,Unemployed,0,Graduate,No,4,0
+35,94793,753,150000,180,Self-Employed,1,Graduate,Yes,0,1
+41,40495,543,65082,36,Unemployed,0,Graduate,No,0,0
+67,77606,762,150000,36,Self-Employed,0,Not Graduate,Yes,0,1
+29,89300,619,150000,36,Employed,1,Graduate,No,2,1
+29,107888,691,150000,60,Retired,0,Graduate,No,2,1
+30,51454,630,41979,24,Unemployed,1,Graduate,No,0,0
+46,29149,720,113380,60,Employed,4,Graduate,No,0,0
+61,31791,756,122543,60,Employed,2,Graduate,No,3,0
+55,34021,726,57389,36,Self-Employed,0,Graduate,Yes,0,1
+45,56036,674,35707,120,Self-Employed,3,Graduate,Yes,1,1
+46,21334,636,21363,24,Unemployed,0,Graduate,No,1,0
+31,60428,669,150000,48,Employed,1,Not Graduate,No,2,0
+58,38124,727,92521,36,Employed,0,Graduate,No,1,1
+22,33996,730,57243,36,Employed,0,Graduate,No,0,1
+27,104643,719,150000,36,Employed,4,Not Graduate,No,4,1
+38,44647,572,59164,36,Employed,0,Graduate,No,0,1
+47,23995,673,66968,24,Employed,2,Not Graduate,No,0,0
+54,90120,624,150000,36,Employed,0,Graduate,No,0,1
+47,21952,728,85074,36,Self-Employed,2,Graduate,Yes,4,0
+37,71894,613,150000,60,Employed,3,Not Graduate,No,2,0
+63,79472,711,150000,12,Employed,1,Graduate,No,0,1
+64,37391,652,54361,48,Self-Employed,1,Not Graduate,Yes,2,1
+44,89670,524,61430,24,Retired,1,Not Graduate,No,0,1
+45,48998,749,105647,12,Employed,3,Graduate,No,4,1
+27,44892,672,68796,36,Employed,0,Graduate,No,0,1
+26,21858,777,24644,24,Retired,1,Not Graduate,No,2,1
+44,33701,541,129058,48,Employed,0,Graduate,No,1,0
+53,126951,651,150000,36,Self-Employed,0,Not Graduate,Yes,0,1
+49,39891,657,41045,360,Employed,0,Graduate,No,3,1
+63,51648,696,57594,360,Employed,1,Graduate,No,0,1
+42,50373,568,71053,36,Self-Employed,2,Graduate,Yes,1,1
+46,55706,718,150000,60,Self-Employed,0,Graduate,Yes,2,1
+48,22531,827,30751,12,Employed,1,Graduate,No,1,1
+41,37987,712,60159,36,Employed,1,Graduate,No,0,1
+27,71368,682,150000,60,Retired,1,Graduate,No,4,1
+37,28953,564,42221,24,Employed,3,Graduate,No,0,1
+40,29105,613,34253,12,Employed,0,Graduate,No,1,1
+61,20405,670,19815,24,Unemployed,0,Not Graduate,No,2,0
+40,43013,632,65623,36,Employed,0,Graduate,No,3,1
+42,105732,757,82608,36,Self-Employed,2,Graduate,Yes,1,1
+48,22131,717,10338,36,Retired,4,Graduate,No,0,1
+60,28484,850,93903,36,Employed,0,Graduate,No,2,1
+27,34847,596,31237,36,Employed,0,Graduate,No,0,1
+21,72629,677,150000,60,Unemployed,1,Graduate,No,0,0
+52,60936,564,150000,24,Employed,1,Graduate,No,3,1
+33,41510,497,96988,60,Employed,1,Graduate,No,1,0
+50,76929,732,116536,48,Unemployed,3,Graduate,No,0,0
+43,57626,714,53137,60,Self-Employed,2,Not Graduate,Yes,1,1
+39,110550,606,150000,60,Retired,2,Graduate,No,0,1
+52,88155,682,150000,36,Employed,1,Graduate,No,0,1
+50,31657,624,87361,24,Employed,0,Graduate,No,0,1
+49,32667,635,14086,36,Employed,1,Graduate,No,2,1
+65,25357,649,94811,360,Self-Employed,1,Graduate,Yes,2,0
+49,36437,603,23270,48,Employed,0,Graduate,No,1,1
+50,250000,617,150000,12,Employed,0,Not Graduate,No,0,1
+36,40818,619,75503,12,Employed,1,Graduate,No,2,1
+60,29963,708,12131,360,Employed,1,Graduate,No,0,1
+39,77500,453,150000,12,Employed,1,Graduate,No,1,0
+38,51276,656,150000,12,Employed,0,Graduate,No,3,1
+21,26482,587,89079,36,Unemployed,1,Graduate,No,1,0
+34,39165,590,139655,360,Employed,0,Graduate,No,1,0
+67,41409,632,89269,36,Self-Employed,1,Graduate,Yes,4,0
+22,76069,673,150000,36,Unemployed,1,Graduate,No,1,0
+48,20835,657,14298,48,Employed,2,Graduate,No,1,1
+50,32534,589,70173,12,Employed,2,Graduate,No,1,1
+58,49158,732,47060,120,Employed,1,Graduate,No,0,1
+24,32525,602,56291,36,Unemployed,1,Graduate,No,2,0
+21,59601,616,94497,36,Employed,1,Graduate,No,2,1
+28,46300,697,89115,120,Self-Employed,0,Graduate,Yes,0,1
+49,37958,700,93296,360,Retired,1,Graduate,No,0,1
+59,139201,626,150000,36,Retired,1,Graduate,No,4,0
+23,60004,440,109215,24,Employed,1,Graduate,No,1,0
+52,25567,604,100531,60,Self-Employed,0,Graduate,Yes,0,0
+30,52847,687,150000,36,Retired,3,Graduate,No,0,0
+30,80698,730,150000,180,Employed,0,Not Graduate,No,1,1
+39,69307,668,150000,180,Employed,0,Graduate,No,0,1
+66,27553,636,21160,24,Employed,3,Graduate,No,0,1
+54,163626,850,150000,360,Employed,2,Graduate,No,2,1
+53,43827,645,109413,36,Unemployed,0,Graduate,No,2,0
+43,26927,723,106357,48,Employed,3,Graduate,No,0,0
+48,27947,568,75209,12,Unemployed,0,Graduate,No,0,0
+52,24136,587,82130,120,Self-Employed,1,Graduate,Yes,1,0
+27,85087,726,150000,48,Self-Employed,1,Not Graduate,Yes,0,1
+49,25205,758,41428,48,Employed,1,Not Graduate,No,0,1
+28,25346,643,33826,180,Employed,1,Graduate,No,0,1
+21,96010,527,150000,36,Unemployed,0,Graduate,No,0,0
+23,36900,661,76828,36,Employed,0,Graduate,No,0,1
+44,21253,690,26870,120,Employed,1,Not Graduate,No,4,1
+43,22131,682,80126,60,Employed,0,Graduate,No,0,1
+28,26133,629,61495,180,Retired,4,Graduate,No,0,0
+67,29601,662,116106,180,Unemployed,1,Graduate,No,0,0
+57,63762,615,150000,36,Employed,0,Graduate,No,1,1
+23,26847,586,64447,36,Employed,1,Graduate,No,2,1
+53,25062,735,95469,36,Self-Employed,0,Graduate,Yes,0,1
+48,77879,682,150000,48,Employed,0,Graduate,No,2,1
+67,64474,662,150000,36,Employed,1,Graduate,No,0,1
+28,42860,634,72404,60,Self-Employed,3,Graduate,Yes,3,1
+54,51879,660,91468,24,Employed,1,Graduate,No,0,1
+55,34957,687,66602,24,Employed,0,Graduate,No,0,1
+52,46349,813,109747,24,Employed,1,Graduate,No,0,1
+44,48263,727,115472,12,Employed,0,Graduate,No,0,1
+34,39591,621,86586,48,Employed,0,Not Graduate,No,1,1
+52,114822,622,150000,24,Employed,2,Graduate,No,0,1
+66,20647,610,77177,24,Employed,4,Graduate,No,2,0
+63,80961,658,150000,12,Employed,0,Graduate,No,0,1
+36,25313,610,47281,60,Self-Employed,1,Not Graduate,Yes,1,0
+24,83889,712,150000,60,Retired,3,Not Graduate,No,0,1
+57,58275,463,150000,24,Employed,0,Graduate,No,1,0
+41,94131,717,150000,60,Unemployed,0,Graduate,No,0,0
+34,24104,697,52989,36,Employed,3,Graduate,No,0,1
+51,52746,776,42384,24,Employed,1,Graduate,No,0,1
+38,47813,745,94992,48,Employed,0,Graduate,No,2,1
+27,68993,620,146561,24,Employed,0,Graduate,No,1,1
+30,50567,736,150000,60,Self-Employed,0,Graduate,Yes,0,1
+27,51125,661,93113,12,Employed,1,Graduate,No,0,1
+53,42456,520,150000,360,Employed,2,Graduate,No,0,0
+43,34775,687,74643,12,Unemployed,1,Graduate,No,0,0
+41,46331,625,150000,48,Employed,1,Not Graduate,No,1,0
+39,25044,675,10756,180,Employed,0,Graduate,No,0,1
+39,150297,807,150000,12,Employed,0,Graduate,No,0,1
+56,70128,692,150000,36,Employed,0,Graduate,No,1,1
+49,141853,593,150000,36,Employed,2,Graduate,No,0,1
+38,30284,752,13539,48,Employed,1,Graduate,No,0,1
+22,104591,704,106486,24,Employed,0,Graduate,No,1,1
+21,86175,584,150000,12,Employed,1,Graduate,No,0,1
+67,65222,546,32069,48,Self-Employed,2,Not Graduate,Yes,2,1
+25,59236,596,37258,36,Self-Employed,1,Not Graduate,Yes,2,1
+40,35224,741,42123,48,Retired,0,Not Graduate,No,0,1
+31,87802,650,150000,24,Unemployed,0,Graduate,No,0,0
+62,47847,681,113170,36,Unemployed,0,Graduate,No,0,0
+22,22941,567,12005,48,Self-Employed,2,Graduate,Yes,0,1
+23,35008,744,35474,48,Employed,1,Not Graduate,No,3,1
+43,129517,513,150000,36,Employed,1,Graduate,No,0,1
+32,96066,622,150000,36,Employed,2,Not Graduate,No,2,1
+40,180486,708,150000,36,Employed,4,Graduate,No,1,1
+25,59553,585,109329,24,Unemployed,0,Not Graduate,No,3,0
+57,31374,724,114698,36,Employed,0,Graduate,No,2,0
+58,27108,605,108324,24,Self-Employed,1,Graduate,Yes,2,0
+50,28276,576,111802,48,Employed,0,Not Graduate,No,1,0
+29,20799,777,74336,48,Employed,2,Graduate,No,2,1
+54,39816,687,72496,36,Employed,2,Not Graduate,No,0,1
+64,28499,716,81839,36,Employed,1,Not Graduate,No,3,1
+55,41217,756,78301,24,Employed,0,Not Graduate,No,1,1
+42,129331,465,150000,36,Employed,0,Graduate,No,0,1
+64,42522,725,64376,180,Employed,0,Graduate,No,4,1
+44,104144,614,150000,48,Employed,2,Graduate,No,2,1
+37,57205,624,130743,60,Unemployed,0,Not Graduate,No,2,0
+30,31354,709,15304,60,Employed,0,Graduate,No,0,1
+50,37593,645,122046,36,Employed,0,Graduate,No,4,0
+66,23506,722,10409,12,Retired,4,Graduate,No,2,1
+43,36226,671,52721,48,Employed,1,Not Graduate,No,1,1
+52,65271,688,27500,24,Employed,3,Not Graduate,No,3,1
+37,22993,635,40337,48,Employed,2,Graduate,No,0,1
+37,29196,589,18316,60,Self-Employed,1,Graduate,Yes,0,1
+34,39214,615,144646,60,Employed,0,Graduate,No,1,0
+29,180805,666,150000,36,Employed,0,Graduate,No,0,1
+60,81458,821,150000,36,Self-Employed,1,Graduate,Yes,1,1
+22,72893,792,120963,48,Employed,2,Graduate,No,0,1
+65,24940,622,66316,60,Unemployed,0,Graduate,No,0,0
+45,80746,679,150000,60,Employed,0,Not Graduate,No,0,1
+59,81534,651,150000,360,Employed,1,Graduate,No,1,1
+29,56762,685,150000,12,Self-Employed,0,Graduate,Yes,0,1
+42,205680,695,150000,36,Employed,1,Not Graduate,No,0,1
+63,35736,717,125389,36,Unemployed,0,Graduate,No,0,0
+66,133393,442,150000,24,Retired,0,Not Graduate,No,2,0
+24,118477,704,138937,180,Employed,0,Graduate,No,2,1
+46,20461,643,55157,360,Retired,1,Not Graduate,No,0,0
+49,43921,618,97588,24,Employed,1,Graduate,No,1,1
+65,171072,738,150000,12,Unemployed,0,Graduate,No,0,1
+54,24353,792,82764,36,Employed,2,Graduate,No,0,1
+43,51743,730,150000,60,Employed,0,Not Graduate,No,3,1
+57,174448,633,150000,36,Employed,0,Not Graduate,No,0,1
+31,52431,588,33027,12,Employed,1,Graduate,No,0,1
+26,28419,434,14602,12,Employed,0,Graduate,No,0,1
+38,54908,689,73060,36,Unemployed,1,Graduate,No,4,0
+41,29148,721,106168,180,Unemployed,3,Graduate,No,1,0
+62,49334,666,150000,36,Employed,1,Not Graduate,No,1,0
+56,23077,749,65949,36,Employed,1,Graduate,No,1,1
+61,57203,569,150000,24,Unemployed,1,Not Graduate,No,0,0
+58,49092,661,148062,36,Employed,0,Graduate,No,2,1
+54,73907,654,150000,48,Employed,1,Graduate,No,0,1
+37,59845,666,150000,36,Employed,0,Not Graduate,No,1,1
+57,51905,768,137247,36,Employed,3,Graduate,No,1,1
+45,66818,666,150000,60,Employed,0,Graduate,No,0,1
+58,26216,651,30658,12,Self-Employed,1,Not Graduate,Yes,0,1
+32,56190,600,150000,48,Employed,3,Graduate,No,1,0
+43,27555,781,53149,36,Employed,2,Graduate,No,0,1
+62,123890,560,117777,36,Unemployed,3,Not Graduate,No,0,0
+42,22831,630,75411,48,Employed,1,Graduate,No,0,1
+41,42511,810,95092,60,Employed,0,Graduate,No,2,1
+47,67602,712,150000,48,Employed,2,Graduate,No,3,1
+51,44501,673,62926,12,Employed,0,Graduate,No,2,1
+26,23864,676,50840,36,Employed,0,Not Graduate,No,1,1
+47,52241,599,105149,36,Employed,1,Graduate,No,1,1
+60,61047,669,50962,36,Employed,1,Graduate,No,0,1
+54,68667,647,132803,48,Employed,2,Not Graduate,No,0,1
+32,38688,689,55524,12,Self-Employed,3,Graduate,Yes,2,1
+65,53173,554,51958,36,Self-Employed,2,Not Graduate,Yes,2,1
+27,43963,706,62241,48,Employed,0,Not Graduate,No,2,1
+30,64596,756,80080,36,Self-Employed,1,Graduate,Yes,1,1
+65,55040,658,150000,48,Retired,2,Graduate,No,2,0
+37,49841,726,25458,24,Employed,4,Graduate,No,3,1
+46,31481,699,82570,36,Employed,0,Not Graduate,No,0,1
+41,20080,626,63018,360,Employed,0,Graduate,No,0,1
+48,27650,590,58911,36,Unemployed,2,Graduate,No,1,0
+66,24980,601,93765,36,Employed,0,Graduate,No,0,0
+22,43846,698,129274,48,Employed,1,Graduate,No,3,1
+63,57896,670,150000,360,Employed,0,Graduate,No,0,1
+21,29585,777,32808,360,Self-Employed,1,Not Graduate,Yes,1,1
+56,131912,738,150000,48,Self-Employed,1,Graduate,Yes,1,1
+46,20268,738,68820,12,Employed,0,Graduate,No,1,1
+49,79189,696,134665,180,Employed,1,Not Graduate,No,0,1
+41,59255,598,69216,48,Retired,0,Graduate,No,4,1
+31,38707,701,69137,36,Employed,0,Not Graduate,No,0,1
+60,22072,680,67597,60,Employed,0,Graduate,No,2,0
+31,59499,583,113256,36,Employed,1,Not Graduate,No,2,1
+56,39485,771,120506,12,Self-Employed,0,Graduate,Yes,0,1
+59,130122,763,105246,60,Self-Employed,1,Graduate,Yes,3,1
+60,51234,583,150000,36,Retired,1,Graduate,No,1,0
+55,132304,623,150000,36,Employed,1,Graduate,No,1,1
+54,29963,631,38836,36,Employed,1,Graduate,No,1,1
+67,71745,723,150000,48,Employed,1,Not Graduate,No,1,1
+44,58414,714,38110,24,Unemployed,0,Graduate,No,0,1
+42,73792,678,36502,36,Employed,1,Graduate,No,2,1
+25,29665,696,39742,48,Employed,0,Graduate,No,1,1
+53,63744,571,148972,120,Self-Employed,2,Graduate,Yes,0,0
+56,47569,705,150000,36,Employed,2,Graduate,No,2,1
+67,74319,666,150000,60,Employed,0,Not Graduate,No,2,1
+40,35843,620,77621,60,Unemployed,1,Not Graduate,No,1,0
+39,108311,552,57771,48,Employed,3,Not Graduate,No,0,1
+55,23522,677,54733,24,Employed,0,Not Graduate,No,0,1
+63,85841,703,150000,120,Employed,1,Graduate,No,0,1
+37,99023,538,150000,36,Employed,0,Not Graduate,No,1,1
+65,87985,676,70372,12,Employed,1,Graduate,No,3,1
+63,48757,684,68398,24,Self-Employed,2,Not Graduate,Yes,0,1
+54,43077,630,136886,60,Employed,1,Graduate,No,0,0
+29,243571,705,150000,12,Unemployed,1,Not Graduate,No,2,0
+46,30411,664,101059,24,Employed,3,Graduate,No,0,0
+22,51663,697,80091,48,Employed,1,Graduate,No,0,1
+29,64428,717,63706,120,Employed,1,Graduate,No,1,1
+29,68274,717,134435,48,Self-Employed,1,Graduate,Yes,2,1
+60,29127,756,59075,24,Employed,1,Graduate,No,2,1
+37,62451,702,28601,12,Self-Employed,2,Not Graduate,Yes,2,1
+21,88231,636,72469,48,Self-Employed,4,Not Graduate,Yes,0,1
+45,22052,623,23501,12,Unemployed,2,Graduate,No,3,0
+63,116999,589,94642,48,Self-Employed,1,Graduate,Yes,0,1
+60,21197,687,34540,24,Employed,0,Graduate,No,0,1
+62,37600,780,145611,180,Self-Employed,2,Not Graduate,Yes,0,0
+45,20637,646,46086,36,Retired,1,Graduate,No,0,1
+59,23211,710,61722,24,Retired,2,Graduate,No,0,1
+55,116840,614,150000,120,Employed,0,Graduate,No,1,1
+23,37531,690,58719,36,Employed,3,Graduate,No,1,1
+57,42119,775,20357,36,Employed,0,Graduate,No,0,1
+64,29700,729,65375,60,Employed,0,Graduate,No,2,1
+64,56362,549,120670,36,Self-Employed,1,Graduate,Yes,2,0
+50,56135,720,54349,36,Retired,1,Graduate,No,0,1
+58,38621,724,121716,36,Employed,0,Graduate,No,0,1
+54,36200,688,78685,24,Unemployed,1,Graduate,No,0,0
+32,106500,728,150000,12,Employed,0,Graduate,No,0,1
+39,39333,608,36535,60,Employed,0,Graduate,No,2,1
+57,47209,680,112724,48,Employed,0,Graduate,No,0,1
+64,33324,763,103642,36,Employed,2,Not Graduate,No,0,1
+37,81815,756,115784,36,Unemployed,0,Graduate,No,0,0
+30,40263,718,47818,180,Employed,0,Graduate,No,2,1
+67,48829,604,111279,360,Employed,1,Graduate,No,0,1
+32,31686,591,30394,36,Employed,1,Graduate,No,1,1
+36,195795,684,150000,60,Employed,2,Graduate,No,0,1
+44,33783,689,87134,60,Unemployed,2,Graduate,No,2,0
+39,78916,666,56306,36,Employed,2,Graduate,No,3,1
+28,42309,610,22486,12,Employed,0,Not Graduate,No,1,1
+51,29237,709,76982,24,Self-Employed,1,Not Graduate,Yes,2,0
+41,84321,683,123062,60,Employed,1,Graduate,No,2,1
+37,36235,698,25770,60,Self-Employed,0,Graduate,Yes,2,1
+43,100156,722,150000,48,Employed,0,Graduate,No,2,1
+57,118725,653,150000,24,Employed,1,Graduate,No,0,1
+36,98594,635,150000,48,Retired,0,Not Graduate,No,1,1
+26,21425,763,26835,60,Self-Employed,3,Graduate,Yes,4,1
+28,81928,614,150000,120,Employed,2,Not Graduate,No,0,1
+45,41196,637,61190,12,Employed,0,Graduate,No,4,1
+38,102771,773,150000,48,Retired,0,Graduate,No,1,1
+45,60639,631,150000,12,Employed,4,Graduate,No,1,0
+32,91744,667,81854,60,Employed,0,Graduate,No,1,1
+35,47680,642,90596,48,Employed,2,Graduate,No,2,1
+46,50630,532,90501,24,Employed,1,Graduate,No,0,1
+61,26237,665,60956,60,Employed,2,Graduate,No,0,1
+65,81296,594,150000,12,Unemployed,1,Graduate,No,2,0
+46,41747,695,104380,60,Employed,0,Graduate,No,3,1
+67,47732,763,29670,36,Self-Employed,0,Graduate,Yes,1,1
+52,81502,497,150000,48,Employed,1,Graduate,No,0,1
+30,56536,642,24296,180,Employed,3,Graduate,No,0,1
+36,28980,711,92963,36,Self-Employed,0,Graduate,Yes,3,0
+27,55686,500,150000,36,Employed,1,Graduate,No,0,0
+37,40945,781,61893,36,Employed,0,Graduate,No,1,1
+43,45359,705,65897,24,Employed,2,Graduate,No,0,1
+46,21148,761,69233,48,Self-Employed,2,Graduate,Yes,0,0
+41,29430,629,94764,60,Employed,0,Graduate,No,0,1
+42,33197,639,55382,180,Employed,0,Graduate,No,0,1
+27,69925,662,103224,120,Retired,0,Not Graduate,No,2,1
+34,20462,846,49423,36,Retired,1,Graduate,No,0,1
+35,41022,780,17644,60,Employed,1,Graduate,No,0,1
+27,123095,685,85871,60,Employed,0,Graduate,No,1,1
+29,24745,695,21137,36,Self-Employed,4,Graduate,Yes,3,1
+28,49061,725,52371,24,Self-Employed,1,Not Graduate,Yes,1,1
+43,81768,850,150000,36,Employed,1,Graduate,No,0,1
+49,134260,705,150000,60,Employed,0,Not Graduate,No,0,1
+38,74939,678,150000,48,Self-Employed,0,Graduate,Yes,1,1
+51,70999,647,44067,60,Unemployed,1,Graduate,No,3,0
+50,90060,693,150000,24,Self-Employed,1,Graduate,Yes,0,1
+59,43638,628,95476,360,Employed,1,Graduate,No,0,1
+55,85563,714,78632,36,Employed,2,Graduate,No,2,1
+38,20319,560,75444,48,Employed,1,Graduate,No,1,0
+62,123377,654,150000,12,Employed,0,Not Graduate,No,1,1
+59,43429,733,150000,24,Employed,3,Graduate,No,0,0
+37,52241,704,99898,60,Employed,1,Graduate,No,0,1
+34,31768,637,82236,360,Employed,0,Graduate,No,0,1
+51,74274,656,57721,36,Employed,0,Not Graduate,No,0,1
+44,23189,757,47194,12,Self-Employed,2,Graduate,Yes,4,1
+55,102428,578,129013,36,Self-Employed,2,Graduate,Yes,0,1
+64,90437,578,150000,12,Unemployed,0,Graduate,No,1,0
+65,29736,600,95812,24,Self-Employed,0,Not Graduate,Yes,1,0
+54,86287,674,150000,60,Employed,1,Graduate,No,0,1
+23,81738,566,150000,180,Employed,3,Graduate,No,3,1
+57,60010,751,150000,12,Employed,0,Graduate,No,1,1
+63,38705,601,43465,48,Employed,2,Graduate,No,4,1
+60,32670,692,66233,36,Unemployed,0,Graduate,No,0,0
+46,30547,628,88300,24,Employed,0,Graduate,No,0,1
+43,35344,669,95238,24,Employed,0,Graduate,No,0,1
+64,113552,546,150000,48,Employed,0,Graduate,No,0,1
+59,23232,755,28048,12,Employed,0,Graduate,No,0,1
+35,90613,598,68355,36,Self-Employed,3,Not Graduate,Yes,2,1
+24,37163,589,137521,24,Employed,0,Graduate,No,0,0
+49,49492,850,119603,36,Employed,0,Graduate,No,3,1
+42,83289,719,79438,24,Employed,0,Graduate,No,1,1
+45,106296,751,150000,120,Unemployed,2,Graduate,No,1,0
+33,36911,711,136339,60,Employed,3,Graduate,No,0,0
+38,44784,638,45251,120,Employed,0,Graduate,No,0,1
+53,41412,570,138427,36,Employed,1,Graduate,No,2,0
+36,20533,651,77196,36,Employed,0,Graduate,No,0,0
+65,34035,596,128587,36,Employed,1,Not Graduate,No,2,0
+62,44587,601,150000,12,Self-Employed,0,Graduate,Yes,1,0
+64,41179,548,97475,60,Self-Employed,1,Graduate,Yes,2,0
+22,71195,684,119775,36,Self-Employed,1,Not Graduate,Yes,2,1
+55,39432,800,16805,36,Employed,1,Graduate,No,0,1
+62,46884,719,29034,48,Employed,0,Graduate,No,1,1
+54,42457,666,82528,36,Employed,0,Graduate,No,0,1
+50,73979,671,135941,360,Employed,1,Graduate,No,1,1
+33,99502,431,105966,36,Employed,1,Graduate,No,0,1
+33,50362,641,91846,48,Employed,0,Graduate,No,0,1
+38,82317,560,84682,36,Self-Employed,2,Not Graduate,Yes,0,1
+52,34083,685,117778,360,Self-Employed,1,Graduate,Yes,3,0
+52,51180,654,75413,36,Unemployed,0,Graduate,No,1,0
+55,36938,605,94370,48,Self-Employed,0,Graduate,Yes,3,0
+59,41391,683,91483,24,Employed,3,Graduate,No,0,1
+66,72732,683,42677,60,Employed,0,Graduate,No,1,1
+49,105368,796,150000,36,Employed,3,Not Graduate,No,0,1
+49,25181,729,57866,36,Employed,1,Not Graduate,No,0,1
+64,60274,692,94642,120,Employed,0,Graduate,No,2,1
+36,54904,599,53216,360,Employed,1,Graduate,No,4,1
+64,25041,589,40533,36,Employed,0,Not Graduate,No,0,1
+67,29524,722,13989,60,Self-Employed,0,Graduate,Yes,3,1
+30,34900,658,59637,12,Self-Employed,0,Graduate,Yes,1,1
+50,27305,694,63166,60,Employed,2,Graduate,No,3,1
+45,31174,753,110316,48,Employed,1,Not Graduate,No,1,1
+59,32457,553,93299,36,Employed,0,Graduate,No,4,0
+40,36359,786,29148,120,Self-Employed,0,Not Graduate,Yes,3,1
+25,75354,752,70221,60,Employed,1,Graduate,No,0,1
+21,53937,510,104704,36,Self-Employed,0,Graduate,Yes,0,0
+50,191458,850,150000,60,Employed,0,Graduate,No,0,1
+23,41427,700,20724,12,Employed,0,Graduate,No,1,1
+65,76075,636,150000,60,Employed,1,Graduate,No,2,1
+34,102063,716,47998,48,Employed,0,Graduate,No,2,1
+50,65449,596,150000,12,Employed,1,Graduate,No,2,1
+24,41231,718,37881,48,Self-Employed,1,Graduate,Yes,0,1
+38,76031,611,150000,48,Employed,3,Graduate,No,0,1
+57,29109,836,74924,48,Employed,2,Graduate,No,0,1
+45,35873,679,109266,36,Retired,1,Graduate,No,2,0
+21,51646,726,41200,36,Employed,1,Graduate,No,0,1
+66,54265,612,150000,60,Employed,3,Not Graduate,No,0,0
+35,20895,740,71483,36,Employed,1,Graduate,No,0,1
+29,136100,673,150000,36,Self-Employed,1,Graduate,Yes,0,1
+35,67711,562,149518,48,Employed,0,Graduate,No,0,1
+44,47383,655,142023,12,Employed,2,Graduate,No,0,1
+24,128198,829,54015,48,Retired,0,Graduate,No,3,1
+32,43128,743,109234,48,Self-Employed,0,Not Graduate,Yes,0,1
+57,177361,644,150000,48,Employed,1,Graduate,No,2,1
+57,48720,525,82085,36,Self-Employed,2,Not Graduate,Yes,0,0
+63,24854,608,19630,36,Employed,1,Graduate,No,2,1
+26,77892,562,149175,36,Self-Employed,2,Graduate,Yes,1,1
+59,65439,527,150000,60,Employed,2,Graduate,No,2,0
+66,79309,737,62359,24,Self-Employed,1,Graduate,Yes,2,1
+44,140999,679,150000,360,Employed,1,Graduate,No,1,1
+31,79931,818,74430,48,Unemployed,1,Not Graduate,No,3,0
+33,57801,595,150000,120,Employed,3,Not Graduate,No,1,0
+54,97882,674,61314,36,Employed,1,Not Graduate,No,2,1
+45,64741,563,150000,36,Employed,3,Not Graduate,No,0,0
+27,40977,627,70449,180,Unemployed,0,Not Graduate,No,3,0
+24,106729,657,150000,12,Self-Employed,0,Not Graduate,Yes,2,1
+28,30036,645,116292,24,Employed,0,Graduate,No,0,0
+40,70160,679,56995,36,Retired,1,Graduate,No,1,1
+49,105335,752,150000,360,Employed,2,Graduate,No,3,1
+65,72568,744,150000,48,Self-Employed,0,Graduate,Yes,2,1
+66,67797,613,92079,48,Self-Employed,0,Not Graduate,Yes,4,1
+30,75876,672,89111,60,Employed,0,Graduate,No,0,1
+63,45023,738,150000,36,Retired,1,Graduate,No,0,0
+54,102913,757,150000,60,Employed,0,Graduate,No,1,1
+46,29097,622,69971,36,Employed,0,Graduate,No,0,1
+61,25450,731,35654,60,Unemployed,2,Graduate,No,0,0
+23,33447,701,61369,36,Self-Employed,0,Graduate,Yes,1,1
+26,50335,589,50962,36,Employed,1,Graduate,No,0,1
+25,48579,739,150000,36,Employed,1,Graduate,No,0,1
+25,88725,687,150000,36,Self-Employed,1,Graduate,Yes,0,1
+67,40738,535,144637,48,Employed,0,Graduate,No,2,0
+43,46492,651,23049,36,Unemployed,3,Graduate,No,0,0
+29,20538,678,49766,24,Self-Employed,1,Graduate,Yes,0,1
+55,41087,626,48126,36,Employed,0,Graduate,No,1,1
+40,61739,773,100460,48,Employed,0,Not Graduate,No,0,1
+62,20625,776,66532,24,Employed,0,Graduate,No,3,1
+55,33189,644,36219,48,Employed,2,Not Graduate,No,0,1
+38,29325,635,79119,36,Self-Employed,1,Graduate,Yes,3,0
+37,21715,664,59856,36,Retired,0,Not Graduate,No,1,0
+44,46100,658,150000,36,Employed,0,Graduate,No,2,0
+23,28022,627,89406,180,Employed,2,Graduate,No,0,0
+52,74359,378,150000,48,Employed,2,Graduate,No,0,0
+55,95336,815,150000,36,Self-Employed,1,Graduate,Yes,2,1
+58,51549,675,55281,48,Self-Employed,1,Not Graduate,Yes,0,1
+33,180050,660,150000,60,Self-Employed,2,Graduate,Yes,2,1
+67,43948,701,104515,36,Employed,1,Not Graduate,No,0,1
+45,48809,668,138730,60,Unemployed,1,Not Graduate,No,2,0
+29,201194,640,150000,24,Employed,0,Graduate,No,3,1
+24,30535,594,55522,60,Self-Employed,2,Graduate,Yes,4,0
+34,134270,527,150000,36,Self-Employed,0,Graduate,Yes,0,1
+57,21751,566,21873,24,Self-Employed,0,Graduate,Yes,0,1
+54,43651,585,126493,36,Employed,2,Graduate,No,4,0
+31,22902,727,62372,360,Employed,1,Not Graduate,No,2,1
+61,72260,732,150000,60,Employed,2,Graduate,No,0,1
+23,57501,604,100114,48,Self-Employed,1,Graduate,Yes,1,1
+48,69053,461,92853,24,Employed,3,Graduate,No,0,0
+49,38766,675,121531,36,Employed,0,Graduate,No,4,1
+29,38448,641,122461,36,Employed,1,Graduate,No,0,0
+23,21855,639,44588,12,Self-Employed,0,Graduate,Yes,1,1
+45,37227,751,96896,36,Employed,0,Graduate,No,1,1
+54,125965,686,150000,120,Self-Employed,0,Graduate,Yes,3,1
+32,39071,596,114361,48,Self-Employed,1,Graduate,Yes,2,0
+62,91201,578,150000,24,Self-Employed,0,Graduate,Yes,0,1
+29,93888,653,150000,48,Employed,1,Not Graduate,No,1,1
+35,38687,602,86863,180,Self-Employed,0,Graduate,Yes,3,1
+60,59985,669,123039,60,Employed,0,Graduate,No,2,1
+45,24009,757,65120,48,Employed,1,Graduate,No,1,1
+25,24378,564,69411,360,Employed,3,Graduate,No,2,0
+31,21995,682,53039,60,Employed,0,Not Graduate,No,0,1
+54,54796,748,145198,24,Employed,1,Not Graduate,No,2,1
+44,42209,668,31560,36,Employed,3,Graduate,No,0,1
+35,51765,732,150000,360,Employed,1,Not Graduate,No,0,1
+58,49448,652,150000,36,Employed,1,Not Graduate,No,3,0
+28,37243,688,65031,24,Employed,0,Graduate,No,0,1
+25,65262,710,150000,36,Employed,1,Not Graduate,No,0,1
+46,76835,629,43824,48,Unemployed,0,Graduate,No,0,1
+38,20589,834,11291,360,Employed,1,Graduate,No,0,1
+26,29289,721,38159,36,Employed,2,Not Graduate,No,2,1
+57,69963,779,150000,36,Employed,1,Graduate,No,1,1
+33,39550,760,137148,120,Employed,0,Not Graduate,No,0,1
+48,63445,701,150000,36,Employed,3,Graduate,No,1,1
+25,37044,785,85781,24,Employed,1,Not Graduate,No,1,1
+33,39821,690,73601,180,Retired,3,Graduate,No,0,1
+37,26911,616,26419,36,Self-Employed,1,Graduate,Yes,2,1
+60,31948,676,26391,36,Self-Employed,0,Graduate,Yes,0,1
+65,57196,594,150000,48,Retired,1,Not Graduate,No,2,0
+52,42707,506,150000,12,Retired,1,Graduate,No,0,0
+49,79542,606,150000,180,Self-Employed,0,Graduate,Yes,0,1
+23,96580,680,150000,36,Self-Employed,1,Graduate,Yes,0,1
+60,51204,759,150000,36,Employed,1,Graduate,No,0,1
+54,76796,606,55631,24,Employed,1,Not Graduate,No,3,1
+60,34663,755,110011,36,Employed,0,Graduate,No,0,1
+47,41443,578,108603,60,Employed,1,Graduate,No,0,1
+33,69899,601,150000,60,Retired,0,Graduate,No,3,1
+65,39524,790,57434,180,Employed,1,Graduate,No,1,1
+53,55518,678,150000,36,Self-Employed,0,Graduate,Yes,0,1
+26,28200,661,91967,60,Employed,0,Graduate,No,4,1
+44,56628,693,45658,36,Employed,0,Not Graduate,No,0,1
+39,99079,578,150000,60,Employed,0,Graduate,No,2,1
+36,101192,648,77366,60,Employed,1,Graduate,No,0,1
+60,71544,675,150000,36,Employed,3,Not Graduate,No,1,1
+48,74778,773,150000,36,Employed,1,Graduate,No,1,1
+53,52651,541,150000,36,Employed,1,Graduate,No,0,1
+61,55147,816,95134,48,Employed,3,Graduate,No,1,1
+33,25738,665,21884,360,Employed,3,Graduate,No,1,1
+63,43469,586,23881,24,Employed,2,Graduate,No,2,1
+65,43969,571,62147,12,Employed,0,Not Graduate,No,2,1
+45,147280,696,150000,24,Employed,1,Graduate,No,1,1
+62,42561,567,102881,60,Employed,2,Graduate,No,1,0
+56,51881,630,24812,36,Employed,2,Graduate,No,1,1
+47,50478,655,114789,24,Employed,1,Graduate,No,2,1
+58,60507,766,109540,36,Employed,0,Graduate,No,0,1
+27,75170,756,150000,48,Unemployed,4,Graduate,No,1,0
+25,30197,623,88438,36,Employed,1,Graduate,No,1,0
+63,50092,657,134383,60,Employed,0,Graduate,No,4,1
+65,89929,547,150000,36,Employed,0,Not Graduate,No,1,1
+51,44878,511,40289,36,Employed,1,Not Graduate,No,0,1
+43,33054,576,64357,24,Employed,0,Not Graduate,No,1,1
+62,62534,764,120652,12,Self-Employed,0,Graduate,Yes,2,1
+30,89438,737,150000,36,Self-Employed,4,Not Graduate,Yes,2,0
+52,22608,705,63068,36,Employed,0,Graduate,No,2,1
+63,79985,558,150000,48,Retired,1,Not Graduate,No,3,0
+50,88959,618,150000,12,Employed,2,Not Graduate,No,0,1
+59,44760,606,87572,24,Employed,1,Not Graduate,No,1,1
+51,183707,661,150000,120,Self-Employed,0,Not Graduate,Yes,2,1
+38,81803,656,150000,48,Self-Employed,1,Graduate,Yes,0,1
+56,79429,594,119763,60,Employed,0,Graduate,No,0,1
+22,75107,702,60216,60,Employed,0,Graduate,No,2,1
+34,26529,693,90812,36,Employed,1,Graduate,No,2,0
+33,29796,616,118880,60,Employed,3,Not Graduate,No,4,0
+49,44944,699,65321,36,Employed,1,Graduate,No,4,1
+32,32261,764,54457,24,Employed,0,Graduate,No,0,1
+59,41462,789,150000,36,Employed,1,Graduate,No,3,1
+22,107736,714,150000,36,Self-Employed,0,Graduate,Yes,0,1
+52,89565,711,131149,36,Employed,1,Graduate,No,2,1
+33,59774,655,148942,36,Self-Employed,0,Graduate,Yes,0,1
+66,98111,757,150000,36,Employed,2,Graduate,No,0,1
+47,81256,589,150000,24,Unemployed,0,Graduate,No,3,0
+61,42413,748,130233,12,Employed,0,Graduate,No,0,1
+37,28979,651,88478,12,Employed,1,Graduate,No,1,1
+60,48878,794,50875,24,Unemployed,0,Not Graduate,No,0,1
+51,73306,722,150000,36,Employed,1,Graduate,No,0,1
+54,42937,669,59855,48,Employed,3,Graduate,No,0,1
+44,63957,656,150000,24,Employed,0,Graduate,No,1,1
+65,23963,717,41041,120,Employed,0,Graduate,No,0,1
+55,75133,713,150000,60,Employed,4,Graduate,No,0,1
+26,87004,643,118189,36,Employed,1,Graduate,No,2,1
+39,69081,682,150000,60,Unemployed,3,Graduate,No,0,0
+50,156770,746,123031,36,Employed,0,Graduate,No,0,1
+27,90098,565,150000,12,Employed,0,Not Graduate,No,3,0
+30,113360,733,150000,180,Self-Employed,0,Graduate,Yes,0,1
+61,128464,716,150000,24,Employed,0,Graduate,No,0,1
+52,84648,769,150000,180,Employed,1,Not Graduate,No,2,1
+54,64866,617,36481,48,Employed,0,Graduate,No,2,1
+48,20229,675,76068,36,Employed,1,Graduate,No,2,0
+35,45081,691,132527,36,Employed,0,Graduate,No,4,1
+50,53867,734,150000,36,Employed,2,Graduate,No,0,1
+57,34497,709,112489,12,Employed,0,Not Graduate,No,4,1
+49,35315,575,109189,36,Retired,0,Graduate,No,3,0
+42,149931,698,150000,60,Self-Employed,1,Graduate,Yes,2,1
+24,108918,835,150000,36,Employed,0,Not Graduate,No,1,1
+40,95666,723,150000,24,Self-Employed,1,Graduate,Yes,2,1
+52,40835,806,141879,36,Employed,1,Graduate,No,0,1
+56,20551,758,67589,120,Employed,2,Not Graduate,No,2,0
+24,23344,783,12814,36,Employed,1,Graduate,No,0,1
+47,34970,699,61686,36,Employed,1,Graduate,No,2,1
+37,20634,716,10832,360,Self-Employed,3,Graduate,Yes,1,1
+32,20691,695,15879,36,Employed,4,Not Graduate,No,0,1
+42,119365,675,150000,36,Employed,1,Graduate,No,3,1
+37,68988,734,150000,60,Employed,1,Graduate,No,1,1
+30,34782,633,28916,60,Employed,1,Graduate,No,1,1
+21,25692,825,51998,36,Employed,0,Graduate,No,0,1
+42,48667,600,150000,24,Self-Employed,4,Graduate,Yes,2,0
+46,20214,739,67342,60,Retired,1,Not Graduate,No,1,0
+38,131492,785,150000,36,Employed,0,Graduate,No,0,1
+34,41433,660,131659,180,Employed,0,Graduate,No,1,0
+67,40588,585,92609,24,Employed,0,Not Graduate,No,2,1
+49,39810,767,38581,36,Self-Employed,0,Graduate,Yes,1,1
+32,22873,691,19420,12,Employed,0,Not Graduate,No,0,1
+56,60680,740,65420,60,Employed,1,Graduate,No,0,1
+55,72820,666,121122,120,Self-Employed,0,Graduate,Yes,1,1
+32,65095,813,150000,48,Employed,1,Not Graduate,No,3,1
+27,25960,505,85118,180,Employed,0,Graduate,No,2,0
+49,54589,705,106889,24,Employed,0,Graduate,No,0,1
+31,53710,782,116823,12,Employed,1,Graduate,No,0,1
+53,101122,683,137141,60,Employed,2,Not Graduate,No,1,1
+26,39065,699,114681,120,Employed,1,Not Graduate,No,2,1
+67,38575,640,126910,60,Employed,1,Graduate,No,0,1
+35,58548,676,73773,60,Employed,1,Not Graduate,No,2,1
+52,60103,541,33090,36,Retired,0,Graduate,No,0,1
+31,45341,617,119972,24,Employed,0,Graduate,No,0,1
+43,43411,612,105273,180,Self-Employed,0,Graduate,Yes,0,1
+46,47260,728,87320,36,Employed,1,Graduate,No,3,1
+54,98944,629,150000,36,Employed,1,Graduate,No,3,1
+66,44733,631,106563,48,Employed,1,Graduate,No,0,0
+54,132490,644,150000,36,Employed,0,Graduate,No,1,1
+49,48047,615,88013,60,Employed,2,Not Graduate,No,0,1
+24,139194,696,150000,12,Employed,0,Not Graduate,No,2,1
+37,91550,705,150000,60,Employed,0,Graduate,No,1,1
+55,38003,741,146663,48,Employed,0,Not Graduate,No,0,0
+33,99698,727,150000,48,Retired,1,Graduate,No,0,1
+61,24664,719,73721,36,Employed,0,Not Graduate,No,2,1
+59,123635,648,150000,36,Employed,1,Graduate,No,1,1
+35,59948,643,150000,36,Employed,2,Graduate,No,0,1
+49,22237,605,84073,36,Employed,0,Graduate,No,1,0
+49,61341,603,79743,48,Self-Employed,1,Graduate,Yes,2,1
+31,166369,690,150000,36,Employed,0,Graduate,No,1,1
+52,22894,617,65993,12,Employed,0,Not Graduate,No,0,0
+22,52359,792,148976,24,Employed,0,Graduate,No,1,1
+67,75100,671,98246,48,Self-Employed,3,Not Graduate,Yes,1,0
+34,86483,795,150000,12,Employed,1,Graduate,No,1,1
+40,41365,720,135068,120,Employed,2,Graduate,No,4,0
+42,29134,612,61481,48,Employed,0,Graduate,No,0,1
+31,21730,670,70750,60,Employed,2,Graduate,No,1,0
+47,54673,541,92702,60,Employed,2,Graduate,No,0,1
+23,44125,690,150000,24,Unemployed,1,Graduate,No,0,0
+37,138837,620,150000,60,Self-Employed,3,Not Graduate,Yes,1,1
+64,22500,585,57271,36,Employed,0,Graduate,No,3,1
+48,66257,796,33983,120,Employed,1,Graduate,No,0,1
+49,21011,757,21283,120,Employed,1,Graduate,No,4,1
+41,27522,755,73719,12,Employed,1,Not Graduate,No,0,1
+67,44174,737,84440,36,Employed,2,Graduate,No,0,1
+36,44269,576,98692,36,Employed,0,Not Graduate,No,0,1
+57,66296,642,41547,48,Retired,0,Graduate,No,1,1
+40,116412,647,150000,36,Employed,0,Graduate,No,1,1
+26,60758,538,150000,36,Unemployed,2,Graduate,No,0,0
+39,142762,630,150000,36,Employed,3,Graduate,No,1,1
+25,105352,631,150000,36,Employed,1,Graduate,No,1,1
+23,55130,685,150000,360,Employed,1,Graduate,No,1,1
+21,91780,850,150000,60,Self-Employed,1,Graduate,Yes,0,1
+58,61153,673,92795,36,Employed,1,Not Graduate,No,3,1
+35,23272,685,64277,12,Self-Employed,0,Graduate,Yes,1,1
+54,73969,654,85631,24,Self-Employed,1,Graduate,Yes,0,1
+55,23988,734,37078,36,Self-Employed,1,Graduate,Yes,0,1
+45,56064,589,70878,60,Self-Employed,1,Graduate,Yes,2,1
+44,68512,826,150000,36,Self-Employed,0,Graduate,Yes,0,1
+32,22753,665,17966,36,Self-Employed,2,Graduate,Yes,2,1
+38,30495,643,114658,120,Employed,2,Graduate,No,0,0
+35,118921,752,150000,180,Self-Employed,1,Graduate,Yes,1,1
+64,58317,603,69297,24,Unemployed,1,Graduate,No,0,0
+36,31309,732,68490,12,Employed,1,Graduate,No,4,1
+47,66935,787,93521,36,Retired,1,Graduate,No,3,1
+28,56330,655,131004,48,Employed,0,Not Graduate,No,3,0
+66,47852,839,79177,360,Employed,2,Graduate,No,0,1
+45,169500,726,148387,12,Employed,1,Not Graduate,No,2,1
+37,66011,727,89591,12,Employed,1,Graduate,No,1,1
+49,38828,784,76816,120,Self-Employed,1,Not Graduate,Yes,2,1
+28,84392,805,42960,60,Unemployed,1,Graduate,No,0,1
+35,106368,695,150000,360,Self-Employed,2,Graduate,Yes,2,1
+47,25351,738,66890,36,Retired,1,Graduate,No,3,1
+66,28953,786,74261,36,Employed,2,Graduate,No,0,1
+27,29745,582,70370,24,Employed,1,Graduate,No,0,1
+23,67003,536,150000,24,Employed,3,Graduate,No,0,0
+49,56956,670,150000,48,Self-Employed,2,Graduate,Yes,0,0
+64,58597,534,25246,36,Employed,0,Graduate,No,1,1
+44,133055,649,76117,12,Retired,2,Graduate,No,2,1
+23,79828,700,86962,120,Employed,1,Not Graduate,No,0,1
+40,25475,652,25533,24,Retired,4,Graduate,No,1,1
+66,37078,663,39017,60,Employed,1,Graduate,No,1,1
+35,42865,594,120836,36,Employed,0,Graduate,No,0,1
+45,40164,738,82502,60,Self-Employed,0,Not Graduate,Yes,1,1
+50,64262,589,150000,24,Self-Employed,1,Graduate,Yes,0,0
+34,108985,506,132611,60,Employed,2,Graduate,No,1,1
+27,34614,658,52578,12,Unemployed,1,Graduate,No,0,0
+37,52107,748,150000,36,Unemployed,0,Graduate,No,2,0
+64,82313,681,150000,60,Employed,1,Graduate,No,0,1
+40,41529,581,86848,24,Employed,1,Graduate,No,4,0
+56,27362,683,65574,36,Employed,0,Graduate,No,2,1
+29,45770,710,150000,120,Employed,0,Not Graduate,No,0,1
+58,22272,682,47473,120,Self-Employed,0,Graduate,Yes,0,1
+42,134157,653,150000,12,Employed,0,Graduate,No,0,1
+22,23110,713,78167,24,Employed,0,Graduate,No,2,1
+44,43082,535,100638,24,Employed,0,Graduate,No,0,1
+28,50190,603,47728,24,Employed,2,Not Graduate,No,2,1
+31,188806,570,150000,360,Employed,0,Graduate,No,0,1
+33,27261,782,51456,48,Employed,0,Graduate,No,0,1
+37,24861,731,88421,36,Employed,0,Not Graduate,No,0,1
+28,20349,689,17373,360,Employed,1,Graduate,No,0,1
+41,26763,558,95028,48,Retired,1,Not Graduate,No,1,0
+38,29291,734,65727,48,Employed,0,Not Graduate,No,0,1
+50,59832,785,111030,36,Employed,1,Not Graduate,No,2,1
+38,29923,720,29416,36,Employed,1,Graduate,No,2,1
+66,20829,672,60882,48,Employed,0,Graduate,No,0,1
+67,90090,725,150000,12,Employed,1,Graduate,No,1,1
+51,38202,696,66905,36,Self-Employed,1,Graduate,Yes,1,1
+58,37459,749,47561,24,Employed,0,Graduate,No,2,1
+52,34408,747,82493,12,Retired,1,Graduate,No,0,1
+31,168156,657,150000,36,Employed,2,Graduate,No,0,1
+65,27458,622,11355,48,Unemployed,1,Graduate,No,0,1
+45,111404,643,150000,36,Unemployed,0,Not Graduate,No,1,0
+53,79988,717,150000,36,Employed,3,Graduate,No,4,0
+58,23182,647,35824,48,Employed,1,Graduate,No,3,1
+61,192887,614,150000,24,Employed,0,Graduate,No,0,1
+28,32663,674,42104,36,Employed,1,Not Graduate,No,2,1
+31,24151,763,78335,60,Unemployed,1,Graduate,No,3,0
+42,90717,685,150000,24,Employed,2,Graduate,No,0,1
+44,69059,652,150000,60,Employed,0,Graduate,No,2,1
+61,58411,700,105904,60,Self-Employed,0,Graduate,Yes,1,1
+37,26783,681,38808,12,Retired,1,Not Graduate,No,1,1
+32,46041,520,150000,12,Employed,3,Not Graduate,No,1,0
+66,80666,730,150000,360,Unemployed,0,Graduate,No,4,0
+52,34474,707,76022,24,Employed,2,Graduate,No,0,1
+35,34940,676,79487,60,Self-Employed,1,Graduate,Yes,2,1
+36,20125,759,40534,48,Self-Employed,2,Not Graduate,Yes,0,1
+42,27658,772,36561,36,Self-Employed,1,Graduate,Yes,0,1
+48,103307,738,86078,24,Employed,0,Not Graduate,No,4,1
+40,43317,606,32692,36,Employed,1,Graduate,No,2,1
+53,185997,609,150000,36,Employed,3,Not Graduate,No,0,1
+30,40147,764,48365,48,Employed,0,Not Graduate,No,1,1
+60,70236,524,42171,180,Employed,1,Graduate,No,0,1
+52,33246,663,108749,60,Self-Employed,0,Not Graduate,Yes,0,1
+53,38090,710,36361,36,Employed,0,Not Graduate,No,2,1
+22,28464,534,75444,120,Employed,2,Graduate,No,1,0
+53,37050,693,59988,60,Self-Employed,0,Not Graduate,Yes,1,1
+53,51695,751,44216,180,Unemployed,2,Graduate,No,1,0
+61,212012,556,150000,36,Employed,1,Not Graduate,No,0,1
+33,63649,807,28852,60,Employed,4,Graduate,No,0,1
+50,28888,594,99021,48,Retired,0,Graduate,No,0,0
+53,21840,720,49109,36,Unemployed,0,Graduate,No,3,0
+33,25403,668,22887,360,Employed,0,Not Graduate,No,2,1
+46,53072,680,66506,12,Employed,2,Not Graduate,No,0,1
+42,77954,572,150000,24,Employed,1,Graduate,No,0,1
+59,132816,775,143431,120,Self-Employed,0,Graduate,Yes,1,1
+22,20637,701,28209,12,Employed,2,Graduate,No,2,1
+58,49589,804,115234,120,Employed,2,Graduate,No,0,1
+59,45460,574,150000,60,Employed,2,Graduate,No,1,0
+46,62690,660,115764,12,Unemployed,0,Graduate,No,4,0
+66,52800,691,150000,36,Employed,0,Graduate,No,1,1
+35,66467,679,150000,60,Employed,1,Graduate,No,0,1
+54,62927,728,74171,48,Retired,1,Graduate,No,1,1
+62,24977,659,82571,180,Employed,0,Graduate,No,0,0
+64,84321,844,150000,120,Employed,0,Not Graduate,No,0,1
+60,25260,678,42562,36,Self-Employed,4,Graduate,Yes,3,0
+31,67963,444,150000,12,Employed,0,Graduate,No,0,0
+23,41524,681,55860,180,Self-Employed,1,Graduate,Yes,0,1
+26,48849,775,64348,36,Employed,1,Graduate,No,1,1
+29,113444,601,150000,12,Employed,1,Graduate,No,3,1
+26,108248,596,150000,60,Unemployed,1,Graduate,No,2,0
+29,88118,607,140183,120,Employed,1,Graduate,No,0,1
+59,48546,588,50642,48,Self-Employed,0,Graduate,Yes,1,1
+51,73308,636,150000,36,Employed,2,Graduate,No,1,1
+52,48771,747,150000,48,Employed,0,Graduate,No,1,1
+61,101487,797,150000,60,Self-Employed,2,Graduate,Yes,1,1
+32,40618,481,150000,120,Employed,1,Graduate,No,0,0
+28,160577,644,150000,360,Employed,1,Graduate,No,4,1
+28,127720,699,150000,36,Employed,0,Graduate,No,1,1
+48,74130,691,150000,60,Employed,0,Not Graduate,No,0,1
+40,33107,826,103633,360,Self-Employed,1,Graduate,Yes,1,1
+67,25646,514,31022,24,Self-Employed,0,Graduate,Yes,0,1
+27,97159,467,65659,12,Self-Employed,4,Not Graduate,Yes,1,0
+31,27227,839,90335,120,Self-Employed,4,Graduate,Yes,0,1
+40,97037,735,150000,24,Employed,0,Graduate,No,0,1
+36,46993,629,127859,12,Employed,0,Graduate,No,2,1
+24,40872,688,57233,24,Self-Employed,1,Graduate,Yes,2,1
+26,113400,694,150000,36,Employed,3,Graduate,No,0,1
+42,57038,627,150000,24,Employed,1,Graduate,No,1,1
+46,54378,686,122251,36,Retired,0,Not Graduate,No,1,1
+23,52727,703,150000,360,Employed,1,Graduate,No,0,1
+61,38555,836,128656,60,Employed,0,Graduate,No,0,1
+62,81604,752,150000,60,Employed,0,Graduate,No,2,1
+34,31656,814,108495,12,Self-Employed,0,Graduate,Yes,0,1
+31,131806,567,150000,60,Employed,1,Graduate,No,3,1
+38,109767,647,150000,60,Employed,0,Not Graduate,No,1,1
+32,36468,694,75944,48,Retired,1,Not Graduate,No,2,1
+43,72293,521,150000,24,Self-Employed,2,Not Graduate,Yes,0,0
+32,54059,769,150000,36,Self-Employed,1,Graduate,Yes,2,1
+33,36478,726,141845,60,Employed,1,Not Graduate,No,0,0
+45,198691,645,150000,48,Employed,0,Graduate,No,2,1
+65,21022,660,51822,60,Employed,1,Graduate,No,0,1
+39,31648,775,63337,48,Employed,0,Graduate,No,1,1
+66,49364,611,138542,36,Employed,1,Graduate,No,0,1
+56,49521,778,132107,60,Employed,0,Graduate,No,0,1
+65,55559,654,25790,12,Employed,0,Graduate,No,1,1
+28,75720,735,150000,48,Self-Employed,0,Not Graduate,Yes,1,1
+49,59071,681,42445,360,Self-Employed,0,Graduate,Yes,1,1
+52,56679,850,28055,60,Employed,1,Graduate,No,0,1
+64,22199,604,72109,36,Employed,1,Graduate,No,0,0
+38,38898,629,51778,36,Employed,0,Graduate,No,2,1
+26,30561,554,49703,48,Employed,1,Graduate,No,2,1
+38,32335,587,20393,120,Employed,1,Graduate,No,0,1
+39,52327,732,54744,48,Employed,1,Graduate,No,1,1
+42,28901,803,91216,36,Unemployed,2,Not Graduate,No,2,0
+57,33922,741,73838,24,Self-Employed,0,Not Graduate,Yes,3,1
+52,30824,674,110054,60,Employed,0,Not Graduate,No,0,0
+61,138649,603,150000,60,Unemployed,1,Graduate,No,2,0
+23,135774,746,150000,360,Self-Employed,3,Graduate,Yes,0,1
+48,57658,599,95214,36,Self-Employed,1,Graduate,Yes,2,0
+30,123356,567,150000,60,Employed,2,Graduate,No,0,1
+55,81636,650,150000,36,Employed,2,Not Graduate,No,1,1
+49,55658,512,150000,48,Self-Employed,1,Not Graduate,Yes,1,0
+35,20258,564,52018,60,Employed,1,Graduate,No,0,1
+53,79227,825,150000,24,Self-Employed,1,Graduate,Yes,1,1
+27,68492,549,150000,36,Retired,1,Not Graduate,No,2,0
+32,58206,579,150000,60,Self-Employed,1,Graduate,Yes,1,0
+50,77155,680,129701,48,Employed,1,Graduate,No,0,1
+41,48773,684,63383,12,Employed,1,Not Graduate,No,0,1
+51,68707,656,150000,36,Self-Employed,0,Graduate,Yes,1,1
+44,129440,514,150000,48,Retired,2,Graduate,No,2,1
+40,38851,742,150000,180,Employed,1,Graduate,No,2,0
+57,69256,639,142979,24,Self-Employed,3,Graduate,Yes,0,0
+24,45826,772,30593,60,Unemployed,1,Graduate,No,1,1
+48,64883,623,150000,24,Employed,0,Graduate,No,0,1
+64,77569,753,150000,24,Self-Employed,0,Not Graduate,Yes,4,1
+40,21860,778,22771,24,Employed,2,Graduate,No,0,1
+44,61606,637,150000,120,Employed,0,Graduate,No,0,1
+52,30285,745,49255,24,Employed,3,Graduate,No,1,1
+61,64350,568,113101,60,Self-Employed,0,Graduate,Yes,2,1
+56,45269,696,150000,36,Self-Employed,2,Graduate,Yes,0,0
+54,79409,772,150000,360,Employed,2,Graduate,No,0,1
+56,25268,716,22638,60,Unemployed,2,Graduate,No,1,0
+22,59374,850,102634,60,Self-Employed,0,Graduate,Yes,1,1
+35,33055,720,99150,120,Self-Employed,1,Not Graduate,Yes,0,0
+54,96688,645,99304,48,Employed,0,Graduate,No,1,1
+56,125457,850,150000,60,Employed,0,Graduate,No,1,1
+26,245053,805,150000,36,Employed,0,Graduate,No,2,1
+59,83586,546,136903,12,Unemployed,1,Graduate,No,0,0
+62,76053,612,150000,48,Employed,0,Graduate,No,0,1
+32,29708,591,106448,36,Retired,3,Graduate,No,2,0
+23,36379,726,76382,36,Self-Employed,0,Graduate,Yes,2,1
+65,45070,720,80155,36,Self-Employed,0,Not Graduate,Yes,2,1
+38,79379,720,103523,36,Self-Employed,0,Graduate,Yes,2,1
+60,118588,544,150000,48,Employed,2,Graduate,No,0,1
+41,28386,623,101266,12,Self-Employed,0,Graduate,Yes,0,0
+35,122230,663,150000,360,Employed,2,Graduate,No,0,1
+53,67579,529,123429,180,Self-Employed,1,Graduate,Yes,3,0
+55,57743,605,107624,180,Self-Employed,3,Graduate,Yes,1,1
+46,28917,783,69948,36,Self-Employed,0,Not Graduate,Yes,0,1
+28,22285,550,27238,36,Self-Employed,1,Not Graduate,Yes,0,0
+56,53616,791,150000,360,Employed,1,Graduate,No,2,1
+50,62166,762,91021,180,Employed,2,Not Graduate,No,2,1
+43,29468,651,86615,60,Self-Employed,1,Graduate,Yes,3,0
+62,52518,623,118038,36,Employed,2,Graduate,No,0,1
+64,97654,741,150000,48,Employed,0,Not Graduate,No,1,1
+34,92088,611,96378,60,Employed,1,Not Graduate,No,0,1
+34,124886,615,150000,36,Employed,0,Graduate,No,0,1
+22,38221,673,41241,48,Employed,0,Graduate,No,0,1
+57,35311,504,28549,60,Self-Employed,0,Graduate,Yes,0,1
+25,75360,559,150000,60,Employed,2,Graduate,No,1,1
+58,42562,649,125705,36,Employed,4,Not Graduate,No,3,0
+65,23664,713,13728,48,Retired,0,Graduate,No,0,1
+61,33296,610,21636,360,Employed,2,Graduate,No,3,1
+67,41691,659,137148,48,Employed,1,Graduate,No,0,1
+34,33841,545,112098,60,Self-Employed,1,Graduate,Yes,0,0
+59,36150,749,46383,60,Self-Employed,0,Not Graduate,Yes,0,1
+45,33912,692,88673,60,Employed,1,Not Graduate,No,0,1
+40,21695,699,43291,60,Retired,0,Graduate,No,0,1
+22,60544,714,150000,36,Retired,0,Graduate,No,1,1
+59,56381,681,150000,36,Employed,1,Graduate,No,2,1
+26,62381,636,42885,36,Employed,2,Graduate,No,2,1
+37,28543,765,91358,12,Self-Employed,1,Graduate,Yes,0,1
+45,34019,687,73988,24,Employed,3,Graduate,No,2,1
+48,58662,661,142598,24,Employed,2,Graduate,No,1,1
+22,56614,674,150000,120,Self-Employed,0,Graduate,Yes,3,1
+55,48235,672,150000,36,Employed,0,Not Graduate,No,0,1
+57,37256,660,22509,24,Employed,1,Graduate,No,4,1
+25,117642,710,59540,24,Employed,3,Not Graduate,No,2,1
+21,36606,600,38134,48,Self-Employed,4,Graduate,Yes,2,0
+60,44324,605,150000,12,Employed,2,Not Graduate,No,0,0
+32,65342,719,150000,36,Employed,1,Graduate,No,1,1
+56,51324,663,134094,24,Employed,2,Graduate,No,1,1
+65,37040,752,21088,60,Employed,0,Graduate,No,0,1
+43,42882,707,150000,360,Unemployed,0,Not Graduate,No,0,0
+67,83288,630,150000,360,Unemployed,1,Graduate,No,3,0
+51,33036,721,92278,36,Employed,2,Graduate,No,0,1
+31,26137,770,42364,48,Self-Employed,3,Graduate,Yes,0,1
+30,35026,710,22900,48,Self-Employed,0,Not Graduate,Yes,1,1
+23,95760,728,150000,36,Self-Employed,2,Not Graduate,Yes,0,1
+34,23728,661,70968,36,Employed,2,Not Graduate,No,1,0
+36,211641,754,150000,12,Employed,1,Not Graduate,No,1,1
+30,51148,628,137156,60,Self-Employed,0,Not Graduate,Yes,0,0
+49,187578,702,150000,24,Employed,1,Graduate,No,2,1
+30,131872,850,150000,36,Employed,1,Graduate,No,0,1
+32,44118,718,103351,36,Employed,1,Graduate,No,2,1
+50,28850,641,24941,48,Retired,1,Graduate,No,3,1
+61,27207,641,62452,60,Employed,2,Graduate,No,0,1
+21,30976,669,56520,48,Employed,0,Graduate,No,2,1
+25,69533,743,72959,48,Employed,0,Graduate,No,1,1
+40,32750,686,112314,36,Unemployed,1,Graduate,No,1,0
+28,36707,623,16140,12,Employed,0,Graduate,No,0,1
+63,43824,622,66772,36,Employed,4,Graduate,No,0,1
+32,117781,687,52452,360,Employed,0,Graduate,No,3,1
+21,28398,678,21174,360,Employed,1,Graduate,No,0,1
+40,20201,711,29686,60,Employed,2,Not Graduate,No,0,1
+48,22479,748,13383,24,Employed,0,Graduate,No,0,1
+63,114056,850,150000,24,Self-Employed,2,Not Graduate,Yes,1,1
+57,61710,558,43981,36,Employed,1,Graduate,No,3,1
+67,32755,729,95846,120,Self-Employed,0,Graduate,Yes,1,1
+57,27801,682,16389,60,Employed,3,Graduate,No,0,1
+32,33940,527,20822,120,Employed,0,Graduate,No,0,1
+57,24877,774,37294,48,Employed,1,Graduate,No,0,1
+64,133571,708,150000,24,Employed,0,Graduate,No,0,1
+48,81337,738,150000,24,Employed,0,Not Graduate,No,1,1
+67,44824,539,142202,12,Employed,2,Not Graduate,No,0,0
+35,100088,657,91038,48,Self-Employed,2,Not Graduate,Yes,2,1
+26,31478,588,107114,24,Employed,0,Not Graduate,No,1,0
+64,70509,848,30271,60,Employed,1,Graduate,No,2,1
+40,97554,766,113846,48,Employed,2,Graduate,No,3,1
+34,37650,620,98565,36,Employed,2,Graduate,No,3,0
+22,76664,552,134230,24,Employed,1,Graduate,No,0,1
+29,33986,690,134010,24,Employed,2,Not Graduate,No,3,0
+57,34201,762,17415,60,Employed,1,Not Graduate,No,2,1
+40,24529,536,97992,36,Employed,1,Not Graduate,No,2,0
+46,43196,600,114256,36,Employed,4,Not Graduate,No,0,0
+49,72330,586,150000,120,Employed,0,Graduate,No,0,1
+21,132683,744,81499,48,Employed,0,Graduate,No,4,1
+55,57033,645,78932,36,Employed,0,Graduate,No,0,1
+26,99550,648,150000,60,Employed,0,Not Graduate,No,0,1
+57,89150,688,149351,60,Employed,0,Not Graduate,No,0,1
+25,27614,604,76820,48,Employed,1,Graduate,No,3,0
+53,46607,559,150000,36,Employed,1,Graduate,No,1,0
+34,24973,784,33639,36,Employed,0,Graduate,No,3,1
+32,65847,791,150000,60,Employed,0,Graduate,No,0,1
+62,139749,689,150000,36,Employed,0,Not Graduate,No,0,1
+40,25897,695,25706,60,Employed,1,Graduate,No,1,1
+44,72952,775,68226,120,Employed,1,Graduate,No,1,1
+63,60012,687,122587,180,Self-Employed,0,Graduate,Yes,0,1
+54,55044,641,98469,36,Unemployed,4,Not Graduate,No,0,0
+45,39779,678,118190,24,Employed,1,Graduate,No,0,1
+49,37548,786,24414,36,Self-Employed,3,Graduate,Yes,0,1
+59,21852,679,85218,60,Employed,0,Graduate,No,1,0
+51,29831,621,13465,36,Employed,2,Graduate,No,0,1
+67,20611,686,52861,24,Retired,1,Graduate,No,0,1
+63,54835,727,133001,12,Self-Employed,2,Not Graduate,Yes,0,1
+43,24475,717,21659,36,Retired,1,Not Graduate,No,0,1
+64,102548,719,96733,24,Employed,3,Graduate,No,3,1
+58,49621,608,150000,24,Employed,1,Graduate,No,0,1
+40,68117,736,150000,48,Employed,2,Not Graduate,No,0,1
+43,41163,677,58404,12,Employed,2,Graduate,No,0,1
+65,52891,618,104548,24,Employed,1,Graduate,No,1,1
+36,134349,735,150000,60,Unemployed,1,Graduate,No,1,0
+62,23454,638,15507,60,Employed,0,Graduate,No,0,1
+28,31717,549,89554,36,Employed,2,Graduate,No,1,0
+41,80562,594,150000,12,Employed,1,Not Graduate,No,1,0
+21,24158,660,36178,60,Employed,1,Not Graduate,No,0,1
+28,23147,721,91769,36,Employed,0,Graduate,No,0,0
+49,37947,605,25540,12,Retired,1,Graduate,No,1,1
+52,23867,655,66408,24,Employed,1,Graduate,No,1,1
+58,55186,577,111123,24,Employed,1,Graduate,No,4,1
+25,30261,753,60757,48,Unemployed,1,Graduate,No,0,0
+67,110418,812,150000,120,Retired,0,Graduate,No,2,1
+42,81206,803,108105,60,Self-Employed,0,Not Graduate,Yes,0,1
+67,68119,752,150000,36,Unemployed,1,Graduate,No,3,0
+54,58382,744,150000,36,Employed,0,Not Graduate,No,1,1
+21,99647,509,141162,48,Unemployed,1,Graduate,No,1,0
+46,30095,689,102536,36,Employed,1,Graduate,No,0,0
+63,102577,635,150000,24,Self-Employed,4,Graduate,Yes,0,1
+30,82329,745,150000,48,Self-Employed,0,Not Graduate,Yes,2,1
+50,75158,471,62801,120,Employed,0,Graduate,No,0,1
+38,52953,690,53340,36,Employed,1,Graduate,No,0,1
+37,31307,657,48114,60,Employed,1,Graduate,No,0,1
+46,42034,764,106680,36,Self-Employed,0,Graduate,Yes,0,1
+28,83111,798,150000,36,Employed,2,Not Graduate,No,1,1
+67,21291,600,38896,12,Self-Employed,1,Graduate,Yes,0,1
+60,80939,604,55056,48,Employed,0,Not Graduate,No,0,1
+32,30981,693,54064,60,Employed,0,Not Graduate,No,0,1
+47,26233,813,75539,48,Unemployed,2,Graduate,No,2,0
+28,24918,679,70158,24,Employed,0,Graduate,No,3,1
+45,21105,572,20613,24,Employed,0,Graduate,No,1,1
+66,49658,626,21254,48,Employed,0,Not Graduate,No,1,1
+24,29849,691,92852,36,Self-Employed,1,Graduate,Yes,0,1
+53,201996,694,150000,36,Retired,2,Graduate,No,1,1
+21,54173,618,37729,360,Unemployed,0,Graduate,No,2,0
+39,25934,624,10625,60,Self-Employed,0,Graduate,Yes,1,1
+51,66687,596,130530,36,Employed,0,Graduate,No,0,1
+36,111210,766,150000,12,Employed,1,Graduate,No,1,1
+34,74687,608,150000,12,Employed,0,Not Graduate,No,3,1
+25,23180,637,33977,48,Employed,2,Graduate,No,3,1
+61,110490,635,150000,60,Employed,0,Graduate,No,2,1
+46,83181,546,83979,60,Employed,0,Not Graduate,No,0,1
+48,26893,605,91306,36,Employed,0,Graduate,No,0,0
+22,22126,773,54400,12,Employed,2,Graduate,No,2,1
+26,52595,578,131592,360,Self-Employed,1,Graduate,Yes,0,0
+29,26785,597,30941,360,Retired,3,Graduate,No,1,1
+53,91973,568,61326,36,Employed,0,Graduate,No,0,1
+61,37747,667,78249,12,Self-Employed,0,Graduate,Yes,1,1
+45,117624,825,150000,36,Self-Employed,1,Not Graduate,Yes,1,1
+33,53359,664,39601,120,Employed,1,Graduate,No,3,1
+29,28068,680,107273,48,Employed,1,Graduate,No,0,0
+33,26014,611,102221,60,Employed,0,Graduate,No,2,0
+51,54365,670,128499,12,Employed,0,Not Graduate,No,2,1
+61,77399,773,150000,24,Self-Employed,0,Not Graduate,Yes,3,1
+31,80839,686,84557,24,Unemployed,1,Graduate,No,1,0
+24,32905,845,16173,180,Retired,1,Graduate,No,1,1
+54,29138,775,15789,36,Employed,2,Graduate,No,4,1
+58,20675,668,51998,60,Retired,0,Graduate,No,1,1
+66,65477,666,40720,24,Employed,2,Graduate,No,1,1
+24,23186,805,89283,180,Self-Employed,1,Graduate,Yes,0,0
+58,41841,685,38115,60,Employed,0,Graduate,No,0,1
+39,56820,787,85059,24,Employed,4,Graduate,No,0,1
+26,130654,835,150000,120,Employed,1,Graduate,No,1,1
+54,34947,658,41498,36,Unemployed,1,Graduate,No,1,0
+38,31495,703,40146,24,Employed,1,Graduate,No,0,1
+33,62471,753,150000,36,Employed,0,Graduate,No,2,1
+61,58623,736,81715,180,Unemployed,1,Graduate,No,1,0
+43,36145,735,42752,180,Retired,2,Not Graduate,No,1,1
+39,125300,568,150000,36,Employed,0,Graduate,No,4,1
+65,94537,607,150000,60,Self-Employed,1,Graduate,Yes,0,1
+31,30143,635,116893,48,Employed,2,Graduate,No,2,0
+21,30932,772,105046,60,Employed,0,Graduate,No,1,1
+44,48722,576,69409,36,Employed,0,Graduate,No,2,1
+27,79413,796,135648,36,Employed,0,Graduate,No,0,1
+45,21801,737,45176,48,Employed,1,Graduate,No,0,1
+41,67279,767,150000,12,Employed,2,Graduate,No,1,1
+35,61791,600,63064,36,Employed,1,Not Graduate,No,0,1
+21,30531,680,51503,48,Self-Employed,0,Not Graduate,Yes,0,1
+32,65746,698,150000,36,Self-Employed,1,Not Graduate,Yes,2,1
+27,132658,695,150000,360,Employed,2,Graduate,No,1,1
+35,21916,698,21048,12,Employed,0,Graduate,No,2,1
+41,35406,652,43144,360,Employed,2,Not Graduate,No,1,1
+39,43062,685,52212,24,Self-Employed,2,Graduate,Yes,1,1
+49,111808,757,53148,12,Employed,0,Graduate,No,4,1
+45,151082,581,150000,36,Employed,0,Graduate,No,3,1
+53,43487,798,122395,60,Employed,1,Graduate,No,0,1
+52,75456,753,150000,60,Employed,1,Graduate,No,2,1
+55,50342,597,33062,24,Employed,2,Graduate,No,0,1
+64,50868,705,33024,24,Unemployed,1,Graduate,No,0,0
+58,33034,747,38233,48,Self-Employed,0,Graduate,Yes,1,1
+46,29782,576,43036,36,Employed,0,Graduate,No,4,1
+31,33587,678,108538,60,Employed,2,Graduate,No,4,0
+55,52506,668,51130,12,Self-Employed,0,Graduate,Yes,0,1
+28,21183,623,11835,48,Employed,1,Graduate,No,2,1
+66,115113,682,150000,60,Employed,0,Graduate,No,2,1
+34,26797,626,50887,360,Self-Employed,0,Graduate,Yes,0,1
+30,29943,784,60582,48,Self-Employed,0,Graduate,Yes,1,1
+22,49215,624,150000,24,Employed,0,Graduate,No,1,0
+66,69530,738,52343,24,Employed,1,Graduate,No,0,1
+29,24025,542,70493,48,Unemployed,0,Graduate,No,2,0
+23,35291,662,57051,36,Retired,3,Graduate,No,0,1
+41,158533,675,150000,120,Self-Employed,1,Not Graduate,Yes,0,1
+46,32171,659,120871,60,Retired,1,Graduate,No,0,0
+28,35019,643,45331,36,Employed,1,Graduate,No,2,1
+22,92437,621,150000,36,Employed,1,Graduate,No,1,1
+26,22060,735,30673,36,Employed,0,Graduate,No,0,1
+48,44990,754,100135,24,Employed,4,Not Graduate,No,1,0
+49,39096,668,126305,12,Employed,1,Not Graduate,No,0,0
+46,35226,587,125904,48,Employed,0,Graduate,No,3,0
+45,33458,818,114403,24,Self-Employed,1,Graduate,Yes,1,1
+32,23832,604,59481,24,Self-Employed,1,Not Graduate,Yes,0,1
+25,35123,558,45510,24,Employed,0,Not Graduate,No,0,1
+54,21760,513,60502,24,Employed,3,Graduate,No,0,0
+57,80740,682,150000,12,Employed,0,Graduate,No,3,1
+35,40315,657,17677,48,Employed,1,Graduate,No,1,1
+64,43472,757,86124,36,Self-Employed,3,Graduate,Yes,2,1
+56,109619,723,150000,48,Employed,0,Graduate,No,0,1
+35,62924,698,136074,48,Employed,0,Not Graduate,No,1,1
+63,20323,653,30910,360,Employed,0,Not Graduate,No,3,1
+43,134711,763,150000,12,Self-Employed,0,Graduate,Yes,0,1
+26,30827,824,29630,36,Unemployed,0,Graduate,No,1,1
+66,24554,755,28070,24,Self-Employed,2,Graduate,Yes,3,1
+64,78462,637,150000,36,Employed,2,Graduate,No,2,1
+63,47764,737,79707,180,Employed,1,Graduate,No,0,1
+65,42750,642,126833,60,Employed,0,Graduate,No,0,1
+41,31480,586,30464,48,Employed,2,Graduate,No,0,1
+43,51716,603,67653,36,Employed,1,Graduate,No,2,1
+63,32829,646,31644,48,Employed,0,Graduate,No,1,1
+36,112741,683,150000,12,Employed,1,Not Graduate,No,3,1
+67,29693,839,55212,48,Employed,0,Graduate,No,0,1
+35,106289,604,150000,48,Employed,3,Graduate,No,0,1
+45,52785,780,23812,36,Employed,1,Graduate,No,0,1
+56,90524,649,86206,24,Retired,1,Not Graduate,No,0,1
+31,69909,513,133951,60,Unemployed,1,Graduate,No,0,0
+35,67720,634,43788,12,Employed,1,Graduate,No,0,1
+24,35682,769,79879,12,Employed,0,Graduate,No,2,1
+41,30657,702,62480,36,Unemployed,1,Graduate,No,0,0
+33,29473,707,93187,36,Employed,2,Graduate,No,1,0
+42,97850,781,150000,60,Self-Employed,0,Graduate,Yes,3,1
+39,88686,592,150000,48,Employed,3,Graduate,No,4,1
+54,43233,590,52259,60,Retired,1,Not Graduate,No,0,1
+34,25681,493,77472,36,Unemployed,0,Graduate,No,3,0
+24,39267,745,115771,60,Self-Employed,1,Graduate,Yes,0,1
+66,58634,719,55811,120,Self-Employed,2,Graduate,Yes,0,1
+47,44234,732,150000,36,Employed,1,Not Graduate,No,2,0
+49,80599,580,50927,36,Employed,1,Graduate,No,2,1
+67,250000,546,149533,120,Employed,1,Graduate,No,2,1
+48,28484,569,30604,12,Employed,1,Graduate,No,2,1
+55,44621,601,150000,36,Employed,0,Graduate,No,0,0
+28,42553,799,96680,24,Employed,0,Not Graduate,No,1,1
+36,34524,755,111739,12,Unemployed,0,Not Graduate,No,0,0
+62,28830,638,35179,24,Employed,0,Graduate,No,1,1
+56,22717,698,49177,36,Employed,0,Graduate,No,0,1
+50,107256,620,150000,48,Employed,1,Graduate,No,0,1
+38,41778,704,141217,36,Employed,1,Graduate,No,2,1
+22,47478,583,22854,60,Employed,0,Not Graduate,No,3,1
+33,119528,735,150000,36,Retired,0,Graduate,No,1,1
+24,79896,607,75842,360,Employed,0,Graduate,No,1,1
+46,25593,739,89398,360,Employed,0,Graduate,No,2,1
+45,53335,640,111105,60,Employed,0,Graduate,No,1,1
+50,43353,611,80428,180,Employed,1,Graduate,No,4,1
+31,83823,804,150000,60,Self-Employed,0,Not Graduate,Yes,0,1
+27,71527,689,150000,120,Employed,1,Graduate,No,0,1
+51,66899,649,150000,24,Employed,1,Graduate,No,3,1
+64,36653,735,107867,36,Employed,0,Graduate,No,3,1
+30,85382,567,123438,60,Retired,0,Not Graduate,No,1,1
+59,22152,763,22032,36,Employed,0,Graduate,No,0,1
+33,26956,663,100199,60,Unemployed,0,Graduate,No,2,0
+51,36356,723,69915,120,Employed,0,Graduate,No,1,1
+27,23196,551,32556,36,Employed,2,Graduate,No,2,1
+62,30714,644,64355,60,Self-Employed,0,Not Graduate,Yes,1,1
+62,90913,675,150000,24,Employed,4,Graduate,No,0,1
+56,138454,757,150000,36,Employed,0,Graduate,No,0,1
+40,34530,729,83752,36,Employed,2,Graduate,No,1,1
+24,32289,643,106252,24,Employed,1,Graduate,No,0,0
+27,33134,700,64202,48,Self-Employed,0,Graduate,Yes,0,1
+21,33013,775,40960,48,Employed,0,Not Graduate,No,0,1
+64,21463,659,85429,24,Self-Employed,1,Graduate,Yes,0,0
+65,124646,650,150000,60,Employed,2,Graduate,No,0,1
+62,29616,523,101776,48,Employed,0,Graduate,No,0,0
+67,41789,652,120274,36,Self-Employed,0,Not Graduate,Yes,3,0
+33,20389,535,29798,24,Employed,0,Graduate,No,0,1
+42,98064,665,150000,120,Employed,0,Graduate,No,0,1
+41,72545,754,100982,60,Employed,3,Graduate,No,0,1
+42,137314,505,150000,24,Employed,1,Graduate,No,2,1
+48,80859,773,150000,12,Unemployed,0,Graduate,No,0,0
+29,35057,648,90125,60,Employed,0,Not Graduate,No,0,1
+46,31394,672,103317,48,Employed,0,Not Graduate,No,0,1
+29,67855,634,150000,24,Self-Employed,2,Graduate,Yes,2,1
+35,38109,537,41743,48,Employed,3,Graduate,No,2,1
+30,53408,612,149784,36,Employed,0,Graduate,No,0,1
+44,20251,842,14914,60,Employed,1,Not Graduate,No,0,1
+62,22555,587,50258,24,Unemployed,3,Graduate,No,0,0
+28,50660,547,49851,36,Retired,0,Graduate,No,1,1
+44,53395,686,101389,24,Self-Employed,0,Not Graduate,Yes,2,1
+36,75684,668,150000,360,Employed,0,Graduate,No,0,1
+46,25660,649,101454,60,Employed,0,Not Graduate,No,1,0
+47,48794,676,75369,60,Employed,0,Graduate,No,0,1
+57,28649,726,66323,48,Employed,3,Graduate,No,1,1
+24,23913,628,53581,36,Retired,1,Graduate,No,1,1
+44,41138,690,150000,180,Employed,0,Graduate,No,3,0
+39,27133,756,57600,12,Employed,0,Not Graduate,No,0,1
+56,30029,595,87588,60,Unemployed,1,Graduate,No,1,0
+59,35282,489,131194,24,Self-Employed,0,Graduate,Yes,0,0
+30,32011,728,55832,36,Employed,0,Graduate,No,0,1
+45,23666,850,86325,36,Employed,0,Graduate,No,0,1
+38,23768,674,88009,60,Employed,1,Graduate,No,0,0
+39,28589,691,107219,60,Employed,0,Graduate,No,0,0
+56,22075,651,30322,48,Employed,0,Not Graduate,No,4,1
+30,59388,802,109349,36,Employed,1,Graduate,No,1,1
+53,33549,668,118542,180,Retired,0,Graduate,No,0,0
+25,33126,660,56081,24,Employed,3,Not Graduate,No,0,1
+67,36138,747,92546,60,Employed,1,Graduate,No,0,1
+55,63482,636,52372,48,Employed,0,Not Graduate,No,0,1
+64,101804,572,61346,36,Employed,0,Graduate,No,0,1
+54,76932,745,144876,12,Employed,1,Graduate,No,1,1
+53,72008,627,150000,36,Unemployed,0,Graduate,No,3,0
+41,46496,596,84330,36,Unemployed,2,Graduate,No,1,0
+37,67341,843,150000,24,Employed,1,Graduate,No,1,1
+42,52186,660,117643,12,Unemployed,1,Graduate,No,2,0
+57,29746,714,85327,36,Employed,3,Graduate,No,0,1
+35,29357,677,80388,48,Employed,0,Graduate,No,0,1
+55,34061,604,65645,60,Employed,1,Graduate,No,1,1
+48,116676,730,150000,24,Unemployed,1,Graduate,No,2,0
+27,51711,700,46891,36,Employed,2,Graduate,No,1,1
+52,72956,622,150000,36,Employed,1,Graduate,No,0,1
+31,37020,709,93062,36,Self-Employed,1,Graduate,Yes,3,0
+30,40950,633,86624,60,Employed,0,Graduate,No,0,1
+29,25367,586,39890,48,Employed,1,Graduate,No,2,1
+34,27515,578,82488,60,Employed,0,Graduate,No,3,0
+33,90261,696,60364,36,Self-Employed,1,Not Graduate,Yes,0,1
+45,55163,644,150000,48,Employed,0,Graduate,No,2,1
+22,36471,795,17298,36,Employed,0,Graduate,No,2,1
+55,84951,671,150000,60,Retired,3,Not Graduate,No,3,0
+27,31322,612,64663,180,Employed,0,Graduate,No,0,1
+41,169242,687,150000,48,Employed,0,Graduate,No,3,1
+38,36913,571,48843,60,Self-Employed,0,Not Graduate,Yes,0,1
+23,36457,668,15904,12,Self-Employed,0,Graduate,Yes,2,1
+62,34953,700,48558,180,Retired,1,Not Graduate,No,0,1
+59,25209,690,20011,24,Employed,0,Not Graduate,No,0,1
+61,24712,779,68584,36,Employed,0,Graduate,No,0,1
+31,61776,850,95670,12,Self-Employed,0,Not Graduate,Yes,0,1
+59,103215,728,150000,360,Self-Employed,0,Not Graduate,Yes,0,1
+44,82525,769,94482,120,Employed,0,Graduate,No,0,1
+66,26084,850,94967,180,Employed,1,Not Graduate,No,0,1
+39,51549,594,117672,60,Employed,0,Graduate,No,0,1
+24,24463,685,19869,36,Employed,0,Graduate,No,0,1
+46,21854,636,40277,180,Unemployed,2,Graduate,No,0,0
+58,62729,742,71783,360,Employed,2,Graduate,No,2,1
+62,50641,696,56660,36,Employed,0,Graduate,No,1,1
+52,23423,609,52067,24,Employed,0,Graduate,No,0,1
+59,21422,675,60384,48,Employed,1,Graduate,No,1,1
+65,203244,758,150000,360,Employed,1,Graduate,No,2,1
+66,21219,570,46846,120,Self-Employed,3,Graduate,Yes,0,0
+56,43517,611,150000,120,Employed,0,Graduate,No,0,1
+60,48097,599,150000,180,Employed,1,Graduate,No,1,0
+57,24989,701,87816,120,Employed,2,Not Graduate,No,3,0
+53,27407,774,60293,60,Self-Employed,1,Graduate,Yes,1,1
+56,37342,514,33878,60,Retired,0,Graduate,No,2,1
+23,77364,682,91634,36,Employed,0,Graduate,No,0,1
+29,48296,601,131925,48,Self-Employed,0,Graduate,Yes,2,1
+28,60633,755,116313,36,Employed,0,Graduate,No,0,1
+53,188456,656,150000,120,Employed,2,Not Graduate,No,0,1
+26,78441,685,150000,36,Retired,0,Graduate,No,1,1
+61,42792,674,19801,24,Employed,0,Graduate,No,3,1
+59,43655,764,132799,12,Employed,2,Graduate,No,0,1
+24,58574,838,38945,48,Retired,1,Graduate,No,0,1
+33,63788,584,150000,36,Self-Employed,0,Graduate,Yes,2,0
+22,47782,598,150000,36,Employed,0,Graduate,No,1,1
+25,61409,700,53887,24,Retired,0,Graduate,No,0,1
+64,20952,609,47500,36,Employed,0,Graduate,No,0,1
+47,42458,749,136062,24,Employed,2,Graduate,No,0,1
+52,33081,762,44271,36,Employed,0,Not Graduate,No,1,1
+41,25532,631,25187,36,Employed,1,Graduate,No,2,1
+28,24194,613,39014,36,Self-Employed,0,Not Graduate,Yes,0,1
+58,56972,653,136557,36,Employed,3,Graduate,No,3,0
+28,49659,683,122707,36,Employed,1,Graduate,No,0,1
+23,31698,700,27613,120,Employed,3,Graduate,No,0,1
+64,45466,494,93080,36,Employed,0,Not Graduate,No,1,0
+23,47109,597,64342,24,Employed,2,Graduate,No,1,1
+42,28676,642,98395,24,Retired,2,Graduate,No,0,0
+26,62232,611,95144,36,Employed,1,Graduate,No,2,1
+22,80732,445,150000,12,Employed,0,Graduate,No,2,0
+43,82705,523,150000,12,Employed,0,Graduate,No,0,1
+64,56899,570,150000,48,Self-Employed,0,Graduate,Yes,0,1
+22,48667,665,108829,48,Employed,0,Graduate,No,0,1
+58,22517,640,59423,36,Employed,1,Graduate,No,2,1
+37,33577,624,61220,60,Employed,1,Graduate,No,0,1
+55,23916,738,75707,12,Employed,1,Graduate,No,2,1
+54,152773,738,150000,180,Employed,0,Graduate,No,1,1
+43,25804,686,52817,12,Self-Employed,0,Graduate,Yes,2,1
+50,26584,684,60176,48,Unemployed,0,Graduate,No,1,0
+28,108137,606,150000,24,Employed,1,Not Graduate,No,0,1
+42,135244,616,150000,120,Unemployed,1,Graduate,No,3,0
+64,78068,538,129356,36,Unemployed,0,Graduate,No,2,0
+56,20216,654,56870,12,Unemployed,1,Graduate,No,1,0
+25,20053,737,54398,48,Retired,1,Not Graduate,No,1,1
+33,38999,783,146311,12,Self-Employed,2,Graduate,Yes,1,1
+49,26191,655,89811,60,Employed,0,Not Graduate,No,0,0
+51,20742,714,56642,48,Employed,1,Graduate,No,0,1
+67,44949,446,73241,24,Employed,0,Graduate,No,0,1
+36,134631,640,150000,36,Unemployed,0,Graduate,No,4,0
+62,35651,638,88084,12,Employed,1,Graduate,No,1,1
+50,63286,794,150000,48,Employed,1,Graduate,No,0,1
+36,62249,706,80364,36,Employed,0,Graduate,No,1,1
+32,31564,714,21676,48,Self-Employed,0,Graduate,Yes,0,1
+37,62041,710,40426,360,Self-Employed,1,Graduate,Yes,0,1
+36,29547,678,79898,36,Employed,0,Graduate,No,0,1
+32,25204,797,95304,360,Employed,1,Graduate,No,1,1
+28,68343,490,27812,48,Self-Employed,2,Graduate,Yes,4,1
+40,24816,686,74765,24,Employed,1,Graduate,No,4,0
+23,250000,765,150000,36,Employed,1,Graduate,No,0,1
+36,28106,523,85338,60,Employed,1,Graduate,No,1,0
+50,56070,742,94167,36,Retired,2,Graduate,No,2,1
+65,41198,614,138169,12,Employed,1,Graduate,No,0,0
+43,25404,683,14250,24,Employed,0,Graduate,No,2,1
+48,21129,612,65913,60,Self-Employed,0,Graduate,Yes,2,0
+60,58992,751,80315,48,Employed,4,Graduate,No,1,1
+25,85752,651,150000,48,Employed,0,Not Graduate,No,0,1
+40,93810,742,150000,24,Employed,1,Graduate,No,3,1
+60,46366,709,63840,60,Retired,2,Graduate,No,3,1
+64,80105,611,85451,360,Employed,1,Not Graduate,No,2,1
+21,64693,715,150000,12,Self-Employed,0,Graduate,Yes,0,1
+50,71531,621,150000,12,Retired,0,Not Graduate,No,2,0
+41,47138,680,106147,120,Self-Employed,0,Graduate,Yes,0,1
+40,60140,650,79647,60,Self-Employed,0,Graduate,Yes,0,1
+26,85498,746,44935,48,Self-Employed,3,Graduate,Yes,1,1
+42,40292,718,75626,180,Retired,1,Not Graduate,No,4,0
+38,85591,672,67070,48,Retired,1,Graduate,No,2,1
+28,55861,620,150000,24,Retired,1,Graduate,No,2,0
+59,27256,573,14949,60,Employed,0,Graduate,No,1,1
+52,20999,685,41030,48,Employed,0,Graduate,No,0,1
+53,38023,624,22360,360,Employed,0,Graduate,No,2,1
+36,51647,524,38423,24,Employed,1,Graduate,No,1,1
+32,93258,568,150000,48,Retired,1,Graduate,No,2,1
+58,25455,805,69481,60,Unemployed,1,Graduate,No,1,0
+54,84418,622,43811,36,Employed,1,Not Graduate,No,2,1
+34,99513,761,40210,36,Employed,4,Graduate,No,2,1
+56,26533,646,18141,120,Employed,0,Not Graduate,No,0,1
+53,96312,774,150000,36,Employed,1,Graduate,No,0,1
+43,210489,768,150000,48,Self-Employed,0,Graduate,Yes,0,1
+65,71907,608,38630,120,Employed,1,Graduate,No,3,1
+22,81441,515,150000,24,Employed,0,Graduate,No,1,1
+61,227508,522,150000,360,Employed,1,Graduate,No,2,1
+41,57203,610,150000,60,Employed,0,Graduate,No,0,1
+22,34720,826,130635,36,Retired,0,Graduate,No,2,1
+47,92690,642,146337,36,Employed,2,Graduate,No,1,1
+29,58127,686,51674,360,Unemployed,0,Graduate,No,0,1
+21,54814,779,68678,24,Employed,0,Graduate,No,4,1
+31,31701,683,101259,36,Employed,1,Graduate,No,0,1
+23,76478,681,150000,36,Employed,1,Graduate,No,0,1
+43,23407,724,48663,36,Self-Employed,1,Graduate,Yes,0,1
+46,123232,698,150000,36,Employed,1,Graduate,No,0,1
+24,35770,667,69575,360,Employed,0,Graduate,No,1,1
+38,25468,617,38133,120,Employed,0,Graduate,No,0,1
+26,43362,681,57383,36,Employed,2,Not Graduate,No,2,1
+55,21735,762,55152,36,Employed,0,Graduate,No,0,1
+42,66159,817,30211,48,Employed,2,Graduate,No,1,1
+63,113200,698,150000,12,Self-Employed,0,Not Graduate,Yes,1,1
+35,92624,735,150000,60,Employed,1,Graduate,No,2,1
+42,25449,696,13117,120,Employed,3,Graduate,No,0,1
+57,25399,668,17767,120,Employed,1,Graduate,No,4,1
+62,87158,716,126921,36,Retired,1,Graduate,No,1,1
+32,123214,770,150000,36,Employed,1,Graduate,No,0,1
+67,44697,604,140956,12,Unemployed,1,Graduate,No,0,0
+62,47643,558,22857,36,Employed,1,Not Graduate,No,0,1
+58,35324,632,77930,36,Self-Employed,0,Graduate,Yes,2,1
+38,109872,691,150000,180,Employed,1,Graduate,No,0,1
+65,61414,744,150000,120,Employed,0,Graduate,No,0,1
+55,33601,595,100722,360,Self-Employed,0,Graduate,Yes,0,0
+50,34197,475,119905,120,Self-Employed,1,Graduate,Yes,0,0
+44,108729,634,150000,12,Self-Employed,0,Not Graduate,Yes,2,1
+62,20549,659,81785,48,Self-Employed,2,Graduate,Yes,1,0
+50,35587,582,139783,12,Employed,2,Graduate,No,0,0
+34,52329,614,150000,36,Employed,3,Graduate,No,0,1
+26,26416,744,65235,48,Employed,1,Not Graduate,No,0,1
+23,23864,681,43738,60,Unemployed,1,Graduate,No,2,0
+36,87555,702,149875,48,Employed,0,Graduate,No,2,1
+27,109925,646,48768,12,Retired,1,Graduate,No,0,1
+34,89401,614,115955,24,Employed,0,Not Graduate,No,0,1
+29,111621,645,150000,24,Self-Employed,0,Graduate,Yes,0,1
+35,52217,714,134358,12,Employed,1,Not Graduate,No,3,0
+41,86907,555,150000,24,Employed,0,Not Graduate,No,1,1
+55,39383,807,22845,48,Self-Employed,0,Graduate,Yes,0,1
+22,63896,720,61275,60,Employed,1,Graduate,No,0,1
+47,199800,632,150000,36,Retired,0,Graduate,No,0,1
+22,30233,740,51112,48,Self-Employed,0,Graduate,Yes,1,1
+55,39765,772,32847,24,Employed,0,Graduate,No,0,1
+38,46160,648,150000,360,Unemployed,1,Not Graduate,No,0,0
+34,25940,657,83892,36,Self-Employed,1,Graduate,Yes,1,0
+40,23380,794,43754,60,Employed,1,Graduate,No,0,1
+38,90813,844,150000,180,Employed,0,Not Graduate,No,1,1
+30,170534,677,150000,120,Employed,1,Graduate,No,0,1
+45,40749,582,132186,12,Self-Employed,1,Graduate,Yes,2,0
+22,23669,637,78930,48,Unemployed,0,Graduate,No,0,0
+45,22723,757,16020,24,Employed,1,Graduate,No,3,1
+53,108773,592,150000,12,Employed,1,Not Graduate,No,0,1
+56,44930,658,19069,12,Employed,1,Graduate,No,0,1
+51,35428,698,19713,180,Employed,1,Not Graduate,No,2,1
+34,45885,601,150000,180,Self-Employed,0,Graduate,Yes,2,0
+21,35326,762,81222,24,Self-Employed,1,Graduate,Yes,0,1
+66,46858,730,142881,36,Employed,1,Graduate,No,3,0
+36,98517,835,150000,360,Unemployed,1,Graduate,No,0,1
+66,55889,737,150000,36,Employed,1,Graduate,No,1,1
+23,67452,598,150000,36,Employed,2,Graduate,No,0,1
+55,38144,717,81625,36,Employed,2,Graduate,No,0,1
+61,73653,754,118543,60,Employed,1,Graduate,No,1,1
+26,63938,758,61135,36,Unemployed,1,Graduate,No,1,1
+45,25093,612,46200,60,Employed,0,Graduate,No,1,1
+33,54005,603,92854,36,Employed,1,Graduate,No,1,1
+54,31868,583,76944,36,Employed,1,Graduate,No,3,0
+28,85205,803,150000,36,Employed,0,Not Graduate,No,0,1
+41,42200,724,150000,12,Employed,0,Not Graduate,No,0,1
+54,229482,609,150000,36,Employed,0,Not Graduate,No,2,1
+24,23882,685,64899,24,Unemployed,0,Graduate,No,0,0
+45,80628,665,129515,60,Self-Employed,0,Graduate,Yes,1,1
+35,64797,597,33967,36,Employed,0,Graduate,No,1,1
+24,78354,677,112614,60,Self-Employed,1,Not Graduate,Yes,0,1
+65,34699,690,109871,360,Employed,0,Graduate,No,3,1
+32,47095,829,53640,60,Employed,0,Graduate,No,0,1
+52,83685,622,150000,360,Employed,2,Not Graduate,No,0,1
+52,30586,538,76073,48,Employed,0,Graduate,No,0,1

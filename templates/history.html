@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block title %}Prediction History – SmartBank AI{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div class="page-header-inner">
+    <h1><i class="fas fa-history"></i> My Prediction History</h1>
+    <p>All your past loan prediction results and assessments.</p>
+  </div>
+</div>
+
+<section class="section">
+  {% if history %}
+  <!-- Stats Bar -->
+  <div class="history-stats">
+    <div class="hist-stat approved-bg">
+      <i class="fas fa-check-circle"></i>
+      <div>
+        <div class="hist-stat-val">{{ history | selectattr('result','equalto','Approved') | list | length }}</div>
+        <div>Approved</div>
+      </div>
+    </div>
+    <div class="hist-stat rejected-bg">
+      <i class="fas fa-times-circle"></i>
+      <div>
+        <div class="hist-stat-val">{{ history | selectattr('result','equalto','Rejected') | list | length }}</div>
+        <div>Rejected</div>
+      </div>
+    </div>
+    <div class="hist-stat total-bg">
+      <i class="fas fa-file-alt"></i>
+      <div>
+        <div class="hist-stat-val">{{ history | length }}</div>
+        <div>Total</div>
+      </div>
+    </div>
+    <div class="hist-stat highfraud-bg">
+      <i class="fas fa-exclamation-triangle"></i>
+      <div>
+        <div class="hist-stat-val">{{ history | selectattr('fraud_level','equalto','High') | list | length }}</div>
+        <div>High Fraud Risk</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="table-wrapper">
+    <table class="data-table" id="historyTable">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Date &amp; Time</th>
+          <th>Result</th>
+          <th>Approval %</th>
+          <th>Credit Score</th>
+          <th>Loan Amount</th>
+          <th>Annual Income</th>
+          <th>Fraud Risk</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for h in history %}
+        <tr>
+          <td>{{ loop.index }}</td>
+          <td>{{ h.timestamp }}</td>
+          <td>
+            <span class="badge {% if h.result=='Approved' %}badge-success{% else %}badge-danger{% endif %}">
+              <i class="fas fa-{% if h.result=='Approved' %}check{% else %}times{% endif %}"></i> {{ h.result }}
+            </span>
+          </td>
+          <td>
+            <div class="mini-prob-bar">
+              <div class="mini-prob-fill {% if h.result=='Approved' %}fill-green{% else %}fill-red{% endif %}" style="width:{{ h.approval_prob }}%"></div>
+            </div>
+            <span>{{ h.approval_prob }}%</span>
+          </td>
+          <td>{{ h.credit_score }}</td>
+          <td>₹{{ "{:,.0f}".format(h.loan_amount) }}</td>
+          <td>₹{{ "{:,.0f}".format(h.income) }}</td>
+          <td>
+            <span class="badge {% if h.fraud_level=='High' %}badge-danger{% elif h.fraud_level=='Medium' %}badge-warning{% else %}badge-success{% endif %}">
+              {{ h.fraud_level }}
+            </span>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+  <div class="empty-state">
+    <i class="fas fa-history" style="font-size:4rem; color:var(--text-muted); opacity:0.3;"></i>
+    <h3>No Predictions Yet</h3>
+    <p>You haven't made any loan predictions yet. Start by clicking the button below.</p>
+    <a href="{{ url_for('predict') }}" class="btn btn-primary" style="margin-top:1rem">
+      <i class="fas fa-calculator"></i> Make Your First Prediction
+    </a>
+  </div>
+  {% endif %}
+</section>
+{% endblock %}

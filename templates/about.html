@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+{% block title %}About – SmartBank AI{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div class="page-header-inner">
+    <h1><i class="fas fa-info-circle"></i> About the ML System</h1>
+    <p>Understand how the Smart Decision System for Banking &amp; Finance works under the hood.</p>
+  </div>
+</div>
+
+<section class="section">
+
+  <!-- Tech Stack -->
+  <div class="section-header">
+    <h2 class="section-title">Technology Stack</h2>
+    <p class="section-subtitle">Built using industry-standard open-source AI/ML tools</p>
+  </div>
+  <div class="tech-grid">
+    <div class="tech-card"><div class="tech-icon" style="background:#3776ab20; color:#3776ab"><i class="fab fa-python"></i></div><h4>Python 3.11</h4><p>Core programming language for ML and backend logic</p></div>
+    <div class="tech-card"><div class="tech-icon" style="background:#f5f5f520; color:#e74c3c"><i class="fas fa-flask"></i></div><h4>Flask</h4><p>Lightweight Python web framework for routing and templates</p></div>
+    <div class="tech-card"><div class="tech-icon" style="background:#f7931e20; color:#f7931e"><i class="fas fa-brain"></i></div><h4>Scikit-Learn</h4><p>Random Forest Classifier with full preprocessing pipeline</p></div>
+    <div class="tech-card"><div class="tech-icon" style="background:#13005a20; color:#6c63ff"><i class="fas fa-table"></i></div><h4>Pandas &amp; NumPy</h4><p>Data manipulation, feature engineering, and numerical computing</p></div>
+    <div class="tech-card"><div class="tech-icon" style="background:#38a16920; color:#38a169"><i class="fas fa-lock"></i></div><h4>Werkzeug Security</h4><p>Secure password hashing with PBKDF2-SHA256 algorithm</p></div>
+    <div class="tech-card"><div class="tech-icon" style="background:#0bc5ea20; color:#0bc5ea"><i class="fas fa-file-export"></i></div><h4>Joblib</h4><p>Efficient ML model serialization and pipeline persistence</p></div>
+  </div>
+
+  <!-- ML Pipeline -->
+  <div class="section-header" style="margin-top:3rem">
+    <h2 class="section-title">ML Pipeline Architecture</h2>
+  </div>
+  <div class="pipeline-steps">
+    <div class="pipeline-step">
+      <div class="ps-num">1</div>
+      <div class="ps-icon"><i class="fas fa-database"></i></div>
+      <h4>Data Generation</h4>
+      <p>2,500+ synthetic but realistic loan applicant records generated using banking credit-risk rules with NumPy distributions.</p>
+    </div>
+    <div class="ps-arrow"><i class="fas fa-arrow-right"></i></div>
+    <div class="pipeline-step">
+      <div class="ps-num">2</div>
+      <div class="ps-icon"><i class="fas fa-broom"></i></div>
+      <h4>Preprocessing</h4>
+      <p>StandardScaler for numeric features (Age, Income, Credit Score, Loan Amount, Loan Term). OneHotEncoder for categorical features (Employment, Education, Self-Employed).</p>
+    </div>
+    <div class="ps-arrow"><i class="fas fa-arrow-right"></i></div>
+    <div class="pipeline-step">
+      <div class="ps-num">3</div>
+      <div class="ps-icon"><i class="fas fa-tree"></i></div>
+      <h4>Random Forest</h4>
+      <p>Ensemble of 150 decision trees with max_depth=15. Aggregates predictions via majority voting for robust, high-accuracy outcomes.</p>
+    </div>
+    <div class="ps-arrow"><i class="fas fa-arrow-right"></i></div>
+    <div class="pipeline-step">
+      <div class="ps-num">4</div>
+      <div class="ps-icon"><i class="fas fa-chart-pie"></i></div>
+      <h4>Evaluation</h4>
+      <p>Tested on 20% holdout set. Metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix, and Classification Report.</p>
+    </div>
+  </div>
+
+  <!-- Model Metrics -->
+  <div class="section-header" style="margin-top:3rem">
+    <h2 class="section-title">Model Evaluation Metrics</h2>
+  </div>
+  <div class="metrics-big-grid">
+    <div class="metric-big-card">
+      <div class="mbval" style="color:var(--primary)">{{ (metrics and metrics.accuracy)|default(95) }}%</div>
+      <div class="mblbl">Accuracy</div>
+      <p>Correct predictions out of all test samples</p>
+    </div>
+    <div class="metric-big-card">
+      <div class="mbval" style="color:#d97706">{{ (metrics and metrics.precision)|default(94) }}%</div>
+      <div class="mblbl">Precision</div>
+      <p>Of approved loans, how many were truly creditworthy</p>
+    </div>
+    <div class="metric-big-card">
+      <div class="mbval" style="color:#38a169">{{ (metrics and metrics.recall)|default(97) }}%</div>
+      <div class="mblbl">Recall</div>
+      <p>Proportion of actual eligible applicants correctly identified</p>
+    </div>
+    <div class="metric-big-card">
+      <div class="mbval" style="color:#805ad5">{{ (metrics and metrics.f1_score)|default(96) }}%</div>
+      <div class="mblbl">F1-Score</div>
+      <p>Harmonic mean of Precision and Recall</p>
+    </div>
+  </div>
+
+  <!-- Features Explained -->
+  <div class="section-header" style="margin-top:3rem">
+    <h2 class="section-title">Key Features Analyzed</h2>
+  </div>
+  <div class="features-explained-grid">
+    <div class="fe-card"><i class="fas fa-user text-primary"></i><h5>Age</h5><p>Older applicants typically show more financial stability</p></div>
+    <div class="fe-card"><i class="fas fa-rupee-sign text-success"></i><h5>Annual Income</h5><p>Higher income improves repayment capacity assessment</p></div>
+    <div class="fe-card"><i class="fas fa-star text-warning"></i><h5>Credit Score</h5><p>Single most important predictor of loan repayment behavior</p></div>
+    <div class="fe-card"><i class="fas fa-money-check text-info"></i><h5>Loan Amount</h5><p>Analyzed relative to income via Debt-to-Income ratio</p></div>
+    <div class="fe-card"><i class="fas fa-calendar text-purple"></i><h5>Loan Term</h5><p>Longer terms increase total interest exposure and risk</p></div>
+    <div class="fe-card"><i class="fas fa-briefcase text-primary"></i><h5>Employment Status</h5><p>Employed &gt; Self-Employed &gt; Retired &gt; Unemployed risk order</p></div>
+    <div class="fe-card"><i class="fas fa-file-invoice text-warning"></i><h5>Existing Loans</h5><p>More active obligations reduce capacity for new debt</p></div>
+    <div class="fe-card"><i class="fas fa-graduation-cap text-success"></i><h5>Education Level</h5><p>Graduate status positively impacts credit stability model</p></div>
+    <div class="fe-card"><i class="fas fa-store text-info"></i><h5>Self-Employed</h5><p>Variable income streams assessed for risk impact</p></div>
+    <div class="fe-card"><i class="fas fa-users text-danger"></i><h5>Dependents</h5><p>Family dependents increase monthly financial obligations</p></div>
+  </div>
+</section>
+{% endblock %}

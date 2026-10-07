@@ -1,0 +1,162 @@
+{% extends "base.html" %}
+{% block title %}EMI Calculator – SmartBank AI{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div class="page-header-inner">
+    <h1><i class="fas fa-calculator"></i> EMI Calculator</h1>
+    <p>Calculate your monthly EMI, total payment, and total interest with real banking formulas.</p>
+  </div>
+</div>
+
+<div class="emi-calc-layout">
+  <div class="emi-form-wrap">
+    <div class="card-panel">
+      <form method="POST" action="{{ url_for('emi_calculator') }}" id="emiForm">
+        <div class="form-group">
+          <label>Loan Principal Amount (₹) <span class="req">*</span></label>
+          <input type="number" name="principal" class="form-control" placeholder="e.g. 500000" min="1" required
+            value="{{ request.form.get('principal','') }}">
+        </div>
+        <div class="form-group">
+          <label>Annual Interest Rate (%) <span class="req">*</span></label>
+          <input type="number" name="annual_rate" class="form-control" placeholder="e.g. 8.5" step="0.01" min="0" max="100" required
+            value="{{ request.form.get('annual_rate','') }}">
+        </div>
+        <div class="form-group">
+          <label>Loan Tenure (Months) <span class="req">*</span></label>
+          <select name="months" class="form-control" required>
+            {% for m in [6,12,18,24,36,48,60,84,120,180,240,300,360] %}
+            <option value="{{ m }}" {% if request.form.get('months')==m|string %}selected{% endif %}>
+              {{ m }} months ({{ m//12 }} yr{% if m%12 != 0 %} {{ m%12 }}mo{% endif %})
+            </option>
+            {% endfor %}
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">
+          <i class="fas fa-calculator"></i> Calculate EMI
+        </button>
+      </form>
+    </div>
+
+    <!-- Live Calculator Preview -->
+    <div class="card-panel live-emi-preview">
+      <h4><i class="fas fa-bolt"></i> Live Preview</h4>
+      <div class="live-emi-big" id="liveBigEmi">₹ —</div>
+      <div style="text-align:center; color:var(--text-muted); font-size:0.85rem;">Monthly EMI (updates as you type)</div>
+      <div class="live-mini-grid">
+        <div><div id="liveTotalPay">—</div><div class="emi-lbl">Total Payment</div></div>
+        <div><div id="liveTotalInt">—</div><div class="emi-lbl">Total Interest</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Results -->
+  <div class="emi-result-wrap">
+    {% if result %}
+    <div class="card-panel emi-result-card">
+      <div class="emi-result-header">
+        <i class="fas fa-check-circle text-success" style="font-size:2rem;"></i>
+        <h3>EMI Calculation Result</h3>
+      </div>
+
+      <div class="emi-big-display">
+        <div class="emi-main-val">₹{{ "{:,.2f}".format(result.emi) }}</div>
+        <div class="emi-main-lbl">Monthly EMI</div>
+      </div>
+
+      <div class="emi-breakdown-grid">
+        <div class="emi-bd-item">
+          <div class="emi-bd-icon" style="background:#ebf8ff"><i class="fas fa-home" style="color:#3182ce"></i></div>
+          <div>
+            <div class="emi-bd-val">₹{{ "{:,.0f}".format(result.principal) }}</div>
+            <div class="emi-bd-lbl">Principal Amount</div>
+          </div>
+        </div>
+        <div class="emi-bd-item">
+          <div class="emi-bd-icon" style="background:#f0fff4"><i class="fas fa-percent" style="color:#38a169"></i></div>
+          <div>
+            <div class="emi-bd-val">{{ result.annual_rate }}%</div>
+            <div class="emi-bd-lbl">Annual Rate</div>
+          </div>
+        </div>
+        <div class="emi-bd-item">
+          <div class="emi-bd-icon" style="background:#fffaf0"><i class="fas fa-calendar" style="color:#d97706"></i></div>
+          <div>
+            <div class="emi-bd-val">{{ result.months }} months</div>
+            <div class="emi-bd-lbl">Loan Tenure</div>
+          </div>
+        </div>
+        <div class="emi-bd-item">
+          <div class="emi-bd-icon" style="background:#fff5f5"><i class="fas fa-rupee-sign" style="color:#e53e3e"></i></div>
+          <div>
+            <div class="emi-bd-val">₹{{ "{:,.2f}".format(result.total_interest) }}</div>
+            <div class="emi-bd-lbl">Total Interest</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emi-total-row">
+        <span>Total Amount Payable</span>
+        <strong>₹{{ "{:,.2f}".format(result.total_payment) }}</strong>
+      </div>
+
+      <!-- Simple Breakdown Bar -->
+      <div class="emi-pie-bar-label">
+        <span>Principal: {{ "%.1f"|format((result.principal/result.total_payment)*100) }}%</span>
+        <span>Interest: {{ "%.1f"|format((result.total_interest/result.total_payment)*100) }}%</span>
+      </div>
+      <div class="emi-split-bar">
+        <div class="split-principal" style="width:{{ (result.principal/result.total_payment)*100 }}%"></div>
+        <div class="split-interest" style="width:{{ (result.total_interest/result.total_payment)*100 }}%"></div>
+      </div>
+    </div>
+    {% else %}
+    <div class="card-panel emi-placeholder">
+      <i class="fas fa-calculator" style="font-size:4rem; color:var(--text-muted); opacity:0.3;"></i>
+      <h3>Enter Loan Details</h3>
+      <p>Fill in the form on the left to calculate your EMI instantly.</p>
+    </div>
+    {% endif %}
+
+    <!-- Info Card -->
+    <div class="card-panel">
+      <h4><i class="fas fa-info-circle"></i> EMI Formula</h4>
+      <div class="formula-box">
+        EMI = P × r × (1 + r)ⁿ / [(1 + r)ⁿ – 1]
+      </div>
+      <p style="font-size:0.85rem; color:var(--text-muted)">
+        Where <strong>P</strong> = Principal, <strong>r</strong> = Monthly rate (annual/12/100), <strong>n</strong> = Tenure in months
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+function liveEMI() {
+  const p = parseFloat(document.querySelector('[name=principal]').value);
+  const r_annual = parseFloat(document.querySelector('[name=annual_rate]').value);
+  const n = parseInt(document.querySelector('[name=months]').value);
+  if (!p || !n || isNaN(p) || isNaN(n)) {
+    document.getElementById('liveBigEmi').textContent='₹ —';
+    document.getElementById('liveTotalPay').textContent='—';
+    document.getElementById('liveTotalInt').textContent='—';
+    return;
+  }
+  let emi;
+  if (!r_annual || r_annual <= 0) { emi = p/n; }
+  else { const r = (r_annual/100)/12; emi = p * r * Math.pow(1+r,n) / (Math.pow(1+r,n)-1); }
+  const total = emi*n, interest = total-p;
+  const fmt = v => '₹'+v.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g,',');
+  document.getElementById('liveBigEmi').textContent = fmt(emi);
+  document.getElementById('liveTotalPay').textContent = fmt(total);
+  document.getElementById('liveTotalInt').textContent = fmt(interest);
+}
+document.querySelector('[name=principal]').addEventListener('input', liveEMI);
+document.querySelector('[name=annual_rate]').addEventListener('input', liveEMI);
+document.querySelector('[name=months]').addEventListener('change', liveEMI);
+liveEMI();
+</script>
+{% endblock %}

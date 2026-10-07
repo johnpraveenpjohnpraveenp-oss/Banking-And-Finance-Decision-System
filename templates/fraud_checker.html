@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+{% block title %}Fraud Checker – SmartBank AI{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div class="page-header-inner">
+    <h1><i class="fas fa-shield-alt"></i> Fraud Risk Checker</h1>
+    <p>Identify potentially fraudulent or high-risk loan applications using our multi-factor risk engine.</p>
+  </div>
+</div>
+
+<div class="fraud-layout">
+  <div class="fraud-form-wrap">
+    <div class="card-panel">
+      <h3 style="margin-bottom:1.2rem"><i class="fas fa-search"></i> Application Risk Check</h3>
+      <form method="POST" action="{{ url_for('fraud_checker') }}">
+        <div class="form-row-2">
+          <div class="form-group">
+            <label>Applicant Age</label>
+            <input type="number" name="age" class="form-control" value="{{ form_data.get('age',30) }}" min="18" max="100">
+          </div>
+          <div class="form-group">
+            <label>Annual Income (₹)</label>
+            <input type="number" name="income" class="form-control" value="{{ form_data.get('income',500000) }}" min="1">
+          </div>
+        </div>
+        <div class="form-row-2">
+          <div class="form-group">
+            <label>Credit Score</label>
+            <input type="number" name="credit_score" class="form-control" value="{{ form_data.get('credit_score',650) }}" min="300" max="850">
+          </div>
+          <div class="form-group">
+            <label>Loan Amount (₹)</label>
+            <input type="number" name="loan_amount" class="form-control" value="{{ form_data.get('loan_amount',1000000) }}" min="1">
+          </div>
+        </div>
+        <div class="form-row-2">
+          <div class="form-group">
+            <label>Loan Term (Months)</label>
+            <input type="number" name="loan_term" class="form-control" value="{{ form_data.get('loan_term',36) }}" min="1">
+          </div>
+          <div class="form-group">
+            <label>Existing Active Loans</label>
+            <select name="existing_loans" class="form-control">
+              {% for i in range(6) %}
+              <option value="{{ i }}" {% if form_data.get('existing_loans',0)|int == i %}selected{% endif %}>{{ i }}</option>
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">
+          <i class="fas fa-search"></i> Run Fraud Risk Check
+        </button>
+      </form>
+    </div>
+
+    <!-- What We Check -->
+    <div class="card-panel">
+      <h4><i class="fas fa-list-check"></i> Fraud Detection Factors</h4>
+      <div class="fraud-factor-list">
+        <div class="fraud-factor"><i class="fas fa-chart-line text-danger"></i> <span>Credit score below 400 threshold</span></div>
+        <div class="fraud-factor"><i class="fas fa-balance-scale text-warning"></i> <span>Extreme Debt-to-Income ratio (&gt;400%)</span></div>
+        <div class="fraud-factor"><i class="fas fa-money-bill-wave text-danger"></i> <span>Loan amount &gt; 5× annual income</span></div>
+        <div class="fraud-factor"><i class="fas fa-file-invoice text-warning"></i> <span>4+ existing active loan obligations</span></div>
+        <div class="fraud-factor"><i class="fas fa-user-clock text-info"></i> <span>Unusually high loan for young applicants</span></div>
+        <div class="fraud-factor"><i class="fas fa-calendar-times text-warning"></i> <span>Loan term exceeding 30 years</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fraud-result-wrap">
+    {% if fraud %}
+    <div class="card-panel fraud-result-card">
+      <div class="fraud-result-header">
+        <h3><i class="fas fa-shield-alt"></i> Risk Assessment Report</h3>
+      </div>
+
+      <!-- Risk Gauge -->
+      <div class="risk-gauge-wrap">
+        <div class="risk-gauge">
+          <div class="risk-gauge-fill" style="
+            background: {% if fraud.level=='High' %}#e53e3e{% elif fraud.level=='Medium' %}#d97706{% else %}#38a169{% endif %};
+            height: {{ fraud.score }}%;
+          "></div>
+          <div class="risk-gauge-score">{{ fraud.score }}</div>
+          <div class="risk-gauge-max">/100</div>
+        </div>
+        <div>
+          <div class="risk-level-badge risk-{{ fraud.level | lower }}">
+            <i class="fas fa-{% if fraud.level=='High' %}exclamation-circle{% elif fraud.level=='Medium' %}exclamation-triangle{% else %}check-circle{% endif %}"></i>
+            {{ fraud.level }} Risk
+          </div>
+          <p style="color:var(--text-muted); font-size:0.9rem; margin-top:0.5rem;">
+            {% if fraud.level=='High' %}This application shows multiple high-risk indicators. Recommend manual review.
+            {% elif fraud.level=='Medium' %}Some risk factors detected. Additional verification advised.
+            {% else %}Application appears normal. Standard processing recommended.
+            {% endif %}
+          </p>
+        </div>
+      </div>
+
+      <!-- Risk Score Bar -->
+      <div style="margin:1.5rem 0">
+        <div style="display:flex;justify-content:space-between;margin-bottom:0.5rem;">
+          <span style="font-weight:600">Risk Score</span>
+          <span><strong>{{ fraud.score }}/100</strong></span>
+        </div>
+        <div class="risk-score-track">
+          <div class="risk-score-fill" style="width:{{ fraud.score }}%; background:{% if fraud.level=='High' %}#e53e3e{% elif fraud.level=='Medium' %}#d97706{% else %}#38a169{% endif %}"></div>
+        </div>
+        <div class="risk-labels">
+          <span>0 – Low</span><span>25 – Medium</span><span>50 – High</span><span>100</span>
+        </div>
+      </div>
+
+      <!-- Flags -->
+      {% if fraud.flags %}
+      <div class="fraud-flags-list">
+        <h4><i class="fas fa-flag text-danger"></i> Flagged Issues ({{ fraud.flags|length }})</h4>
+        {% for flag in fraud.flags %}
+        <div class="fraud-flag-card">
+          <i class="fas fa-exclamation-triangle text-warning"></i> {{ flag }}
+        </div>
+        {% endfor %}
+      </div>
+      {% else %}
+      <div class="fraud-clear-msg">
+        <i class="fas fa-check-circle text-success" style="font-size:2rem;"></i>
+        <p><strong>No suspicious patterns detected.</strong> This application appears legitimate.</p>
+      </div>
+      {% endif %}
+    </div>
+    {% else %}
+    <div class="card-panel fraud-placeholder">
+      <i class="fas fa-shield-alt" style="font-size:4rem; color:var(--text-muted); opacity:0.3;"></i>
+      <h3>Ready to Analyze</h3>
+      <p>Enter application details and click <strong>Run Fraud Risk Check</strong> to get the risk assessment.</p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
